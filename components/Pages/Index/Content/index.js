@@ -42,8 +42,8 @@ const Content = () => (
           </a>
         </ListItem>
         <ListItem hoverColor="purple-dark">
-          <a href="/keep-in-touch">
-            <ListMenu>KEEP IN TOUCH</ListMenu>
+          <a href="/contact">
+            <ListMenu>CONTACT</ListMenu>
             <ListContentMain menuMain={true}>
               Let’s keep in touch thought social media networks.
             </ListContentMain>

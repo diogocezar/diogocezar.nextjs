@@ -17,6 +17,12 @@
       "@/objects/*": [
         "objects/*"
       ],
+      "@/services/*": [
+        "services/*"
+      ],
+      "@/config/*": [
+        "config/*"
+      ],
     },
     "target": "es5",
     "lib": [
