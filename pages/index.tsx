@@ -19,12 +19,11 @@ const Index = ({ index }) => {
             title={title}
             subTitle={subTitle}
             biography={biography}
-            resumeUrl={resumeUrl}
           />
           <Content />
           <Conclusion />
         </Wrapper>
-        <FooterMain isMain="true" />
+        <FooterMain isMain={true} />
       </Page>
     </MainAnimated>
   );
