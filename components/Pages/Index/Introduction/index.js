@@ -10,7 +10,7 @@ import { Title, SubTitle } from '@/objects/Titles'
 import { QuotedParagraph } from '@/objects/Quotes'
 import Button from '@/objects/Button'
 
-const Introductions = ({title, subTitle, biography}) => (
+const Introductions = ({title, subtitle, biography}) => (
   <Section>
     <Separator number="01" title="Introduction" />
     <LeftContent>
@@ -18,7 +18,7 @@ const Introductions = ({title, subTitle, biography}) => (
     </LeftContent>
     <RightContent>
       <Title type="main">{title}</Title>
-      <SubTitle color="purple-dark">{subTitle}</SubTitle>
+      <SubTitle color="purple-dark">{subtitle}</SubTitle>
       <QuotedParagraph first="Biography">
         {biography}
       </QuotedParagraph>
