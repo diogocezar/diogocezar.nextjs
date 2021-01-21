@@ -2,14 +2,14 @@ import styled from 'styled-components'
 import { devices } from '@/styles/devices'
 
 const BaseButton = styled.button`
-  padding: 16px 26px;
-  border-radius: 35px;
+  padding: 20px 26px;
+  border-radius: 0px!important;
   text-transform: uppercase;
   margin-right: ${({ right }) => right || 'var(--size-s1)'};
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;
   font-size: 1rem;
-  height: 50px;
+  height: 60px;
   cursor: pointer;
   margin-bottom: ${({ marginBottom }) => marginBottom || 'var(--size-s1)'};
   min-width: 180px;
@@ -34,8 +34,8 @@ const BaseButton = styled.button`
   &::after {
     content: '';
     position: absolute;
-    height: 100%;
-    width: 100%;
+    height: 110%;
+    width: 110%;
     bottom: 100%;
     left: 0;
     z-index: -1;

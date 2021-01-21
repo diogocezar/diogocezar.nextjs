@@ -21,7 +21,7 @@ const Index = ({ index, footer }) => {
           <Content />
           <Conclusion citation={citation} citationAuthor={citationAuthor} />
         </Wrapper>
-        <FooterMain isMain={true} content={footer.data} />
+        <FooterMain isMain={true} content={footer} />
       </Page>
     </MainAnimated>
   );
@@ -33,7 +33,7 @@ export async function getStaticProps() {
   return {
     props: {
       index: indexContent,
-      footer: footerContent,
+      footer: footerContent.data,
     },
   };
 }

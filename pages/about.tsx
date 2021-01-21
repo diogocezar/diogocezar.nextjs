@@ -9,7 +9,6 @@ import MainProfessionalBackground from "@/components/Pages/About/MainProfessiona
 import Hobbies from "@/components/Pages/About/Hobbies";
 import Skills from "@/components/Pages/About/Skills";
 import Awards from "@/components/Pages/About/Awards";
-//import { ButtonBack } from "@/objects/Button";
 import FooterMain from "@/components/Pages/Footer";
 
 const About = ({ footer }) => {
@@ -31,7 +30,6 @@ const About = ({ footer }) => {
         </Wrapper>
       </Page>
       <FooterMain content={footer} />
-      {/* <ButtonBack color="orange" /> */}
     </AboutAnimated>
   );
 };
@@ -40,7 +38,7 @@ export async function getStaticProps() {
   const footerContent = getFileContent("content/pages/footer.md");
   return {
     props: {
-      footer: footerContent,
+      footer: footerContent.data,
     },
   };
 }

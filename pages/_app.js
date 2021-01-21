@@ -4,6 +4,9 @@ import Base from '@/styles/base'
 import Fonts from '@/styles/fonts'
 
 import 'antd/dist/antd.css'
+import '@/styles/menu/menu.css'
+
+import Menu from '@/components/Menu'
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -12,7 +15,10 @@ export default function MyApp({ Component, pageProps }) {
     <Fonts />
     <Generic />
     <Base />
-    <Component {...pageProps} />
+    <Menu/>
+    <main>
+      <Component {...pageProps} />
+    </main>
   </>
   )
 }

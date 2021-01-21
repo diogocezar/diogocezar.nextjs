@@ -10,7 +10,6 @@ import MainLectures from "@/components/Pages/Educational/MainLectures";
 import MainEventsParticipations from "@/components/Pages/Educational/MainEventsParticipations";
 import MainPappers from "@/components/Pages/Educational/MainPappers";
 import Monographies from "@/components/Pages/Educational/Monographies";
-import { ButtonBack } from "@/objects/Button";
 
 import FooterMain from "@/components/Pages/Footer";
 
@@ -33,7 +32,6 @@ const Educational = ({ footer }) => {
         </Wrapper>
       </Page>
       <FooterMain content={footer} />
-      {/* <ButtonBack color="orange" /> */}
     </EducationalAnimated>
   );
 };
@@ -42,7 +40,7 @@ export async function getStaticProps() {
   const footerContent = getFileContent("content/pages/footer.md");
   return {
     props: {
-      footer: footerContent,
+      footer: footerContent.data,
     },
   };
 }

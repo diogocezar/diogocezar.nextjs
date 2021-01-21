@@ -16,7 +16,7 @@ const StyledTagSkills = styled.ul`
 const StyledTagSkill = styled.li`
   display: inline-block;
   font-family: 'AkzidenzGroteskBE';
-  border-radius: 15px;
+  border-radius: 0px;
   background-color: var(--color-purple-dark);
   padding: 5px 15px;
   font-size: 0.8rem;

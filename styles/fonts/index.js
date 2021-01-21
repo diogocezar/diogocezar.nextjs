@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const Fonts = createGlobalStyle`
   @font-face {
-    font-family: 'AkzidenzGroteskBE';
+    font-family: 'AkzidenzGroteskBE-Regular';
     src: url('/assets/fonts/AkzidenzGroteskBE-Regular.eot?#iefix') format('embedded-opentype'),
          url('/assets/fonts/AkzidenzGroteskBE-Regular.otf')  format('opentype'),
          url('/assets/fonts/AkzidenzGroteskBE-Regular.woff') format('woff'),
