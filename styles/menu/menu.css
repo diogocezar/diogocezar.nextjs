@@ -1,8 +1,8 @@
 :root {
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
+  --bg-primary: #1d1433;
+  --bg-secondary: #160e29;
   --transition-speed: 400ms;
 }
 
@@ -81,6 +81,10 @@ main {
 
 .link-text {
   opacity: 0%;
+  margin-left: 0rem;
+}
+
+.logo-text {
   margin-left: 1rem;
 }
 
@@ -149,8 +153,12 @@ main {
     flex-direction: row;
   }
 
+  .link-text {
+    display: none;
+  }
+
   .nav-link {
-    justify-content: center;
+    justify-content: center !important;
   }
 
   main {

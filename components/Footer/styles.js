@@ -29,7 +29,7 @@ const StyledFooter = styled.footer`
     display: block;
   }
   @media ${devices.tablet} {
-    padding-bottom: var(--size-s1);
+    padding-bottom: 80px;
   }
   &::before,
   &::after {
