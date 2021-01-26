@@ -3,7 +3,7 @@ const config = {
     url: "https://www.diogocezar.com/wp-json/wp/v2/posts",
   },
   ApiPost: {
-    url: "http://localhost:3000/api",
+    url: "https://diogocezar.vercel.app/api/posts?page=1",
   },
   ApiContact: {
     url: "https://us-central1-dctb-firebase.cloudfunctions.net/sendMail",
