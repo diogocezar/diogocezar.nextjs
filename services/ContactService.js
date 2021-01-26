@@ -1,9 +1,9 @@
 import axios from 'axios'
-import { ApiContact } from '@/config/index'
+import configs from '@/configs/index'
 
 class ContactService {
   async sendMail(data) {
-    const { url } = ApiContact
+    const { url } = configs.ApiContact
     const dataToSend = { ...data, to: 'diogo@diogocezar.dev', subject: 'Diogo Cezar - Portfolio ~ Contact Email' }
     try {
       const result = await axios({

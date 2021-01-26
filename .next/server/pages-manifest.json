@@ -1,10 +1,14 @@
 {
+  "/404": "pages/404.html",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/_error": "pages/_error.js",
   "/about": "pages/about.js",
+  "/api/posts": "pages/api/posts.js",
+  "/blog/[slug]": "pages/blog/[slug].html",
+  "/blog/page/[page]": "pages/blog/page/[page].html",
+  "/contact": "pages/contact.js",
+  "/educational": "pages/educational.js",
   "/": "pages/index.js",
-  "/404": "pages/404.js",
   "/portfolio": "pages/portfolio.js",
-  "/educational": "pages/educational.js"
+  "/_error": "pages/_error.js"
 }

@@ -36,7 +36,7 @@ const Menu = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <Link href="/blog">
+          <Link href="/blog/page/1">
             <a className="nav-link">
               <FiEdit size={30} />
               <span className="link-text">Blog</span>
