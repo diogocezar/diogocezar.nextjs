@@ -13,7 +13,6 @@ class BlogService {
         },
         method: 'get',
       })
-      console.log(result)
       const { posts, total, totalPages } = result.data
       return {
         success: true, posts, total, totalPages,
@@ -24,7 +23,6 @@ class BlogService {
   }
 
   async getPost(slug) {
-    console.log(slug)
     if (!slug) throw new Error('You need pass a slug.')
     let { url } = configs.ApiPost
     url = `${url}/posts?slug=${slug}`
