@@ -8,39 +8,13 @@ import Separator, { LineSeparator } from '@/objects/Separator'
 import Image from '@/objects/Images'
 import { Title, SubTitle } from '@/objects/Titles'
 import Paragraph from '@/objects/Paragraph'
-import BlogService from '@/services/BlogService'
 import Button from '@/objects/Button'
 
 import Link from "next/link"
 
 class Posts extends Component {
-  state = {
-    data: null,
-    page: 0,
-    total: 0,
-    totalPages: 0,
-    loading: true,
-  }
 
-  async componentDidMount() {
-    const { page } = this.props
-    this.loadContent(page)
-  }
-
-  loadContent = async (page) => {
-    const posts = await BlogService.getPosts(page)
-    const { posts: data, total, totalPages } = posts
-
-    this.setState({
-      data, total, totalPages, loading: false, page,
-    })
-  }
-
-  contentLoading = () => (
-    <Title type="internal" color="orange">Aguenta ai ;)</Title>
-  )
-
-  renderPosts = () => this.state.data.map((post) => {
+  renderPosts = (posts) => posts.map((post) => {
     if (post.title.rendered && post.content.rendered) {
       return (
         <Fragment key={post.id}>
@@ -57,34 +31,6 @@ class Posts extends Component {
     return null
   })
 
-  previousPage = () => {
-    const { page } = this.state
-    const intPage = parseInt(page, 10)
-    if (page > 1) {
-      this.props.history.push(`${parseInt(intPage - 1, 10)}`)
-    }
-  }
-
-  nextPage = () => {
-    const { page, totalPages } = this.state
-    const intPage = parseInt(page, 10)
-    if (page < totalPages) {
-      this.props.history.push(`${parseInt(intPage + 1, 10)}`)
-    }
-  }
-
-  renderPagination = () => {
-    const { page, totalPages } = this.state
-    const lastPage = page < totalPages
-    const firstPage = page > 1
-    return (
-    <>
-      {firstPage && <Button onClick={() => { this.previousPage() }}>Anterior</Button>}
-      {lastPage && <Button onClick={() => { this.nextPage() }}>Próxima</Button>}
-    </>
-    )
-  }
-
   render() {
     return (
       <Section>
@@ -93,10 +39,7 @@ class Posts extends Component {
           <Image />
         </LeftContent>
         <RightContent>
-          {(!this.state.loading && this.renderPosts()) || this.contentLoading()}
-        </RightContent>
-        <RightContent>
-          {this.renderPagination()}
+          {this.renderPosts(this.props.posts)}
         </RightContent>
       </Section>
     )

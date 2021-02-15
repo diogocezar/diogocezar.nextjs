@@ -1,31 +1,39 @@
 import { getFileContent } from "@/helpers/markdown";
 import { Page, Wrapper } from "@/components/Containers";
 import Posts from "@/components/Pages/Blog/Posts";
-import { useRouter } from "next/router";
 import FooterMain from "@/components/Footer";
+import BlogService from "@/services/BlogService";
 
-const BlogPage = ({ footer }) => {
-  const router = useRouter();
-  const { page } = router.query;
+export async function getStaticPaths() {
+  return {
+    paths: [],
+    fallback: "blocking",
+  };
+}
+
+export async function getStaticProps(context) {
+  const footerContent = getFileContent("content/pages/footer.md");
+  const page = context.params.page;
+  const { posts } = await BlogService.getPosts(page);
+  return {
+    props: {
+      footer: footerContent.data,
+      posts,
+    },
+  };
+}
+
+const BlogPage = ({ footer, posts }) => {
   return (
     <>
       <Page color="purple-dark">
         <Wrapper>
-          <Posts page={page}></Posts>
+          <Posts posts={posts}></Posts>
         </Wrapper>
       </Page>
-      {/* <FooterMain content={footer} /> */}
+      <FooterMain content={footer} />
     </>
   );
 };
-
-// export async function getStaticProps() {
-//   const footerContent = getFileContent("content/pages/footer.md");
-//   return {
-//     props: {
-//       footer: footerContent.data,
-//     },
-//   };
-// }
 
 export default BlogPage;
