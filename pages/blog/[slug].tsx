@@ -1,7 +1,7 @@
 import { getFileContent } from "@/helpers/markdown";
 import { Page, Wrapper } from "@/components/Containers";
 import Details from "@/components/Pages/Blog/Details";
-import FooterMain from "@/components/Footer";
+import FooterMain from "@/components/Pages/Footer";
 import BlogService from "@/services/BlogService";
 
 export async function getStaticPaths() {

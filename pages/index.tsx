@@ -7,7 +7,10 @@ import Content from "@/components/Pages/Index/Content";
 import Conclusion from "@/components/Pages/Index/Conclusion";
 import FooterMain from "@/components/Pages/Footer";
 
-const Index = ({ index, footer }) => {
+import { HomeData } from "@/services/PrismicService";
+
+const Index = ({ index, footer, home }) => {
+  console.log(home);
   const { title, subtitle, biography, citation, citationAuthor } = index.data;
   return (
     <MainAnimated>
@@ -28,12 +31,14 @@ const Index = ({ index, footer }) => {
 };
 
 export async function getStaticProps() {
+  const homeContent = await HomeData();
   const indexContent = getFileContent("content/pages/index.md");
   const footerContent = getFileContent("content/pages/footer.md");
   return {
     props: {
       index: indexContent,
       footer: footerContent.data,
+      home: homeContent,
     },
   };
 }
