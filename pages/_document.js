@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="canonical" href="https://diogocezar.dev"/>
           <link rel="shortcut icon" href="https://diogocezar.dev/assets/images/icons/icon-72x72.png"/>
-          <link rel="manifest" href="https://diogocezar.dev/assets/manifest/manifest.json"/>
+          <link rel="manifest" href="/manifest.json"/>
           <title>Diogo Cezar - Portfolio</title>
           <meta name="description" content="I’m just a guy that knows that knows nothing. And it’s exactly what makes me moving on. As teacher, talker, developer and technology enthusiastic, I am always searching for new challenges."/>
           <meta property="og:locale" content="pt_BR"/>
