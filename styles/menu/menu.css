@@ -229,3 +229,43 @@ main {
 .solar #solarIcon {
   display: block;
 }
+
+/* Mobile Adjustments */
+
+@media only screen and (max-width: 320px) {
+  .navbar {
+    height: 50px;
+  }
+
+  .navbar .nav-item {
+    height: 50px;
+  }
+
+  .navbar .nav-link {
+    height: 50px;
+    width: 60px;
+  }
+
+  .navbar .nav-link svg {
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .navbar {
+    height: 60px;
+  }
+
+  .navbar .nav-item {
+    height: 60px;
+  }
+
+  .navbar .nav-link {
+    height: 60px;
+    width: 73px;
+  }
+
+  .navbar .nav-link svg {
+    height: 25px;
+  }
+}
