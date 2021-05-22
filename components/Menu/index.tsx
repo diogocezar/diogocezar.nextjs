@@ -35,14 +35,14 @@ const Menu = () => {
             </a>
           </Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link href="/blog/page/1">
             <a className="nav-link">
               <FiEdit size={30} />
               <span className="link-text">Blog</span>
             </a>
           </Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link href="/portfolio">
             <a className="nav-link">

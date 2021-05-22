@@ -8,7 +8,7 @@ import { QuotedMain } from '@/objects/Quotes'
 
 const Conclusion = ({citation, citationAuthor}) => (
   <Section>
-    <Separator number="03" title="Conclusion" />
+    <Separator number="02" title="Inspiration" />
     <RightContent>
       <QuotedMain author={citationAuthor}>
         {citation}

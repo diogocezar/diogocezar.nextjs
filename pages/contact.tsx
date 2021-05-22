@@ -15,7 +15,7 @@ const Contact = ({ footer }) => {
         <Wrapper>
           <Main />
           <SocialNetworks />
-          <ContactForm />
+          {/* <ContactForm /> */}
         </Wrapper>
       </Page>
       <FooterMain content={footer} />

@@ -10,7 +10,6 @@ import FooterMain from "@/components/Pages/Footer";
 import { HomeData } from "@/services/PrismicService";
 
 const Index = ({ index, footer, home }) => {
-  console.log(home);
   const { title, subtitle, biography, citation, citationAuthor } = index.data;
   return (
     <MainAnimated>
@@ -21,7 +20,7 @@ const Index = ({ index, footer, home }) => {
             subtitle={subtitle}
             biography={biography}
           />
-          <Content />
+          {/* <Content /> */}
           <Conclusion citation={citation} citationAuthor={citationAuthor} />
         </Wrapper>
         <FooterMain isMain={true} content={footer} />
