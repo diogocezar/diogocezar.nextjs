@@ -34,7 +34,7 @@ const FooterMain = ({ isMain = true, content = null }) => {
         <ContentFooter align="left">
           This website is open source and you can download{" "}
           <Link
-            href="http://www.github.com/diogocezar/diogocezar.github.io/"
+            href="https://github.com/diogocezar/diogocezar.nextjs"
             target="_blank"
           >
             right here.
