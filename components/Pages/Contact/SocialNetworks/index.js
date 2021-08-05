@@ -51,7 +51,7 @@ const SocialNetworks = () => (
             <Paragraph size="medium" bottom="0" padding="0 10%" minheight="85px" align="center">
               Where i publish some pictures of my daily routine.
             </Paragraph>
-            <Link href="https://www.instagram.com/diogoctb/" buttonCenter={true} target="_blank">
+            <Link href="https://www.instagram.com/diogocezar.dev/" buttonCenter={true} target="_blank">
               <Button type="orange" right="0px">
                 Add Me
               </Button>
