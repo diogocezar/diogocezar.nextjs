@@ -55,27 +55,27 @@ const FooterMain = ({ isMain = true, content = null }) => {
         <ContentFooter align="right">
           <ListContainerFooter>
             <ListItemFooter>
-              <Link href={`mailto:${socialGithub}`} target="_blank">
+              <Link href={`${socialGithub}`} target="_blank">
                 <InlineSVG src={iconFooterGithub} />
               </Link>
             </ListItemFooter>
             <ListItemFooter>
-              <Link href={`mailto:${socialTwitter}`} target="_blank">
+              <Link href={`${socialTwitter}`} target="_blank">
                 <InlineSVG src={iconFooterTwitter} />
               </Link>
             </ListItemFooter>
             <ListItemFooter>
-              <Link href={`mailto:${socialInstagram}`} target="_blank">
+              <Link href={`${socialInstagram}`} target="_blank">
                 <InlineSVG src={iconFooterInstagram} />
               </Link>
             </ListItemFooter>
             <ListItemFooter>
-              <Link href={`mailto:${socialFacebook}`} target="_blank">
+              <Link href={`${socialFacebook}`} target="_blank">
                 <InlineSVG src={iconFooterFacebook} />
               </Link>
             </ListItemFooter>
             <ListItemFooter>
-              <Link href={`mailto:${socialLinkedin}`} target="_blank">
+              <Link href={`${socialLinkedin}`} target="_blank">
                 <InlineSVG src={iconFooterLinkedIn} />
               </Link>
             </ListItemFooter>
