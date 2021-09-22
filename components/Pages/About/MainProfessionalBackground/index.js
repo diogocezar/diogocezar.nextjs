@@ -14,10 +14,20 @@ const MainProfessionalBackground = () => (
     <Separator number="04" title="Main Professional Background" type="orange" />
     <RightContent>
       <ListContainer>
+      <ListItem type="orange" link={false}>
+          <ListTitle type="orange">LUIZALABS</ListTitle>
+          <ListSubTitle type="orange">2021~NOW / TECH LEAD</ListSubTitle>
+          <ListContent>Supporting squads at MagaluPay.</ListContent>
+        </ListItem>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">NEON</ListTitle>
-          <ListSubTitle type="orange">2018~NOW / TECH LEAD</ListSubTitle>
-          <ListContent>SQL Server, MongoDB, NodeJS, RabbitMQ, DevOps, Solution Architecture.</ListContent>
+          <ListSubTitle type="orange">2019~2021 / TECH LEAD</ListSubTitle>
+          <ListContent>Created digital account of MEI Fácil.</ListContent>
+        </ListItem>
+        <ListItem type="orange" link={false}>
+          <ListTitle type="orange">MEI FÁCIL</ListTitle>
+          <ListSubTitle type="orange">2018~2019 / BACKEND COORDINATOR</ListSubTitle>
+          <ListContent>Managing people and acting also as TechLead.</ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">UTFPR TEACHER</ListTitle>
