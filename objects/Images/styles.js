@@ -2,15 +2,11 @@ import styled from 'styled-components'
 import { devices } from '@/styles/devices'
 
 const StyledImage = styled.img`
-  display:none!important;
   border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  border: 4px solid var(--color-white);
+  width: 70%;
   margin: 0 auto;
   display: block;
-  margin-top: -20px;
-  margin-bottom: 100px;
+  opacity: 0.9;
   @media ${devices.laptop} {
     margin-top: 0;
     margin-bottom: var(--size-s3);
