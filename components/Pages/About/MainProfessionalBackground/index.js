@@ -20,7 +20,7 @@ const MainProfessionalBackground = () => (
             SEP 2022~NOW / HEAD OF TECHNOLOGY
           </ListSubTitle>
           <ListContent>
-            Managing teams and helping people to rise on professional carreres.
+            Managing teams and helping people to rise on professional careers.
           </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
