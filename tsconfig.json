@@ -1,40 +1,33 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/components/*": [
-        "components/*"
-      ],
-      "@/styles/*": [
-        "styles/*"
-      ],
-      "@/configs/*": [
-        "configs/*"
-      ],
-      "@/content/*": [
-        "content/*"
-      ],
-      "@/helpers/*": [
-        "helpers/*"
-      ],
-      "@/objects/*": [
-        "objects/*"
-      ],
-      "@/services/*": [
-        "services/*"
-      ],
-    },
-    "target": "es5",
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
+    "paths": {
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/styles/*": [
+        "./src/styles/*"
+      ],
+      "@/content/*": [
+        "./src/content/*"
+      ],
+      "@/helpers/*": [
+        "./src/helpers/*"
+      ],
+      "@/objects/*": [
+        "./src/objects/*"
+      ],
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
+    "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
