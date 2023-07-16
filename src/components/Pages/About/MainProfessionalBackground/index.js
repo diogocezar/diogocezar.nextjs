@@ -40,33 +40,6 @@ const MainProfessionalBackground = () => (
               Images and Typper Codes
             </Paragraph>
           </ListContent>
-          <ListSubTitle type="orange">
-            MAR 2023~MAI 2023 / HEAD OF PRODUCT
-          </ListSubTitle>
-          <ListContent>
-            <Paragraph>
-              I had the opportunity to lead the Product team for a short period
-              of time.
-            </Paragraph>
-            <Paragraph>
-              We focused on establishing a solid foundation for the department
-              by proposing a new product process.
-            </Paragraph>
-            <Paragraph>
-              This new process aimed to improve the arrival of demands,
-              prioritization, and visibility of deliveries.
-            </Paragraph>
-            <Paragraph>
-              We also conducted initial work on Personal Development Plans (PDP)
-              with each team member, allowing them to collaborate with me in
-              designing their individual development plans.
-            </Paragraph>
-            <Paragraph>
-              By the end of this leadership stint, we delivered a minimally
-              organized team with a clear roadmap vision and established
-              processes for demand collection, prioritization, and execution.
-            </Paragraph>
-          </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">BANKME</ListTitle>
