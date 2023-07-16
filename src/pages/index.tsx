@@ -2,7 +2,6 @@ import { getFileContent } from "@/helpers/markdown";
 import { Page, Wrapper } from "@/components/Containers";
 
 import Introduction from "@/components/Pages/Index/Introduction";
-import Content from "@/components/Pages/Index/Content";
 import Conclusion from "@/components/Pages/Index/Conclusion";
 import FooterMain from "@/components/Pages/Footer";
 
@@ -12,7 +11,6 @@ const Index = ({ index, footer, home }) => {
     <Page color="purple" paddingBottom="0">
       <Wrapper>
         <Introduction title={title} subtitle={subtitle} biography={biography} />
-        {/* <Content /> */}
         <Conclusion citation={citation} citationAuthor={citationAuthor} />
       </Wrapper>
       <FooterMain isMain={true} content={footer} />
