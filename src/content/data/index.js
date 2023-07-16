@@ -155,6 +155,14 @@ const skills = [
   "KUBERNETES",
   "DOCKER",
   "TERRAFORM",
+  "SOLID",
+  "CLEAN CODE",
+  "DESIGN PATTERNS",
+  "TDD",
+  "BDD",
+  "DDD",
+  "CI",
+  "CD",
 ];
 
 const iconFooterGithub =
