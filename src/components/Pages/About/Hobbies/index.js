@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-import { Section } from '@/components/Containers'
-import { RightContent } from '@/components/AlignContent'
-import { ListContainer, ListItem } from '@/components/ListContainer'
+import { Section } from "@/components/Containers";
+import { RightContent } from "@/components/AlignContent";
+import { ListContainer, ListItem } from "@/components/ListContainer";
 
-import Separator from '@/objects/Separator'
-import { ListTitle, ListContent } from '@/objects/ListContent'
-import Link from '@/objects/Link'
+import Separator from "@/objects/Separator";
+import { ListTitle, ListContent } from "@/objects/ListContent";
+import Link from "@/objects/Link";
 
 const Hobbies = () => (
   <Section>
@@ -20,16 +20,29 @@ const Hobbies = () => (
         <ListItem color="purple" link={false}>
           <ListTitle>GAMMING</ListTitle>
           <ListContent>
-            Ok, but I like the hard ones, like{' '}
-            <Link type="orange" href="https://pt.wikipedia.org/wiki/Dark_Souls" target="_blank">
+            Ok, but I like the hard ones, like{" "}
+            <Link
+              type="orange"
+              href="https://pt.wikipedia.org/wiki/Dark_Souls"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               DarkSouls
             </Link>
-            ,{' '}
-            <Link href="https://pt.wikipedia.org/wiki/Bloodborne" target="_blank">
+            ,{" "}
+            <Link
+              href="https://pt.wikipedia.org/wiki/Bloodborne"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               Bloodborne
-            </Link>{' '}
-            or{' '}
-            <Link href="https://pt.wikipedia.org/wiki/Sekiro" target="_blank">
+            </Link>{" "}
+            or{" "}
+            <Link
+              href="https://pt.wikipedia.org/wiki/Sekiro"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
               Sekiro
             </Link>
             .
@@ -38,5 +51,5 @@ const Hobbies = () => (
       </ListContainer>
     </RightContent>
   </Section>
-)
-export default Hobbies
+);
+export default Hobbies;

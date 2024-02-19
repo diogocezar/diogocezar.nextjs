@@ -13,18 +13,15 @@ import {
   iconFooterGithub,
   iconFooterTwitter,
   iconFooterInstagram,
-  iconFooterFacebook,
   iconFooterLinkedIn,
 } from "@/content/data";
 
 const FooterMain = ({ isMain = true, content = null }) => {
   const {
     email,
-    phone,
     socialGithub,
     socialTwitter,
     socialInstagram,
-    socialFacebook,
     socialLinkedin,
   } = content;
   return (
@@ -35,6 +32,7 @@ const FooterMain = ({ isMain = true, content = null }) => {
           This website is open source and you can download{" "}
           <Link
             href="https://github.com/diogocezar/diogocezar.nextjs"
+            rel="noopener noreferrer"
             target="_blank"
           >
             right here.
@@ -53,27 +51,38 @@ const FooterMain = ({ isMain = true, content = null }) => {
         <ContentFooter align="right">
           <ListContainerFooter>
             <ListItemFooter>
-              <Link href={`${socialGithub}`} target="_blank">
+              <Link
+                href={`${socialGithub}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <InlineSVG src={iconFooterGithub} />
               </Link>
             </ListItemFooter>
             <ListItemFooter>
-              <Link href={`${socialTwitter}`} target="_blank">
+              <Link
+                href={`${socialTwitter}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <InlineSVG src={iconFooterTwitter} />
               </Link>
             </ListItemFooter>
             <ListItemFooter>
-              <Link href={`${socialInstagram}`} target="_blank">
+              <Link
+                href={`${socialInstagram}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <InlineSVG src={iconFooterInstagram} />
               </Link>
             </ListItemFooter>
             <ListItemFooter>
-              <Link href={`${socialFacebook}`} target="_blank">
-                <InlineSVG src={iconFooterFacebook} />
-              </Link>
-            </ListItemFooter>
-            <ListItemFooter>
-              <Link href={`${socialLinkedin}`} target="_blank">
+              <Link
+                href={`${socialLinkedin}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <InlineSVG src={iconFooterLinkedIn} />
               </Link>
             </ListItemFooter>

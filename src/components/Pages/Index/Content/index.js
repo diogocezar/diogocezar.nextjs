@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import { Link } from "next/link";
 
 import { Section } from "@/components/Containers";
 import { RightContent } from "@/components/AlignContent";
@@ -14,7 +13,7 @@ const Content = () => (
     <RightContent>
       <Title type="main">Short Story</Title>
       <Paragraph>
-        With over 15 years of experience in the technology field and a master's
+        With over 17 years of experience in the technology field and a master's
         degree in Artificial Intelligence, I have always been driven by a
         passion for education. As a former professor, I had the privilege of
         teaching a wide range of fundamental subjects in computer science and

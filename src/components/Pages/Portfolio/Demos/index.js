@@ -1,15 +1,19 @@
-import React from 'react'
+import React from "react";
 
-import { Section } from '@/components/Containers'
-import { RightContent, LeftContentList, RightContentList } from '@/components/AlignContent'
+import { Section } from "@/components/Containers";
+import {
+  RightContent,
+  LeftContentList,
+  RightContentList,
+} from "@/components/AlignContent";
 
-import { ListContainer, ListItem } from '@/components/ListContainer'
-import { ListTitle, ListContent } from '@/objects/ListContent'
+import { ListContainer, ListItem } from "@/components/ListContainer";
+import { ListTitle, ListContent } from "@/objects/ListContent";
 
-import Separator from '@/objects/Separator'
-import { ButtonList } from '@/objects/Button'
+import Separator from "@/objects/Separator";
+import { ButtonList } from "@/objects/Button";
 
-import Link from '@/objects/Link'
+import Link from "@/objects/Link";
 
 const MainLectures = () => (
   <Section isLast="true">
@@ -19,11 +23,14 @@ const MainLectures = () => (
         <ListItem type="orange" link={false}>
           <LeftContentList>
             <ListTitle type="orange">ETOO</ListTitle>
-            <ListContent>https://projects.diogocezar.com/portfolio/etoo</ListContent>
+            <ListContent>
+              https://projects.diogocezar.com/portfolio/etoo
+            </ListContent>
           </LeftContentList>
           <RightContentList>
             <Link
               href="https://projects.diogocezar.com/portfolio/etoo"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -34,11 +41,14 @@ const MainLectures = () => (
         <ListItem type="orange" link={false}>
           <LeftContentList>
             <ListTitle type="orange">BRAHMA VALLEY</ListTitle>
-            <ListContent>https://projects.diogocezar.com/portfolio/brahma-valley</ListContent>
+            <ListContent>
+              https://projects.diogocezar.com/portfolio/brahma-valley
+            </ListContent>
           </LeftContentList>
           <RightContentList>
             <Link
               href="https://projects.diogocezar.com/portfolio/brahma-valley"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -49,11 +59,14 @@ const MainLectures = () => (
         <ListItem type="orange" link={false}>
           <LeftContentList>
             <ListTitle type="orange">LACTA</ListTitle>
-            <ListContent>https://projects.diogocezar.com/portfolio/lacta</ListContent>
+            <ListContent>
+              https://projects.diogocezar.com/portfolio/lacta
+            </ListContent>
           </LeftContentList>
           <RightContentList>
             <Link
               href="https://projects.diogocezar.com/portfolio/lacta"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -64,11 +77,14 @@ const MainLectures = () => (
         <ListItem type="orange" link={false}>
           <LeftContentList>
             <ListTitle type="orange">SONHO DE VALSA</ListTitle>
-            <ListContent>https://projects.diogocezar.com/portfolio/sdv</ListContent>
+            <ListContent>
+              https://projects.diogocezar.com/portfolio/sdv
+            </ListContent>
           </LeftContentList>
           <RightContentList>
             <Link
               href="https://projects.diogocezar.com/portfolio/sdv"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -79,11 +95,14 @@ const MainLectures = () => (
         <ListItem type="orange" link={false}>
           <LeftContentList>
             <ListTitle type="orange">VOLKSWAGEN</ListTitle>
-            <ListContent>https://projects.diogocezar.com/portfolio/volks</ListContent>
+            <ListContent>
+              https://projects.diogocezar.com/portfolio/volks
+            </ListContent>
           </LeftContentList>
           <RightContentList>
             <Link
               href="https://projects.diogocezar.com/portfolio/volks"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -97,7 +116,12 @@ const MainLectures = () => (
             <ListContent>http://boyband.com.br</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="http://boyband.com.br" target="_blank" buttonCenter={true}>
+            <Link
+              href="http://boyband.com.br"
+              rel="noopener noreferrer"
+              target="_blank"
+              buttonCenter={true}
+            >
               <ButtonList>View Demo</ButtonList>
             </Link>
           </RightContentList>
@@ -108,7 +132,12 @@ const MainLectures = () => (
             <ListContent>http://www.kokar.com.br</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="http://www.kokar.com.br" target="_blank" buttonCenter={true}>
+            <Link
+              href="http://www.kokar.com.br"
+              rel="noopener noreferrer"
+              target="_blank"
+              buttonCenter={true}
+            >
               <ButtonList>View Demo</ButtonList>
             </Link>
           </RightContentList>
@@ -119,7 +148,12 @@ const MainLectures = () => (
             <ListContent>https://www.esss.co</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="https://www.esss.co" target="_blank" buttonCenter={true}>
+            <Link
+              href="https://www.esss.co"
+              rel="noopener noreferrer"
+              target="_blank"
+              buttonCenter={true}
+            >
               <ButtonList>View Demo</ButtonList>
             </Link>
           </RightContentList>
@@ -127,5 +161,5 @@ const MainLectures = () => (
       </ListContainer>
     </RightContent>
   </Section>
-)
-export default MainLectures
+);
+export default MainLectures;

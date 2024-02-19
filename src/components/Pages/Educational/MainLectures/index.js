@@ -4,15 +4,11 @@ import { Section } from "@/components/Containers";
 import {
   RightContent,
   LeftContentList,
-  RightContentList
+  RightContentList,
 } from "@/components/AlignContent";
 
 import { ListContainer, ListItem } from "@/components/ListContainer";
-import {
-  ListTitle,
-  ListSubTitle,
-  ListContent
-} from "@/objects/ListContent";
+import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
 
 import Separator from "@/objects/Separator";
 import Button from "@/objects/Button";
@@ -34,6 +30,7 @@ const MainLectures = () => (
           <RightContentList>
             <Link
               href="http://bit.ly/32l12N0``"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -52,6 +49,7 @@ const MainLectures = () => (
           <RightContentList>
             <Link
               href="http://bit.ly/2q9zMlU"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -72,6 +70,7 @@ const MainLectures = () => (
           <RightContentList>
             <Link
               href="http://bit.ly/2OoqTOZ"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -90,6 +89,7 @@ const MainLectures = () => (
           <RightContentList>
             <Link
               href="http://bit.ly/2Ixgdcc"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -108,6 +108,7 @@ const MainLectures = () => (
           <RightContentList>
             <Link
               href="http://bit.ly/2CTQQ52"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -126,6 +127,7 @@ const MainLectures = () => (
           <RightContentList>
             <Link
               href="http://bit.ly/2BL72VD"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -144,6 +146,7 @@ const MainLectures = () => (
           <RightContentList>
             <Link
               href="http://bit.ly/2LrSYQm"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
@@ -162,6 +165,7 @@ const MainLectures = () => (
           <RightContentList>
             <Link
               href="http://bit.ly/2BKKPab"
+              rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >

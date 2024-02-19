@@ -23,6 +23,13 @@ const Introductions = ({ title, subtitle, biography }) => (
       <Link href="/about">
         <Button type="purple">Read More</Button>
       </Link>
+      <Link
+        href="https://diocodes.dev"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <Button type="purple">Ask For Mentoring</Button>
+      </Link>
     </RightContent>
   </Section>
 );
