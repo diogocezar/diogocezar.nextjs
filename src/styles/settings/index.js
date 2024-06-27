@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 const Settings = createGlobalStyle`
   :root {
@@ -21,6 +21,6 @@ const Settings = createGlobalStyle`
     --size-s6: 150px;
     --size-s7: 240px;
   }
-`
+`;
 
-export default Settings
+export default Settings;

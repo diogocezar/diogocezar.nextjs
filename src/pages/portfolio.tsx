@@ -20,11 +20,11 @@ const Portfolio = ({ footer }) => {
           <Agency />
         </Wrapper>
       </Page>
-      <Page color="orange" decoration={true} decorationColor="orange">
+      {/* <Page color="orange" decoration={true} decorationColor="orange">
         <Wrapper>
           <Demos />
         </Wrapper>
-      </Page>
+      </Page> */}
       <FooterMain content={footer} />
     </>
   );

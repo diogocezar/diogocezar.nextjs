@@ -18,7 +18,7 @@ const Introductions = ({ title, subtitle, biography }) => (
     </LeftContent>
     <RightContent>
       <Title type="main">{title}</Title>
-      <SubTitle color="purple-dark">{subtitle}</SubTitle>
+      <SubTitle color="white">{subtitle}</SubTitle>
       <QuotedParagraph first="Biography">{biography}</QuotedParagraph>
       <Link href="/about">
         <Button type="purple">Read More</Button>

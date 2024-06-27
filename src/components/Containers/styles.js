@@ -1,11 +1,38 @@
-import styled from 'styled-components'
-import { devices } from '@/styles/devices'
+import styled from "styled-components";
+import { devices } from "@/styles/devices";
 
 const StyledPage = styled.div`
-  background-color: ${({ color }) => `var(--color-${color})` || 'var(--color-purple)'}!important;
+  background-color: ${({ color }) =>
+    `var(--color-${color})` || "var(--color-purple)"}!important;
+  opacity: 1;
+  background-image: radial-gradient(
+      rgba(
+          255,
+          255,
+          255,
+          ${({ color }) => (color === "orange" ? "0.04" : "0.02")}
+        )
+        5px,
+      transparent 1.2px
+    ),
+    radial-gradient(
+      rgba(
+          255,
+          255,
+          255,
+          ${({ color }) => (color === "orange" ? "0.04" : "0.02")}
+        )
+        10px,
+      ${({ color }) => `var(--color-${color})` || "var(--color-purple)"} 1.2px
+    );
+  background-size: 100px 100px;
+  background-position:
+    0 0,
+    50px 50px;
   position: relative;
   float: left;
-  padding-bottom: ${({ paddingBottom }) => paddingBottom || 'var(--size-s1)'}!important;
+  padding-bottom: ${({ paddingBottom }) =>
+    paddingBottom || "var(--size-s1)"}!important;
   width: 100%;
   ${({ decoration, decorationColor }) => {
     if (decoration) {
@@ -37,10 +64,10 @@ const StyledPage = styled.div`
             linear-gradient(45deg, var(--color-${decorationColor}) 25%, transparent 25%);
           background-position: 50%;
         }
-      `
+      `;
     }
   }}
-`
+`;
 
 const StyledSection = styled.section`
   position: relative;
@@ -48,11 +75,12 @@ const StyledSection = styled.section`
   width: 100%;
   padding-bottom: var(--size-s4);
   @media ${devices.laptop} {
-    &:last-child{
-      padding-bottom: ${({ isLast }) => (isLast ? 'var(--size-s1)' : 'var(--size-s4)')}!important;
+    &:last-child {
+      padding-bottom: ${({ isLast }) =>
+        isLast ? "var(--size-s1)" : "var(--size-s4)"}!important;
     }
   }
-`
+`;
 
 const StyledWrapper = styled.div`
   position: relative;
@@ -78,6 +106,6 @@ const StyledWrapper = styled.div`
     padding-left: var(--size-s2);
     padding-right: var(--size-s2);
   }
-`
+`;
 
-export { StyledPage, StyledSection, StyledWrapper }
+export { StyledPage, StyledSection, StyledWrapper };

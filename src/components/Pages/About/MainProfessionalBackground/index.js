@@ -18,78 +18,53 @@ const MainProfessionalBackground = () => (
           <ListTitle type="orange">TYPPER AND FIGMAAI</ListTitle>
           <ListSubTitle type="orange">FEB 2023~NOW / CO-FOUNDER</ListSubTitle>
           <ListContent>
-            <Paragraph>I am one of the founders of Typper.io.</Paragraph>
             <Paragraph>
-              This project was born with the energy of four curious guys who
-              love technology, entrepreneurship, and artificial intelligence.
-            </Paragraph>
-            <Paragraph>
-              Typper was the evolution of the FigmaAI plugin.
-            </Paragraph>
-            <Paragraph>
-              In a short period of time, we achieved incredible numbers! And we
-              continue to grow and gain visibility.
-            </Paragraph>
-            <Paragraph>
-              We have put our energy into products that will make the most
-              tedious tasks in people's daily lives easier. Typper will be your
-              personal typist! It helps you be more efficient in your daily
-              work.
-            </Paragraph>
-            <Paragraph>
-              Currently, Typper has three products: FigmaAI - Texts, FigmaAI -
-              Images and Typper Codes
+              I am one of the founders of Typper.io, a project born from the
+              passion of four tech enthusiasts for entrepreneurship and AI.
+              Typper evolved from the Figma plugin, and in no time, we’ve
+              achieved remarkable growth and visibility. We’re dedicated to
+              creating products that simplify tedious daily tasks, making Typper
+              your personal typist to boost efficiency. Currently, Typper offers
+              three products: FigmaAI - Texts, FigmaAI - Images, and Typper
+              Codes.
             </Paragraph>
           </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">BANKME</ListTitle>
           <ListSubTitle type="orange">
-            SEP 2022~NOW / HEAD OF TECHNOLOGY
+            SEP 2022~MAI 2024 / HEAD OF TECHNOLOGY
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I led the creation of the technological structure, implementing
-              cross-functional teams to expedite the delivery of features
-              aligned with the company's dynamic strategy. I developed and
-              implemented processes, including onboarding new collaborators, the
-              lifecycle of demands, and the Upstream Board structure.
+              I led the creation of our tech structure, forming cross-functional
+              teams to speed up feature delivery in line with our dynamic
+              strategy. I developed and implemented processes for onboarding,
+              demand lifecycle, and the Upstream Board structure. Guidelines for
+              code review, card scoring, and documentation were standardized.
             </Paragraph>
             <Paragraph>
-              I established guidelines for code review, card scoring, and
-              repository documentation standardization. I implemented processes
-              such as Remote First, post-mortem analysis, expedites, and mob
-              programming. I created a selection process for technical
-              collaborators and adopted a centralized knowledge tool.
+              I introduced processes like Remote First, post-mortem analysis,
+              expedites, and mob programming, and created a selection process
+              for technical collaborators. Centralized knowledge tools and
+              defined rituals—dailies, technical refinements, planning,
+              retrospectives, and produtech—were established.
             </Paragraph>
             <Paragraph>
-              I defined and oversaw rituals such as dailies, technical
-              refinements, card division and scoring, plannings, retrospectives,
-              and produtech. I set tools and development standards, including
-              naming conventions, commits, branches, and API documentation.
+              I set standards for development tools, naming conventions,
+              commits, branches, and API documentation. I also created a roles
+              and responsibilities guide, emphasizing technical skills,
+              deliverables, human skills, leadership, and strategic impact. I
+              supported scalable solutions with microservices and database
+              segregation, and promoted a monitoring culture with backend and
+              frontend tools.
             </Paragraph>
             <Paragraph>
-              I created a guide for roles, responsibilities, and career paths,
-              emphasizing technical skills, deliverables, human skills,
-              leadership, and strategic impact. I supported the construction of
-              consistent and scalable solutions, applying concepts of
-              microservices and database segregation.
-            </Paragraph>
-            <Paragraph>
-              I implemented a monitoring culture and applied tools to extract
-              information from backend and frontend applications. I faced
-              challenges such as organizing infrastructure, forming an
-              integrations squad, and synchronizing database projects.
-            </Paragraph>
-            <Paragraph>
-              I achieved significant deliveries, such as a 100% increase in
-              performance. I mentored other areas of Bankme in leadership,
-              organization, and processes. Leading a data team, I resolved
-              technical debts and propelled deliveries.
-            </Paragraph>
-            <Paragraph>
-              I drove innovation, efficiency, and technical excellence,
-              contributing to the company's success.
+              My efforts led to significant improvements, including a 100%
+              increase in performance. I mentored other teams at Bankme in
+              leadership and processes, resolved technical debts, and drove
+              innovation, efficiency, and technical excellence, contributing to
+              the company’s success.
             </Paragraph>
           </ListContent>
           <ListSubTitle type="orange">
@@ -97,26 +72,16 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I had the opportunity to lead the Product team for a short period
-              of time.
+              I briefly led the Product team, focusing on establishing a solid
+              foundation with a new product process. This process improved
+              demand management, prioritization, and delivery visibility. We
+              initiated Personal Development Plans (PDP) for each team member,
+              fostering collaboration on their growth.
             </Paragraph>
             <Paragraph>
-              We focused on establishing a solid foundation for the department
-              by proposing a new product process.
-            </Paragraph>
-            <Paragraph>
-              This new process aimed to improve the arrival of demands,
-              prioritization, and visibility of deliveries.
-            </Paragraph>
-            <Paragraph>
-              We also conducted initial work on Personal Development Plans (PDP)
-              with each team member, allowing them to collaborate with me in
-              designing their individual development plans.
-            </Paragraph>
-            <Paragraph>
-              By the end of this leadership stint, we delivered a minimally
-              organized team with a clear roadmap vision and established
-              processes for demand collection, prioritization, and execution.
+              By the end of my tenure, we had an organized team with a clear
+              roadmap and established processes for demand collection,
+              prioritization, and execution.
             </Paragraph>
           </ListContent>
         </ListItem>
@@ -127,28 +92,17 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              At Provi, I had the opportunity to experience the challenges of
-              being a manager in the technology field. As the leader of a tribe,
-              my main initial responsibility was to create new processes,
-              increasing the organization and productivity of the squads we
-              worked with.
+              At Provi, I embraced the challenges of tech management. Leading a
+              tribe, I focused on creating new processes to boost squad
+              organization and productivity. I conducted 1:1 meetings to
+              understand team strengths and areas for improvement, dedicating
+              70% of my time to people and team management and 30% to execution.
             </Paragraph>
             <Paragraph>
-              I also conducted 1:1 meetings with team members, understanding
-              their key strengths and weaknesses to generate a diagnosis of the
-              tribe and identify areas for process improvement.
-            </Paragraph>
-            <Paragraph>
-              With a time dedication of 70% to people and team management
-              activities and 30% to execution activities.
-            </Paragraph>
-            <Paragraph>
-              The main priorities included People Management, Delivery
-              Management (Sprints/Burndown), and Recruitment.
-            </Paragraph>
-            <Paragraph>
-              An important case in this role was the billing integration system,
-              where I was able to assist in the architecture and implementation.
+              Key priorities included People Management, Delivery Management
+              (Sprints/Burndown), and Recruitment. A notable achievement was
+              assisting in the architecture and implementation of the billing
+              integration system.
             </Paragraph>
           </ListContent>
         </ListItem>
@@ -157,26 +111,18 @@ const MainProfessionalBackground = () => (
           <ListSubTitle type="orange">2021~2022 / TECH LEAD</ListSubTitle>
           <ListContent>
             <Paragraph>
-              I was able to truly understand what a BigTech is.
+              My time at Magalu was a deep dive into BigTech, honing my
+              strategic vision, process refinement, and cutting-edge technology
+              skills. It was a training ground for both my technical and
+              leadership abilities. As a Tech Lead in the MagaluPay tribe, I
+              supported several squads focused on growing Magalu’s fintech
+              products.
             </Paragraph>
             <Paragraph>
-              I learned a lot about having strategic visions, refining
-              processes, and creating and maintaining cutting-edge technology.
-            </Paragraph>
-            <Paragraph>
-              It was certainly a school for me to train my technical skills and,
-              most importantly, my leadership skills.
-            </Paragraph>
-            <Paragraph>
-              I acted as a Tech Lead and was able to assist several squads in
-              the MagalyPay tribe. This tribe aimed to maintain and grow the
-              products of Magalu's fintech. I also participated in Upstream
-              phases (refining and preparing features) and Downstream, helping
-              in the construction of documentation, POCs, monitoring, etc.
-            </Paragraph>
-            <Paragraph>
-              As a significant challenge, I could certainly mention the
-              construction of the Wallet within MagaluPay.
+              I played a key role in both Upstream (feature refinement and
+              preparation) and Downstream (documentation, POCs, monitoring)
+              phases. A significant challenge was the development of the Wallet
+              within MagaluPay, a project I’m particularly proud of.
             </Paragraph>
           </ListContent>
         </ListItem>
@@ -187,26 +133,13 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              Here, I certainly delivered one of the biggest case studies of my
-              life: a complete digital account specialized for
-              micro-entrepreneurs in Brazil.
-            </Paragraph>
-            <Paragraph>
-              In this project, I acted as the Tech Lead of a super-squad, which
-              later transformed into over 10 new teams.
-            </Paragraph>
-            <Paragraph>
-              I served as the technical leader, assisting the team responsible
-              for creating the MEI Fácil application, as well as the integration
-              APIs between MEI Fácil and Banco Neon.
-            </Paragraph>
-            <Paragraph>
-              I was also responsible for supporting the teams during the
-              stabilization period of this major project.
-            </Paragraph>
-            <Paragraph>
-              After the product was delivered, I became the Tech Lead of the
-              Activation Squad, and later of the Onboarding Squad.
+              At Neon, I delivered one of my biggest case studies: a complete
+              digital account for Brazilian micro-entrepreneurs. Leading a
+              super-squad that later expanded into over 10 teams, I was the
+              technical leader for the MEI Fácil app and its integration APIs
+              with Banco Neon. I supported the teams during the stabilization
+              period of this major project. Post-delivery, I served as the Tech
+              Lead for both the Activation and Onboarding squads.
             </Paragraph>
           </ListContent>
         </ListItem>
