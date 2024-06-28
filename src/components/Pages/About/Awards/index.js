@@ -10,7 +10,7 @@ import Link from "@/objects/Link";
 
 const Awards = () => (
   <Section isLast="true">
-    <Separator number="07" title="Awards" />
+    <Separator number="06" title="Awards" />
     <RightContent>
       <ListContainer>
         <ListItem color="purple" link={false}>

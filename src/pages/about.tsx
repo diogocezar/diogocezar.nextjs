@@ -24,7 +24,6 @@ const About = ({ footer }) => {
       <Page color="purple" decoration={true} decorationColor="purple">
         <Wrapper>
           <Hobbies />
-          <Skills />
           <Awards />
         </Wrapper>
       </Page>

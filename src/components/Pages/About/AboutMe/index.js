@@ -16,15 +16,12 @@ const AboutMe = () => (
       <Image alt="Diogo Cezar" />
     </LeftContent>
     <RightContent>
-      <Title type="internal" color="purple-dark">
-        How is This Guy?
-      </Title>
-      <QuotedParagraph first="History" hasQuotedMarks={false}>
+      <Paragraph>
         Since 2003, when I began my studies at UTFPR in Cornélio Procópio,
         development and technology have been integral to my life. During
         college, I created an adaptive hypermedia system using ant colony
         optimization to help users find what they need on websites.
-      </QuotedParagraph>
+      </Paragraph>
       <Paragraph>
         In 2010, I pursued a master’s degree at UFPR in Curitiba, where I
         developed a smart scheduling system for processing big data in
@@ -37,9 +34,6 @@ const AboutMe = () => (
         translating strategic decisions into software, mentoring my team, and
         designing scalable solutions.
       </Paragraph>
-      <SubTitle type="internal" color="purple-dark">
-        Profession
-      </SubTitle>
       <Paragraph>
         Technology has always been a constant in my life. I still remember my
         old 486 computer, which brings both nostalgia and a reminder that I’m

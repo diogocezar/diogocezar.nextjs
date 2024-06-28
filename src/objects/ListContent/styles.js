@@ -1,15 +1,16 @@
-import styled from 'styled-components'
-import { devices } from '@/styles/devices'
+import styled from "styled-components";
+import { devices } from "@/styles/devices";
 
 const StyledListTitle = styled.h3`
-  font-family: 'AkzidenzGroteskBE';
+  font-family: "AkzidenzGroteskBE";
   font-weight: bold;
   font-size: 2.6rem;
   text-transform: uppercase;
   line-height: 3rem;
   margin-bottom: 5px !important;
   text-decoration: none !important;
-  color: ${({ type }) => (type === 'orange' ? 'var(--color-purple-dark)' : 'var(--color-orange)')};
+  color: ${({ type }) =>
+    type === "orange" ? "var(--color-purple-dark)" : "var(--color-orange)"};
   @media ${devices.desktop} {
     font-size: 2.5rem;
     line-height: 2.9rem;
@@ -28,10 +29,10 @@ const StyledListTitle = styled.h3`
     font-size: 1.5rem;
     line-height: 2rem;
   }
-`
+`;
 
 const StyledListSubTitle = styled.p`
-  font-family: 'AkzidenzGroteskBE';
+  font-family: "AkzidenzGroteskBE";
   font-weight: bold;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -40,12 +41,12 @@ const StyledListSubTitle = styled.p`
   text-decoration: none !important;
   color: ${({ type }) => {
     switch (type) {
-      case 'orange':
-        return 'var(--color-orange-dark)'
-      case 'white':
-        return 'var(--color-white)'
+      case "orange":
+        return "var(--color-orange-dark)";
+      case "white":
+        return "var(--color-white)";
       default:
-        return 'var(--color-orange)'
+        return "var(--color-orange)";
     }
   }};
   @media ${devices.desktop} {
@@ -65,7 +66,7 @@ const StyledListSubTitle = styled.p`
     font-size: 1.1rem;
     line-height: 2.2rem;
   }
-`
+`;
 
 const StyledListContent = styled.p`
   color: var(--color-white);
@@ -86,18 +87,18 @@ const StyledListContent = styled.p`
     font-size: 0.9rem;
     line-height: 1.4rem;
     text-align: center;
-    display: ${({ menuMain }) => (menuMain ? 'none' : 'block')};
+    display: ${({ menuMain }) => (menuMain ? "none" : "block")};
   }
-`
+`;
 
 const StyledListContentMain = styled(StyledListContent)`
   position: relative;
-  float:left;
+  float: left;
   margin-top: 1.7rem;
-`
+`;
 
 const StyledListMenu = styled.div`
-  font-family: 'AkzidenzGroteskBE';
+  font-family: "AkzidenzGroteskBE";
   font-weight: bold;
   font-size: 2rem;
   text-transform: uppercase;
@@ -179,8 +180,12 @@ const StyledListMenu = styled.div`
   &:focus span::before {
     background: #28a2ee;
   }
-`
+`;
 
 export {
-  StyledListTitle, StyledListSubTitle, StyledListContent, StyledListMenu, StyledListContentMain,
-}
+  StyledListTitle,
+  StyledListSubTitle,
+  StyledListContent,
+  StyledListMenu,
+  StyledListContentMain,
+};

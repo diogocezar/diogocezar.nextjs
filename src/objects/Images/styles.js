@@ -1,12 +1,14 @@
-import styled from 'styled-components'
-import { devices } from '@/styles/devices'
+import styled from "styled-components";
+import { devices } from "@/styles/devices";
 
 const StyledImage = styled.img`
   border-radius: 50%;
+  border: var(--color-white) 8px solid;
   width: 85%;
   margin: 0 auto;
   display: block;
   opacity: 0.9;
+
   @media ${devices.desktopLarge} {
     width: 85%;
     margin-top: 0;
@@ -30,8 +32,7 @@ const StyledImage = styled.img`
     margin-top: 0;
     margin-bottom: var(--size-s3);
   }
-
-`
+`;
 
 const StyledImageItemColumn = styled.img`
   height: 125px;
@@ -40,7 +41,7 @@ const StyledImageItemColumn = styled.img`
   display: block;
   margin-bottom: var(--size-s3);
   border-radius: 50%;
-  box-shadow: 2px 0px 10px 2px rgba(0,0,0,0.1);
+  box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.1);
   @media ${devices.laptopLarge} {
     height: 100px !important;
     width: 100px !important;
@@ -53,6 +54,6 @@ const StyledImageItemColumn = styled.img`
     height: 125px !important;
     width: 125px !important;
   }
-`
+`;
 
-export { StyledImage, StyledImageItemColumn }
+export { StyledImage, StyledImageItemColumn };

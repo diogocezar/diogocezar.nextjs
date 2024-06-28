@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-import { Section } from '@/components/Containers'
-import { RightContent } from '@/components/AlignContent'
-import { ListContainer, ListItem } from '@/components/ListContainer'
+import { Section } from "@/components/Containers";
+import { RightContent } from "@/components/AlignContent";
+import { ListContainer, ListItem } from "@/components/ListContainer";
 
-import Separator from '@/objects/Separator'
-import { ListTitle, ListSubTitle, ListContent } from '@/objects/ListContent'
+import Separator from "@/objects/Separator";
+import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
 
 const EducationBackground = () => (
   <Section>
@@ -13,16 +13,27 @@ const EducationBackground = () => (
     <RightContent>
       <ListContainer>
         <ListItem type="orange" link={false}>
+          <ListTitle type="orange">
+            PHD COMPUTER ENGINEERING - CREDITS ONLY
+          </ListTitle>
+          <ListSubTitle type="orange">2020~2021 - UFPR</ListSubTitle>
+          <ListContent>
+            Completed courses in Machine Learning, Seminars, and Topics in HCI.
+          </ListContent>
+        </ListItem>
+        <ListItem type="orange" link={false}>
           <ListTitle type="orange">MASTER DEGREE COMPUTER SCIENCE</ListTitle>
           <ListSubTitle type="orange">2010~2012 - UFPR</ListSubTitle>
           <ListContent>
-            A model for execution of scientific workflows using automatic planning techniques.{' '}
-            <br />
+            A model for execution of scientific workflows using automatic
+            planning techniques. <br />
             LIAMF - Laboratório de Inteligência Artificial e Métodos Formais.
           </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
-          <ListTitle type="orange">TECHNOLOGY INFORMATION SYSTEM DEVELOPMENT</ListTitle>
+          <ListTitle type="orange">
+            TECHNOLOGY INFORMATION SYSTEM DEVELOPMENT
+          </ListTitle>
           <ListSubTitle type="orange">2004~2007 - UTFPR</ListSubTitle>
           <ListContent>
             Adaptative hypermedia approach based on optimisation by any colony.
@@ -31,5 +42,5 @@ const EducationBackground = () => (
       </ListContainer>
     </RightContent>
   </Section>
-)
-export default EducationBackground
+);
+export default EducationBackground;

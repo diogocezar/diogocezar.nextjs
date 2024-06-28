@@ -6,8 +6,9 @@ import { RightContent } from "@/components/AlignContent";
 import { ListContainer, ListItem } from "@/components/ListContainer";
 import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
 
-import Separator from "@/objects/Separator";
+import Separator, { LineSeparator } from "@/objects/Separator";
 import Paragraph from "@/objects/Paragraph";
+import TagSkills from "@/objects/TagSkills";
 
 const MainProfessionalBackground = () => (
   <Section>
@@ -15,19 +16,52 @@ const MainProfessionalBackground = () => (
     <RightContent>
       <ListContainer>
         <ListItem type="orange" link={false}>
-          <ListTitle type="orange">TYPPER AND FIGMAAI</ListTitle>
-          <ListSubTitle type="orange">FEB 2023~NOW / CO-FOUNDER</ListSubTitle>
+          <ListTitle type="orange">Typper</ListTitle>
+          <ListSubTitle type="orange">
+            FEB 2023~NOW / CEO AND CO-FOUNDER
+          </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I am one of the founders of Typper.io, a project born from the
-              passion of four tech enthusiasts for entrepreneurship and AI.
-              Typper evolved from the Figma plugin, and in no time, we’ve
-              achieved remarkable growth and visibility. We’re dedicated to
-              creating products that simplify tedious daily tasks, making Typper
-              your personal typist to boost efficiency. Currently, Typper offers
-              three products: FigmaAI - Texts, FigmaAI - Images, and Typper
-              Codes.
+              As the CEO of Typper.io, my responsibilities include setting the
+              strategic direction of the company, overseeing product
+              development, managing the team, ensuring financial stability, and
+              building partnerships. I am committed to fostering a culture of
+              innovation and driving the company towards long-term success.
             </Paragraph>
+            <Paragraph>
+              Typper.io was born from the collective energy of four passionate
+              tech enthusiasts who love technology, entrepreneurship, and
+              artificial intelligence. As one of the founders and CEO, I am
+              proud to say that Typper was an evolution of our previous venture.
+            </Paragraph>
+            <Paragraph>
+              At Typper.io, our mission is to create innovative products powered
+              by artificial intelligence. We’re currently focusing on the
+              markets of Designers and Business Intelligence, aiming to
+              revolutionize the way professionals work in these fields.
+            </Paragraph>
+            <Paragraph>
+              In a remarkably short time, we have achieved incredible
+              milestones, continuously growing and gaining visibility. Our team
+              is dedicated to developing products that simplify the most tedious
+              tasks, making daily routines more efficient and productive.
+            </Paragraph>
+            <Paragraph>
+              Typper.io offers a suite of products designed to be your personal
+              assistant. These include Typper BI for business intelligence,
+              Typper Texts for document creation, Typper Images for visual
+              content, and Typper Codes for coding assistance. Together, these
+              tools help you work smarter and more effectively every day.
+            </Paragraph>
+            <TagSkills
+              skills={[
+                "Strategic Planning",
+                "Team Management",
+                "Strategic Partnerships",
+                "Culture",
+                "Financial Analysis",
+              ]}
+            />
           </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -37,52 +71,124 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I led the creation of our tech structure, forming cross-functional
-              teams to speed up feature delivery in line with our dynamic
-              strategy. I developed and implemented processes for onboarding,
-              demand lifecycle, and the Upstream Board structure. Guidelines for
-              code review, card scoring, and documentation were standardized.
+              In my journey as Head of Technology, I faced the challenge of
+              creating a robust technological structure for a rapidly growing
+              company. I identified the need for an integrated approach to
+              feature delivery, and to address this, I implemented
+              cross-functional teams. My plan involved developing efficient
+              processes such as onboarding new collaborators, demand lifecycle,
+              and structuring the Upstream Board.
             </Paragraph>
             <Paragraph>
-              I introduced processes like Remote First, post-mortem analysis,
-              expedites, and mob programming, and created a selection process
-              for technical collaborators. Centralized knowledge tools and
-              defined rituals—dailies, technical refinements, planning,
-              retrospectives, and produtech—were established.
+              To ensure code quality and documentation standardization, I
+              established guidelines for code review and task scoring. I
+              introduced practices such as Remote First, post-mortem analysis,
+              mob programming, and agile processes. Additionally, I created a
+              selection process for technical collaborators and adopted a
+              centralized knowledge tool, fostering a culture of continuous
+              improvement.
             </Paragraph>
             <Paragraph>
-              I set standards for development tools, naming conventions,
-              commits, branches, and API documentation. I also created a roles
-              and responsibilities guide, emphasizing technical skills,
-              deliverables, human skills, leadership, and strategic impact. I
-              supported scalable solutions with microservices and database
-              segregation, and promoted a monitoring culture with backend and
-              frontend tools.
+              During execution, I defined and supervised essential rituals such
+              as dailies, technical refinements, planning, retrospectives, and
+              produtech. I standardized tools and development methods, including
+              naming conventions, commits, branches, and API documentation.
+              Furthermore, I developed a guide for roles, responsibilities, and
+              career paths, focusing on technical skills, deliverables, human
+              skills, leadership, and strategic impact.
             </Paragraph>
             <Paragraph>
-              My efforts led to significant improvements, including a 100%
-              increase in performance. I mentored other teams at Bankme in
-              leadership and processes, resolved technical debts, and drove
-              innovation, efficiency, and technical excellence, contributing to
-              the company’s success.
+              The results were remarkable, including a 100% increase in team
+              performance and the resolution of technical debts. Leading a data
+              team, I drove innovations, efficiency, and technical excellence,
+              significantly contributing to the company’s success. I mentored
+              various areas of Bankme in leadership, organization, and
+              processes, ensuring the delivery of consistent and scalable
+              solutions through concepts of microservices and database
+              segregation.
             </Paragraph>
+            <TagSkills
+              skills={[
+                "Team Leadership",
+                "Architecture",
+                "Process Improvement",
+                "Technology Team Culture",
+                "Career Counseling",
+                "Hiring",
+                "NodeJS",
+                "JavaScript",
+                "Google Cloud Platform (GCP)",
+                "AWS",
+                "GitHub",
+                "NestJS",
+                "Next.js",
+                "Angular",
+                "ReactJS",
+                "Metabase",
+                "PostgreSQL",
+                "ETL (Extract, Transform, Load)",
+                "Continuous Integration and Delivery (CI/CD)",
+                "RabbitMQ",
+                "Solid",
+                "Web Crawling",
+                "Docker",
+                "Amazon RDS",
+                "Amazon EC2",
+                "Amazon Route 53",
+                "AWS Lambda",
+              ]}
+            />
           </ListContent>
+        </ListItem>
+        <ListItem type="orange" link={false}>
+          <ListTitle type="orange">BANKME</ListTitle>
           <ListSubTitle type="orange">
             MAR 2023~MAI 2023 / HEAD OF PRODUCT
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I briefly led the Product team, focusing on establishing a solid
-              foundation with a new product process. This process improved
-              demand management, prioritization, and delivery visibility. We
-              initiated Personal Development Plans (PDP) for each team member,
-              fostering collaboration on their growth.
+              I stepped into the role of leading the Product team during a
+              critical phase when our processes were undefined and demand
+              management was chaotic. The team faced a lack of clarity in
+              prioritizing tasks and achieving visibility on deliveries.
+              Recognizing the urgency, I took the challenge head-on to establish
+              a solid foundation.
             </Paragraph>
             <Paragraph>
-              By the end of my tenure, we had an organized team with a clear
-              roadmap and established processes for demand collection,
-              prioritization, and execution.
+              My plan was straightforward but ambitious: implement a new product
+              process to streamline demand arrival, improve prioritization, and
+              enhance visibility. I collaborated with the team to design this
+              new process, ensuring every member’s input was valued.
+              Additionally, I introduced Personal Development Plans (PDP) for
+              each team member, fostering their growth and aligning their
+              individual goals with our collective objectives.
             </Paragraph>
+            <Paragraph>
+              Execution was key. We meticulously rolled out the new process,
+              addressing challenges as they arose and refining our approach
+              based on feedback. The introduction of PDPs empowered team members
+              to take ownership of their development, contributing to a more
+              engaged and productive workforce.
+            </Paragraph>
+            <Paragraph>
+              By the end of this leadership period, the transformation was
+              evident. We had a minimally organized team with a clear roadmap
+              vision, structured processes for demand collection,
+              prioritization, and execution. The foundation we laid set the
+              stage for continued growth and success.
+            </Paragraph>
+            <TagSkills
+              skills={[
+                "Team Leadership",
+                "Team Management",
+                "Process Improvement",
+                "Strategic Planning",
+                "Task Prioritization",
+                "Product Roadmap",
+                "Personal Development Plan",
+                "Team Building",
+              ]}
+            />
           </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
