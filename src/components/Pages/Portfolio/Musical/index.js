@@ -42,7 +42,7 @@ const MainCustomers = () => (
               align="center"
             >
               Created an interactive system for fans to feature their photos
-              with hashtags on the duo's official site, enhancing fan
+              with hashtags on the duo&apos;s official site, enhancing fan
               engagement.
             </Paragraph>
           </WrapperCol>

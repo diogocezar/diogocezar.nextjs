@@ -25,7 +25,7 @@ const Agency = () => (
               align="center"
             >
               Engineered the entire front-end and contributed to the back-end
-              for ESSS's comprehensive website.
+              for ESSS&apos;s comprehensive website.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -42,7 +42,7 @@ const Agency = () => (
               align="center"
             >
               Managed the advanced features of a promotional website for Africa
-              Agency's 'Products of Tomorrow' campaign.
+              Agency&apos;s &apos;Products of Tomorrow&apos; campaign.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -87,8 +87,8 @@ const Agency = () => (
               padding="0 10%"
               align="center"
             >
-              Designed a playful and engaging website for Angie's range of
-              children's dental products.
+              Designed a playful and engaging website for Angie&apos;s range of
+              children&apos;s dental products.
             </Paragraph>
           </WrapperCol>
         </Col4>
