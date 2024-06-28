@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 const Generic = createGlobalStyle`
 	* {
@@ -16,8 +16,8 @@ const Generic = createGlobalStyle`
     font-size: 14px!important;
     text-rendering: optimizeLegibility!important;
     -webkit-font-smoothing: antialiased!important;
-    background-color: var(--color-purple-dark)!important;
+    background-color: var(--color-purple-dark-alternative)!important;
 	}
-`
+`;
 
-export default Generic
+export default Generic;

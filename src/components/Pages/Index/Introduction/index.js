@@ -9,6 +9,7 @@ import Image from "@/objects/Images";
 import { Title, SubTitle } from "@/objects/Titles";
 import { QuotedParagraph } from "@/objects/Quotes";
 import Button from "@/objects/Button";
+import { AddressBook, Calendar } from "@phosphor-icons/react";
 
 const Introductions = ({ title, subtitle, biography }) => (
   <Section>
@@ -21,14 +22,20 @@ const Introductions = ({ title, subtitle, biography }) => (
       <SubTitle color="white">{subtitle}</SubTitle>
       <QuotedParagraph first="Biography">{biography}</QuotedParagraph>
       <Link href="/about">
-        <Button type="purple">Read More</Button>
+        <Button type="purple">
+          <AddressBook size={23} weight="fill" />
+          <div style={{ marginTop: "3px" }}>Read More</div>
+        </Button>
       </Link>
       <Link
         href="https://diocodes.dev"
         rel="noopener noreferrer"
         target="_blank"
       >
-        <Button type="purple">Ask For Mentoring</Button>
+        <Button type="purple">
+          <Calendar size={23} weight="fill" />
+          <div style={{ marginTop: "3px" }}>Schedule a mentoring</div>
+        </Button>
       </Link>
     </RightContent>
   </Section>

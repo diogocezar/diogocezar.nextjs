@@ -18,14 +18,15 @@ const ProudToBeenPart = () => (
     <RightContent>
       <Title type="internal">Proud to Have Been Part of</Title>
       <QuotedParagraph first="Main Customers" hasQuotedMarks={false}>
-        One of my philosophy is that you are what you made. So i’m very proud to
-        have been part of projects for some biggest brazilian players, in
-        different contexts.
+        My philosophy is simple: you are what you create. That’s why I’m
+        incredibly proud to have been a part of projects for some of Brazil’s
+        biggest industry leaders, across diverse sectors.
       </QuotedParagraph>
       <QuotedParagraph first="Musical" hasQuotedMarks={false}>
-        I could be involved in many kinds of projects for some big names of
-        Brazilian music scenario. My participation at this projects involved
-        many skills to plan and execute.
+        I’ve had the privilege of working on a variety of projects for some of
+        the biggest names in the Brazilian music scene. Each project demanded a
+        blend of skills in planning and execution, allowing me to showcase and
+        refine my talents.
       </QuotedParagraph>
       <QuotedParagraph first="Agency Products" hasQuotedMarks={false}>
         I could work as developer with some big agencies like{" "}

@@ -8,6 +8,8 @@ import Image from "@/objects/Images";
 import { Title, SubTitle } from "@/objects/Titles";
 import { QuotedParagraph } from "@/objects/Quotes";
 import Paragraph from "@/objects/Paragraph";
+import Button from "@/objects/Button";
+import { ReadCvLogo } from "@phosphor-icons/react";
 
 const AboutMe = () => (
   <Section>
@@ -42,6 +44,10 @@ const AboutMe = () => (
         come to believe that the most essential skill for tech professionals is
         the ability to learn how to learn.
       </Paragraph>
+      <Button>
+        <ReadCvLogo size={23} weight="fill" />
+        <div style={{ marginTop: "4px" }}>Download my resume</div>
+      </Button>
     </RightContent>
   </Section>
 );

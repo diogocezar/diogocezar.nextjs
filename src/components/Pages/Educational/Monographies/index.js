@@ -13,6 +13,7 @@ import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
 import Separator from "@/objects/Separator";
 import Button from "@/objects/Button";
 import Link from "@/objects/Link";
+import { DownloadSimple } from "@phosphor-icons/react/dist/ssr";
 
 const Monographies = () => (
   <Section isLast="true">
@@ -35,7 +36,11 @@ const Monographies = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button type="orange">Download</Button>
+              <Button type="orange">
+                {" "}
+                <DownloadSimple size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Download</div>
+              </Button>
             </Link>
           </RightContentList>
         </ListItem>
@@ -55,7 +60,11 @@ const Monographies = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button type="orange">Download</Button>
+              <Button type="orange">
+                {" "}
+                <DownloadSimple size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Download</div>
+              </Button>
             </Link>
           </RightContentList>
         </ListItem>

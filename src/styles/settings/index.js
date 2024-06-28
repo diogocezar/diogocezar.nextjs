@@ -7,6 +7,7 @@ const Settings = createGlobalStyle`
     --color-white-pure: #fff;
     --color-gray: #999999;
     --color-purple-dark: #312450;
+    --color-purple-dark-alternative: #291e40;
     --color-purple-darker: #241b3a;
     --color-purple-light: #5E42A6;
     --color-purple: #493382;

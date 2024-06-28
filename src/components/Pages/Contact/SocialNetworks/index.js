@@ -10,6 +10,7 @@ import { TitleItemColumn } from "@/objects/Titles";
 import { ImageItemColumn } from "@/objects/Images";
 import Paragraph from "@/objects/Paragraph";
 import Link from "@/objects/Link";
+import { Plus } from "@phosphor-icons/react";
 
 const SocialNetworks = () => (
   <Section>
@@ -27,8 +28,8 @@ const SocialNetworks = () => (
               minheight="85px"
               align="center"
             >
-              Github is the place where i publish my projects and studies as
-              developer.
+              GitHub is my playground for sharing projects and exploring new
+              technologies as a developer.
             </Paragraph>
             <Link
               href="https://github.com/diogocezar/"
@@ -37,7 +38,8 @@ const SocialNetworks = () => (
               target="_blank"
             >
               <Button type="orange" right="0px">
-                Add Me
+                <Plus size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Add Me</div>
               </Button>
             </Link>
           </WrapperCol>
@@ -53,8 +55,8 @@ const SocialNetworks = () => (
               minheight="85px"
               align="center"
             >
-              Where i publish toughts and hightlights links of development
-              world.
+              On Twitter, I share insights, thoughts, and highlight links from
+              the world of development.
             </Paragraph>
             <Link
               href="https://twitter.com/diogocezar"
@@ -63,7 +65,8 @@ const SocialNetworks = () => (
               target="_blank"
             >
               <Button type="orange" right="0px">
-                Add Me
+                <Plus size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Add Me</div>
               </Button>
             </Link>
           </WrapperCol>
@@ -79,7 +82,8 @@ const SocialNetworks = () => (
               minheight="85px"
               align="center"
             >
-              Where i publish some pictures of my daily routine.
+              Instagram is where I share snapshots of my daily life and
+              adventures.
             </Paragraph>
             <Link
               href="https://www.instagram.com/diogocezar.dev/"
@@ -88,7 +92,8 @@ const SocialNetworks = () => (
               target="_blank"
             >
               <Button type="orange" right="0px">
-                Add Me
+                <Plus size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Add Me</div>
               </Button>
             </Link>
           </WrapperCol>
@@ -104,7 +109,7 @@ const SocialNetworks = () => (
               minheight="85px"
               align="center"
             >
-              You can found here some professional description of mine.
+              LinkedIn showcases my professional journey and achievements.
             </Paragraph>
             <Link
               href="https://www.linkedin.com/in/diogocezar/"
@@ -113,7 +118,8 @@ const SocialNetworks = () => (
               target="_blank"
             >
               <Button type="orange" right="0px">
-                Add Me
+                <Plus size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Add Me</div>
               </Button>
             </Link>
           </WrapperCol>

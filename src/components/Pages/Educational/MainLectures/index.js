@@ -13,6 +13,7 @@ import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
 import Separator from "@/objects/Separator";
 import Button from "@/objects/Button";
 import Link from "@/objects/Link";
+import { DownloadSimple } from "@phosphor-icons/react/dist/ssr";
 
 const MainLectures = () => (
   <Section>
@@ -34,7 +35,11 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>Download</Button>
+              <Button>
+                {" "}
+                <DownloadSimple size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Download</div>
+              </Button>
             </Link>
           </RightContentList>
         </ListItem>
@@ -53,7 +58,11 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>Download</Button>
+              <Button>
+                {" "}
+                <DownloadSimple size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Download</div>
+              </Button>
             </Link>
           </RightContentList>
         </ListItem>
@@ -74,7 +83,11 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>Download</Button>
+              <Button>
+                {" "}
+                <DownloadSimple size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Download</div>
+              </Button>
             </Link>
           </RightContentList>
         </ListItem>
@@ -93,7 +106,11 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>Download</Button>
+              <Button>
+                {" "}
+                <DownloadSimple size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Download</div>
+              </Button>
             </Link>
           </RightContentList>
         </ListItem>
@@ -112,7 +129,11 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>Download</Button>
+              <Button>
+                {" "}
+                <DownloadSimple size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Download</div>
+              </Button>
             </Link>
           </RightContentList>
         </ListItem>
@@ -131,7 +152,11 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>Download</Button>
+              <Button>
+                {" "}
+                <DownloadSimple size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Download</div>
+              </Button>
             </Link>
           </RightContentList>
         </ListItem>
@@ -150,7 +175,11 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>Download</Button>
+              <Button>
+                {" "}
+                <DownloadSimple size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Download</div>
+              </Button>
             </Link>
           </RightContentList>
         </ListItem>
@@ -169,7 +198,11 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>Download</Button>
+              <Button>
+                {" "}
+                <DownloadSimple size={23} weight="fill" />
+                <div style={{ marginTop: "4px" }}>Download</div>
+              </Button>
             </Link>
           </RightContentList>
         </ListItem>
