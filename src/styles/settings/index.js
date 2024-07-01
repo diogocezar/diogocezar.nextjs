@@ -12,7 +12,7 @@ const Settings = createGlobalStyle`
     --color-purple-light: #5E42A6;
     --color-purple: #493382;
     --color-orange: #D8473A;
-    --color-orange-dark: #A82115;
+    --color-orange-dark: #7f1c13;
 
     --size-s1: 15px;
     --size-s2: 20px;

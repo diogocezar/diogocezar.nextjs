@@ -37,7 +37,7 @@ const MainLectures = () => (
             >
               <Button>
                 {" "}
-                <DownloadSimple size={23} weight="fill" />
+                <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
               </Button>
             </Link>
@@ -60,7 +60,7 @@ const MainLectures = () => (
             >
               <Button>
                 {" "}
-                <DownloadSimple size={23} weight="fill" />
+                <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
               </Button>
             </Link>
@@ -85,7 +85,7 @@ const MainLectures = () => (
             >
               <Button>
                 {" "}
-                <DownloadSimple size={23} weight="fill" />
+                <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
               </Button>
             </Link>
@@ -108,7 +108,7 @@ const MainLectures = () => (
             >
               <Button>
                 {" "}
-                <DownloadSimple size={23} weight="fill" />
+                <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
               </Button>
             </Link>
@@ -131,7 +131,7 @@ const MainLectures = () => (
             >
               <Button>
                 {" "}
-                <DownloadSimple size={23} weight="fill" />
+                <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
               </Button>
             </Link>
@@ -154,7 +154,7 @@ const MainLectures = () => (
             >
               <Button>
                 {" "}
-                <DownloadSimple size={23} weight="fill" />
+                <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
               </Button>
             </Link>
@@ -177,7 +177,7 @@ const MainLectures = () => (
             >
               <Button>
                 {" "}
-                <DownloadSimple size={23} weight="fill" />
+                <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
               </Button>
             </Link>
@@ -200,7 +200,7 @@ const MainLectures = () => (
             >
               <Button>
                 {" "}
-                <DownloadSimple size={23} weight="fill" />
+                <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
               </Button>
             </Link>

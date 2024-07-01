@@ -25,7 +25,7 @@ const GitHub = () => (
         target="_blank"
       >
         <Button bottom="4rem">
-          <GraduationCap size={23} weight="fill" />
+          <GraduationCap size={23} />
           <div style={{ marginTop: "4px" }}>Check Contents</div>
         </Button>
       </Link>

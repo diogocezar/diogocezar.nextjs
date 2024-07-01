@@ -38,7 +38,7 @@ const SocialNetworks = () => (
               target="_blank"
             >
               <Button type="orange" right="0px">
-                <Plus size={23} weight="fill" />
+                <Plus size={23} />
                 <div style={{ marginTop: "4px" }}>Add Me</div>
               </Button>
             </Link>
@@ -65,7 +65,7 @@ const SocialNetworks = () => (
               target="_blank"
             >
               <Button type="orange" right="0px">
-                <Plus size={23} weight="fill" />
+                <Plus size={23} />
                 <div style={{ marginTop: "4px" }}>Add Me</div>
               </Button>
             </Link>
@@ -92,7 +92,7 @@ const SocialNetworks = () => (
               target="_blank"
             >
               <Button type="orange" right="0px">
-                <Plus size={23} weight="fill" />
+                <Plus size={23} />
                 <div style={{ marginTop: "4px" }}>Add Me</div>
               </Button>
             </Link>
@@ -118,7 +118,7 @@ const SocialNetworks = () => (
               target="_blank"
             >
               <Button type="orange" right="0px">
-                <Plus size={23} weight="fill" />
+                <Plus size={23} />
                 <div style={{ marginTop: "4px" }}>Add Me</div>
               </Button>
             </Link>

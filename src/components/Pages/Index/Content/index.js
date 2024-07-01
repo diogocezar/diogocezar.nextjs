@@ -9,40 +9,41 @@ import Paragraph from "@/objects/Paragraph";
 
 const Content = () => (
   <Section>
-    <Separator number="02" title="Short Story" />
+    <Separator number="02" title="About me" />
     <RightContent>
-      <Title type="main">Short Story</Title>
+      <Title type="main">About me</Title>
       <Paragraph>
-        With over 17 years of experience in the tech field and a master’s degree
-        in AI, my passion for education has always driven me. As a former
-        professor, I had the privilege of teaching a wide range of computer
-        science and engineering subjects, focusing on Evolutionary Computation
-        and AI. My professional journey includes collaborations with prominent
-        companies and renowned names in the music industry, such as Michel Teló,
-        Fernando e Sorocaba, and others.
+        Hello! My name is Diogo Cezar, and I am 38 years old. With over 17 years
+        of experience in technology and a Master’s degree in AI, my journey has
+        been marked by leading high-performance teams and developing innovative
+        solutions for large companies. My passion for sharing knowledge has
+        always guided my career, and I have had the honor of working with
+        renowned brands such as Twitter, Visa, Volkswagen, and prominent artists
+        like Michel Teló and Fernando & Sorocaba.
       </Paragraph>
       <Paragraph>
-        I’ve worked on tech projects for esteemed companies like Twitter,
-        Brahma, and Visa, with one career highlight being a Hackathon at the Big
-        Brother Brasil house. As a pioneer in shaping MEI Fácil’s tech culture,
-        I played a key role in its acquisition by Neon Bank. At Neon, I led a
-        significant project to create a comprehensive digital account for
-        micro-entrepreneurs, transforming a super-squad into over ten new teams
-        and delivering remarkable results.
+        My professional journey includes tenures at companies like Neon and
+        Luizalabs, where I had the opportunity to lead strategic projects and
+        help build efficient and engaged teams. At Neon, we led the creation of
+        a digital account for micro-entrepreneurs, reaching 100,000 active
+        clients. At Luizalabs, I was the technical reference for the Wallet
+        Magalu project, focusing on scalability and efficiency. At Provi, as
+        Tech Manager, I improved processes and engagement across three distinct
+        teams.
       </Paragraph>
       <Paragraph>
-        At Luizalabs, I gained insights into BigTech operations as a Tech Lead,
-        supporting multiple squads within a Tribe. I contributed to various
-        phases, from feature preparation to documentation and monitoring,
-        including the development of a Wallet functionality for MagaluPay. My
-        journey then took me to Provi, where I focused on empowering teams to
-        improve their processes and achieve higher performance.
+        As the CEO of Typper, one of the top 60 technology startups in Brazil,
+        and as the former Head of Technology at Bankme, my mission has always
+        been to create a tech culture that promotes team happiness and
+        collaboration. I believe that technology has the power to transform
+        lives, and I constantly seek ways to apply this power responsibly and
+        innovatively.
       </Paragraph>
       <Paragraph>
-        At Bankme, I’m fulfilling a long-held dream of building a tech culture
-        while leveraging my extensive background. Additionally, I take great
-        pride in Typper, our side project, which allows us to apply real-world
-        learnings and continuously improve our business skills.
+        I am always open to opportunities where I can apply my experience and
+        passion for technology in a technical leadership role. My goal is to
+        build efficient and happy teams, create collaborative organizational
+        cultures, and continue learning and teaching.
       </Paragraph>
     </RightContent>
   </Section>

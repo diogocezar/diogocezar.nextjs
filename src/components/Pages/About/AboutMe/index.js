@@ -19,33 +19,37 @@ const AboutMe = () => (
     </LeftContent>
     <RightContent>
       <Paragraph>
-        Since 2003, when I began my studies at UTFPR in Cornélio Procópio,
-        development and technology have been integral to my life. During
-        college, I created an adaptive hypermedia system using ant colony
-        optimization to help users find what they need on websites.
+        I am Diogo Cezar, a technology enthusiast with 38 years of life and over
+        17 years of experience in the field. From my first steps in development,
+        I found in technology a way to turn ideas into reality and help people.
+        My journey has been guided by curiosity and a constant desire to learn
+        and share knowledge, leading me to specialize in Artificial Intelligence
+        and lead technology teams.
       </Paragraph>
       <Paragraph>
-        In 2010, I pursued a master’s degree at UFPR in Curitiba, where I
-        developed a smart scheduling system for processing big data in
-        distributed environments. Alongside my academic journey, I worked on web
-        development projects for various publicity agencies, collaborating with
-        numerous Brazilian artists.
+        I believe that technology gives people superpowers, and with great power
+        comes great responsibility. This vision inspires me to wake up every day
+        excited to think about how I can use my skills to make a difference.
+        Creating innovative solutions, especially using AI, is one of my main
+        areas of interest and continuous study.
       </Paragraph>
       <Paragraph>
-        Currently, I serve as the Head of Technology, managing processes,
-        translating strategic decisions into software, mentoring my team, and
-        designing scalable solutions.
+        My commitment to technology goes beyond tools and programming languages;
+        it is about building a culture where collaboration and mutual assistance
+        are fundamental pillars. I believe in the importance of happy and
+        engaged teams, and I strive to create environments where autonomy and
+        trust are essential values.
       </Paragraph>
       <Paragraph>
-        Technology has always been a constant in my life. I still remember my
-        old 486 computer, which brings both nostalgia and a reminder that I’m
-        getting older. Encouraged by my father, I’ve always been fascinated by
-        understanding how things work. Despite completing various courses, I’ve
-        come to believe that the most essential skill for tech professionals is
-        the ability to learn how to learn.
+        Seeking new opportunities, I am looking for leadership roles in
+        technology that allow me to apply my experience to build
+        high-performance teams, always focusing on innovation and customer
+        satisfaction. My goal is to grow in technology leadership and continue
+        delivering results that make a difference, always guided by honesty,
+        respect, and passion for what I do.
       </Paragraph>
       <Button>
-        <ReadCvLogo size={23} weight="fill" />
+        <ReadCvLogo size={23} />
         <div style={{ marginTop: "4px" }}>Download my resume</div>
       </Button>
     </RightContent>

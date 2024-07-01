@@ -9,7 +9,7 @@ import Image from "@/objects/Images";
 import { Title, SubTitle } from "@/objects/Titles";
 import { QuotedParagraph } from "@/objects/Quotes";
 import Button from "@/objects/Button";
-import { AddressBook, Calendar } from "@phosphor-icons/react";
+import { Calendar, AddressBook } from "@phosphor-icons/react";
 
 const Introductions = ({ title, subtitle, biography }) => (
   <Section>
@@ -20,11 +20,11 @@ const Introductions = ({ title, subtitle, biography }) => (
     <RightContent>
       <Title type="main">{title}</Title>
       <SubTitle color="white">{subtitle}</SubTitle>
-      <QuotedParagraph first="Biography">{biography}</QuotedParagraph>
+      <QuotedParagraph first="How i am?">{biography}</QuotedParagraph>
       <Link href="/about">
         <Button type="purple">
-          <AddressBook size={23} weight="fill" />
-          <div style={{ marginTop: "3px" }}>Read More</div>
+          <AddressBook size={23} />
+          <div style={{ marginTop: "3px" }}>More About Me</div>
         </Button>
       </Link>
       <Link
@@ -33,8 +33,8 @@ const Introductions = ({ title, subtitle, biography }) => (
         target="_blank"
       >
         <Button type="purple">
-          <Calendar size={23} weight="fill" />
-          <div style={{ marginTop: "3px" }}>Schedule a mentoring</div>
+          <Calendar size={23} />
+          <div style={{ marginTop: "3px" }}>Free Mentoring</div>
         </Button>
       </Link>
     </RightContent>

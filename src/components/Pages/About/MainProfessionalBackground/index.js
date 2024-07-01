@@ -12,7 +12,7 @@ import TagSkills from "@/objects/TagSkills";
 
 const MainProfessionalBackground = () => (
   <Section>
-    <Separator number="04" title="Main Professional Background" type="orange" />
+    <Separator number="03" title="Main Professional Background" type="orange" />
     <RightContent>
       <ListContainer>
         <ListItem type="orange" link={false}>
@@ -22,11 +22,12 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              As the CEO of Typper.io, my responsibilities include setting the
-              strategic direction of the company, overseeing product
-              development, managing the team, ensuring financial stability, and
-              building partnerships. I am committed to fostering a culture of
-              innovation and driving the company towards long-term success.
+              As the CEO of Typper, one of the top 60 AI startups in Brazil, my
+              responsibilities include setting the strategic direction of the
+              company, overseeing product development, managing the team,
+              ensuring financial stability, and building partnerships. I am
+              committed to fostering a culture of innovation and driving the
+              company towards long-term success.
             </Paragraph>
             <Paragraph>
               Typper.io was born from the collective energy of four passionate
@@ -198,18 +199,45 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              At Provi, I embraced the challenges of tech management. Leading a
-              tribe, I focused on creating new processes to boost squad
-              organization and productivity. I conducted 1:1 meetings to
-              understand team strengths and areas for improvement, dedicating
-              70% of my time to people and team management and 30% to execution.
+              During my time at Provi, I embraced the role of technology manager
+              with a focus on leading a dynamic tribe. My initial challenge was
+              to overhaul existing processes and increase team productivity.
+              Through strategic planning and execution, I introduced innovative
+              frameworks that not only optimized operations but also fostered a
+              culture of continuous improvement. Conducting insightful 1:1
+              meetings, I identified team strengths and areas for development,
+              driving targeted initiatives aimed at enhancing overall
+              performance.
             </Paragraph>
             <Paragraph>
-              Key priorities included People Management, Delivery Management
-              (Sprints/Burndown), and Recruitment. A notable achievement was
-              assisting in the architecture and implementation of the billing
-              integration system.
+              A significant aspect of my role involved balancing people
+              management with execution. With a dedicated focus on team dynamics
+              and agile delivery, I prioritized enhancing our sprint and
+              burndown processes. This approach not only optimized project
+              timelines but also ensured seamless collaboration across
+              multifunctional teams. I played a pivotal role in steering
+              critical projects, including the successful integration of the
+              billing system.
             </Paragraph>
+            <TagSkills
+              skills={[
+                "Team Leadership",
+                "Architecture",
+                "Process Improvement",
+                "Technology Team Culture",
+                "Career Counseling",
+                "Hiring",
+                "NodeJS",
+                "JavaScript",
+                "AWS",
+                "GitHub",
+                "Express.js",
+                "React.js",
+                "PostgreSQL",
+                "Docker",
+                "Continuous Integration and Delivery (CI/CD)",
+              ]}
+            />
           </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -217,36 +245,104 @@ const MainProfessionalBackground = () => (
           <ListSubTitle type="orange">2021~2022 / TECH LEAD</ListSubTitle>
           <ListContent>
             <Paragraph>
-              My time at Magalu was a deep dive into BigTech, honing my
-              strategic vision, process refinement, and cutting-edge technology
-              skills. It was a training ground for both my technical and
-              leadership abilities. As a Tech Lead in the MagaluPay tribe, I
-              supported several squads focused on growing Magalu’s fintech
-              products.
+              My journey at a BigTech company was transformative, offering
+              profound insights into strategic vision, process refinement, and
+              cutting-edge technology management. It was a pivotal experience
+              where I honed not only my technical prowess but also my leadership
+              acumen.
             </Paragraph>
             <Paragraph>
-              I played a key role in both Upstream (feature refinement and
-              preparation) and Downstream (documentation, POCs, monitoring)
-              phases. A significant challenge was the development of the Wallet
-              within MagaluPay, a project I’m particularly proud of.
+              As a Tech Lead in the MagalyPay tribe at Magalu, I spearheaded
+              multiple squads dedicated to enhancing and expanding the fintech
+              products. From refining features in the Upstream phases to
+              meticulous documentation and POC development in the Downstream
+              phases, I played a crucial role in the entire product lifecycle.
             </Paragraph>
+            <Paragraph>
+              A standout achievement was leading the development of the Wallet
+              within MagaluPay, a project that posed significant challenges yet
+              showcased my ability to strategize, execute, and deliver impactful
+              results. By fostering collaboration and innovation, I navigated
+              complexities to deliver a robust solution that aligned seamlessly
+              with business objectives.
+            </Paragraph>
+            <Paragraph>
+              Throughout this experience, I fortified skills in strategic
+              planning, technical leadership, and project management, leveraging
+              a blend of innovation and operational excellence to drive
+              continuous improvement and achieve tangible outcomes.
+            </Paragraph>
+            <TagSkills
+              skills={[
+                "NodeJS",
+                "JavaScript",
+                "Kong",
+                "Apigee",
+                "Google Cloud Platform (GCP)",
+                "New Relic",
+                "NextJS",
+                "Express.js",
+                "C4 Model",
+                "Design Docs",
+                "Architecture",
+                "Information Security",
+              ]}
+            />
           </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">NEON</ListTitle>
           <ListSubTitle type="orange">
-            2019~2021 / Tech Lead and Back End Cordinator
+            2019~2021 / Back End Coordinator
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              At Neon, I delivered one of my biggest case studies: a complete
-              digital account for Brazilian micro-entrepreneurs. Leading a
-              super-squad that later expanded into over 10 teams, I was the
-              technical leader for the MEI Fácil app and its integration APIs
-              with Banco Neon. I supported the teams during the stabilization
-              period of this major project. Post-delivery, I served as the Tech
-              Lead for both the Activation and Onboarding squads.
+              I embarked on a transformative journey by spearheading the
+              development of a comprehensive digital account tailored for
+              micro-entrepreneurs in Brazil, marking one of the most significant
+              case studies of my career. As the Tech Lead of a pioneering
+              super-squad, I orchestrated the evolution of this initiative into
+              over 10 specialized teams.
             </Paragraph>
+            <Paragraph>
+              My leadership was pivotal in guiding the team responsible for
+              crafting the MEI Fácil application and integrating APIs between
+              MEI Fácil and Banco Neon. Through strategic planning and
+              meticulous execution, we navigated complexities to deliver a
+              seamless digital solution that empowered micro-entrepreneurs
+              across the country.
+            </Paragraph>
+            <Paragraph>
+              Beyond development, I played a crucial role in supporting teams
+              through the stabilization phase of this ambitious project.
+              Post-launch, I assumed leadership roles within the Activation and
+              Onboarding Squads, ensuring the continued success and optimization
+              of the digital account platform.
+            </Paragraph>
+            <Paragraph>
+              Throughout this experience, I honed invaluable skills in technical
+              leadership, project management, and cross-functional
+              collaboration, driving innovation and achieving tangible results
+              that revolutionized financial services for micro-entrepreneurs in
+              Brazil.
+            </Paragraph>
+            <TagSkills
+              skills={[
+                "NodeJS",
+                "JavaScript",
+                "NestJS",
+                "C#",
+                "AWS",
+                "RabbitMQ",
+                "Prometheus",
+                "Kubernetes",
+                "Graylog",
+                "Express.js",
+                "React Native",
+                "Team Leadership",
+                "Bitbucket",
+              ]}
+            />
           </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -256,31 +352,48 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I'm proud to have been one of the first Technology people to join
-              this team.
+              Joining MEI Fácil at its inception, I embarked on a journey
+              defined by innovation and impact in simplifying bureaucracy for
+              micro-entrepreneurs (MEIs) across Brazil. As one of the pioneering
+              members of the technology team, I played a pivotal role in shaping
+              our approach to solving critical challenges faced by MEIs.
             </Paragraph>
             <Paragraph>
-              MEI Fácil was born with a hands-on spirit! In a short period of
-              time, we became a reference for simplifying the bureaucracy for
+              At the core of MEI Fácil’s success were three pillars: Business
+              Education, Bureaucracy, and Finance, which collectively
+              transformed our platform into a pioneering super-app. My journey
+              as a technical leader began here, where I not only built and led
+              high-performing teams but also nurtured a technology-driven
+              culture focused on continuous improvement and user-centric
+              innovation.
+            </Paragraph>
+            <Paragraph>
+              I spearheaded various projects, with a significant focus on the
+              MEI Fácil Account, pivotal in our integration with Banco Neon.
+              Through strategic planning and hands-on execution, we evolved our
+              solutions to meet the evolving needs of MEIs, delivering tangible
+              results that streamlined operations and empowered entrepreneurs
+              nationwide.
+            </Paragraph>
+            <Paragraph>
+              My tenure at MEI Fácil was characterized by technical leadership,
+              cross-functional collaboration, and a relentless pursuit of
+              excellence. I honed critical skills in team building, project
+              execution, and fostering innovation, driving transformative change
+              that solidified our position as a leader in empowering
               micro-entrepreneurs in Brazil.
             </Paragraph>
-            <Paragraph>
-              With three main pillars: Business Education, Bureaucracy, and
-              Finance, MEI Fácil has become a super-app to solve a large part of
-              the problems faced by MEIs in Brazil.
-            </Paragraph>
-            <Paragraph>
-              It was here that I began my journey as a technical leader.
-            </Paragraph>
-            <Paragraph>
-              I helped build a great team and also fostered a technology-driven
-              culture.
-            </Paragraph>
-            <Paragraph>
-              I served as a technical leader in several different projects, with
-              a notable focus on the MEI Fácil Account, which evolved after the
-              incorporation of MEI Fácil by Banco Neon.
-            </Paragraph>
+            <TagSkills
+              skills={[
+                "NodeJS",
+                "JavaScript",
+                "Express.js",
+                "AWS",
+                "NestJS",
+                "Team Leadership",
+                "Hiring",
+              ]}
+            />
           </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>

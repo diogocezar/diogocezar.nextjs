@@ -38,7 +38,7 @@ const MainPappers = () => (
             >
               <Button type="orange">
                 {" "}
-                <DownloadSimple size={23} weight="fill" />
+                <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
               </Button>
             </Link>

@@ -10,7 +10,7 @@ import Link from "@/objects/Link";
 
 const Hobbies = () => (
   <Section>
-    <Separator number="05" title="Hobbies" />
+    <Separator number="04" title="Hobbies" />
     <RightContent>
       <ListContainer>
         <ListItem color="purple" link={false}>

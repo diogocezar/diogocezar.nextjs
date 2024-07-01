@@ -25,7 +25,6 @@ const Index = ({ index, footer, home }) => {
       <Wrapper>
         <Introduction title={title} subtitle={subtitle} biography={biography} />
         <Content />
-        <Conclusion citation={citation} citationAuthor={citationAuthor} />
       </Wrapper>
       <FooterMain isMain={true} content={footer} />
     </Page>

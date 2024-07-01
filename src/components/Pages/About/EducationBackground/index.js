@@ -9,7 +9,7 @@ import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
 
 const EducationBackground = () => (
   <Section>
-    <Separator number="03" title="Education Background" type="orange" />
+    <Separator number="02" title="Education Background" type="orange" />
     <RightContent>
       <ListContainer>
         <ListItem type="orange" link={false}>
@@ -18,7 +18,8 @@ const EducationBackground = () => (
           </ListTitle>
           <ListSubTitle type="orange">2020~2021 - UFPR</ListSubTitle>
           <ListContent>
-            Completed courses in Machine Learning, Seminars, and Topics in HCI.
+            I have completed the credits in the subjects of Machine Learning,
+            Seminars, and Topics in HCI.
           </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>

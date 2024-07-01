@@ -29,7 +29,7 @@ const GitHub = () => (
         target="_blank"
       >
         <Button>
-          <GithubLogo size={23} weight="fill" />
+          <GithubLogo size={23} />
           <div style={{ marginTop: "4px" }}>Go to My GitHub</div>
         </Button>
       </Link>

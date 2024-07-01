@@ -16,7 +16,6 @@ const About = ({ footer }) => {
       <Page color="orange">
         <Wrapper>
           <AboutMe />
-          <Interests />
           <EducationBackground />
           <MainProfessionalBackground />
         </Wrapper>
