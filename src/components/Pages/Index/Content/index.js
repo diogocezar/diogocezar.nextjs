@@ -24,17 +24,18 @@ const Content = () => (
       <Paragraph>
         My professional journey includes tenures at companies like Neon and
         Luizalabs, where I had the opportunity to lead strategic projects and
-        help build efficient and engaged teams. At Neon, we led the creation of
-        a digital account for micro-entrepreneurs, reaching 100,000 active
-        clients. At Luizalabs, I was the technical reference for the Wallet
-        Magalu project, focusing on scalability and efficiency. At Provi, as
-        Tech Manager, I improved processes and engagement across three distinct
-        teams.
+        help build efficient and engaged teams. At Neon, I spearheaded the
+        integration of the Neon account into the MEI Fácil app following our
+        company’s first M&A, resulting in the acquisition of 200k customers
+        within the first year of launch. At Luizalabs, I was the technical
+        reference for the Wallet Magalu project, focusing on scalability and
+        efficiency. At Provi, as Tech Manager, I improved processes and
+        engagement across three distinct teams.
       </Paragraph>
       <Paragraph>
-        As the CEO of Typper, one of the top 60 technology startups in Brazil,
-        and as the former Head of Technology at Bankme, my mission has always
-        been to create a tech culture that promotes team happiness and
+        As the CEO of Typper, one of the top 100 technology startups in Brazil
+        (by F6S), and as the former Head of Technology at Bankme, my mission has
+        always been to create a tech culture that promotes team happiness and
         collaboration. I believe that technology has the power to transform
         lives, and I constantly seek ways to apply this power responsibly and
         innovatively.

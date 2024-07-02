@@ -51,19 +51,6 @@ const StyledPage = styled.div`
           height: 90px;
           background-size: 50px 100%;
         }
-        &::before {
-          top: -90px;
-          background-image: -webkit-gradient(
-            linear,
-            0 0,
-            300% 100%,
-            color-stop(0.25, transparent),
-            color-stop(0.25, var(--color-${decorationColor}))
-          );
-          background-image: linear-gradient(315deg, var(--color-${decorationColor}) 25%, transparent 25%),
-            linear-gradient(45deg, var(--color-${decorationColor}) 25%, transparent 25%);
-          background-position: 50%;
-        }
       `;
     }
   }}

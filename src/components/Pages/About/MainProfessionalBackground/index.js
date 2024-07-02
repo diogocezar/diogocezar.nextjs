@@ -22,7 +22,7 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              As the CEO of Typper, one of the top 60 AI startups in Brazil, my
+              As the CEO of Typper, one of the top 100 AI startups in Brazil, my
               responsibilities include setting the strategic direction of the
               company, overseeing product development, managing the team,
               ensuring financial stability, and building partnerships. I am
@@ -56,11 +56,19 @@ const MainProfessionalBackground = () => (
             </Paragraph>
             <TagSkills
               skills={[
+                "Team Leadership",
                 "Strategic Planning",
-                "Team Management",
-                "Strategic Partnerships",
+                "Process Improvement",
                 "Culture",
+                "Career Counseling",
                 "Financial Analysis",
+                "Artificial Intelligence",
+                "Team Management",
+                "Task Prioritization",
+                "Strategic Partnerships",
+                "Personal Development Plan",
+                "Usability",
+                "Metabase",
               ]}
             />
           </ListContent>
@@ -72,13 +80,12 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              In my journey as Head of Technology, I faced the challenge of
-              creating a robust technological structure for a rapidly growing
-              company. I identified the need for an integrated approach to
-              feature delivery, and to address this, I implemented
-              cross-functional teams. My plan involved developing efficient
-              processes such as onboarding new collaborators, demand lifecycle,
-              and structuring the Upstream Board.
+              I faced the challenge of creating a robust technological structure
+              for a rapidly growing company. I identified the need for an
+              integrated approach to feature delivery, and to address this, I
+              implemented cross-functional teams. My plan involved developing
+              efficient processes such as onboarding new collaborators, demand
+              lifecycle, and structuring the Upstream Board.
             </Paragraph>
             <Paragraph>
               To ensure code quality and documentation standardization, I
@@ -111,32 +118,51 @@ const MainProfessionalBackground = () => (
             <TagSkills
               skills={[
                 "Team Leadership",
-                "Architecture",
-                "Process Improvement",
-                "Technology Team Culture",
-                "Career Counseling",
-                "Hiring",
-                "NodeJS",
-                "JavaScript",
-                "Google Cloud Platform (GCP)",
+                "Strategic Planning",
                 "AWS",
-                "GitHub",
-                "NestJS",
-                "Next.js",
-                "Angular",
-                "ReactJS",
-                "Metabase",
+                "MongoDB",
+                "Process Improvement",
                 "PostgreSQL",
-                "ETL (Extract, Transform, Load)",
-                "Continuous Integration and Delivery (CI/CD)",
-                "RabbitMQ",
-                "Solid",
-                "Web Crawling",
-                "Docker",
-                "Amazon RDS",
-                "Amazon EC2",
-                "Amazon Route 53",
+                "Continuous Integration/Continuous Delivery (CI/CD)",
+                "Team Building",
                 "AWS Lambda",
+                "Hiring",
+                "NestJS",
+                "Career Counseling",
+                "Docker",
+                "AngularJS",
+                "Information Security",
+                "npm",
+                "MySQL",
+                "GitHub",
+                "Technology Team Culture",
+                "RabbitMQ",
+                "Amazon RDS",
+                "Express.js",
+                "Design Patterns",
+                "Next.js",
+                "CSS",
+                "Design Documentation",
+                "Node.js",
+                "Artificial Intelligence",
+                "Git",
+                "ETL (Extraction, Transformation, Loading)",
+                "Team Management",
+                "Amazon EC2",
+                "Solid Principles",
+                "Full Stack Development",
+                "Task Prioritization",
+                "HTML 5",
+                "React.js",
+                "Architecture",
+                "Google Cloud Platform (GCP)",
+                "JavaScript",
+                "Web Crawling",
+                "Personal Development Plan",
+                "Amazon Route 53",
+                "Usability",
+                "Metabase",
+                "Datadog",
               ]}
             />
           </ListContent>
@@ -165,11 +191,11 @@ const MainProfessionalBackground = () => (
               individual goals with our collective objectives.
             </Paragraph>
             <Paragraph>
-              Execution was key. We meticulously rolled out the new process,
-              addressing challenges as they arose and refining our approach
-              based on feedback. The introduction of PDPs empowered team members
-              to take ownership of their development, contributing to a more
-              engaged and productive workforce.
+              We meticulously rolled out the new process, addressing challenges
+              as they arose and refining our approach based on feedback. The
+              introduction of PDPs empowered team members to take ownership of
+              their development, contributing to a more engaged and productive
+              workforce.
             </Paragraph>
             <Paragraph>
               By the end of this leadership period, the transformation was
@@ -181,13 +207,22 @@ const MainProfessionalBackground = () => (
             <TagSkills
               skills={[
                 "Team Leadership",
-                "Team Management",
-                "Process Improvement",
                 "Strategic Planning",
+                "MongoDB",
+                "Process Improvement",
+                "Team Building",
+                "Career Counseling",
+                "GitHub",
+                "Team Management",
+                "Design Patterns",
+                "Git",
+                "Team Management",
+                "Full Stack Development",
                 "Task Prioritization",
                 "Product Roadmap",
+                "Node.js",
                 "Personal Development Plan",
-                "Team Building",
+                "Usability",
               ]}
             />
           </ListContent>
@@ -222,20 +257,35 @@ const MainProfessionalBackground = () => (
             <TagSkills
               skills={[
                 "Team Leadership",
-                "Architecture",
-                "Process Improvement",
-                "Technology Team Culture",
-                "Career Counseling",
-                "Hiring",
-                "NodeJS",
-                "JavaScript",
                 "AWS",
-                "GitHub",
-                "Express.js",
-                "React.js",
+                "MongoDB",
+                "Process Improvement",
                 "PostgreSQL",
+                "Continuous Integration/Continuous Delivery (CI/CD)",
+                "Team Building",
+                "Hiring",
+                "Career Counseling",
                 "Docker",
-                "Continuous Integration and Delivery (CI/CD)",
+                "npm",
+                "GitHub",
+                "Technology Team Culture",
+                "Express.js",
+                "Design Patterns",
+                "CSS",
+                "Node.js",
+                "Git",
+                "ETL (Extraction, Transformation, Loading)",
+                "Team Management",
+                "Solid Principles",
+                "Full Stack Development",
+                "Task Prioritization",
+                "HTML 5",
+                "React.js",
+                "Architecture",
+                "JavaScript",
+                "Node.js",
+                "Personal Development Plan",
+                "Usability",
               ]}
             />
           </ListContent>
@@ -274,18 +324,39 @@ const MainProfessionalBackground = () => (
             </Paragraph>
             <TagSkills
               skills={[
-                "NodeJS",
-                "JavaScript",
-                "Kong",
-                "Apigee",
-                "Google Cloud Platform (GCP)",
-                "New Relic",
-                "NextJS",
-                "Express.js",
-                "C4 Model",
-                "Design Docs",
-                "Architecture",
+                "Team Leadership",
+                "Strategic Planning",
+                "MongoDB",
+                "Process Improvement",
+                "Continuous Integration/Continuous Delivery (CI/CD)",
+                "Team Building",
+                "Career Counseling",
                 "Information Security",
+                "npm",
+                "GitHub",
+                "Technology Team Culture",
+                "RabbitMQ",
+                "Express.js",
+                "New Relic",
+                "Design Patterns",
+                "Next.js",
+                "CSS",
+                "Design Documentation",
+                "Node.js",
+                "Git",
+                "Team Management",
+                "Kong",
+                "Full Stack Development",
+                "Task Prioritization",
+                "HTML 5",
+                "Architecture",
+                "C4 Model",
+                "Google Cloud Platform (GCP)",
+                "JavaScript",
+                "Node.js",
+                "Personal Development Plan",
+                "Apigee",
+                "Usability",
               ]}
             />
           </ListContent>
@@ -300,9 +371,9 @@ const MainProfessionalBackground = () => (
               I embarked on a transformative journey by spearheading the
               development of a comprehensive digital account tailored for
               micro-entrepreneurs in Brazil, marking one of the most significant
-              case studies of my career. As the Tech Lead of a pioneering
-              super-squad, I orchestrated the evolution of this initiative into
-              over 10 specialized teams.
+              case studies of my career. As the Tech Lead of a super squad, we
+              successfully delivered the product, which later split into 10 new
+              teams.
             </Paragraph>
             <Paragraph>
               My leadership was pivotal in guiding the team responsible for
@@ -310,7 +381,8 @@ const MainProfessionalBackground = () => (
               MEI Fácil and Banco Neon. Through strategic planning and
               meticulous execution, we navigated complexities to deliver a
               seamless digital solution that empowered micro-entrepreneurs
-              across the country.
+              across the country. Resulting in the acquisition of 200k customers
+              within the first year of launch.
             </Paragraph>
             <Paragraph>
               Beyond development, I played a crucial role in supporting teams
@@ -328,19 +400,40 @@ const MainProfessionalBackground = () => (
             </Paragraph>
             <TagSkills
               skills={[
-                "NodeJS",
-                "JavaScript",
-                "NestJS",
-                "C#",
-                "AWS",
-                "RabbitMQ",
-                "Prometheus",
-                "Kubernetes",
-                "Graylog",
-                "Express.js",
-                "React Native",
                 "Team Leadership",
                 "Bitbucket",
+                "Strategic Planning",
+                "Prometheus",
+                "AWS",
+                "MongoDB",
+                "Process Improvement",
+                "Continuous Integration/Continuous Delivery (CI/CD)",
+                "Team Building",
+                "NestJS",
+                "Career Counseling",
+                "React Native",
+                "npm",
+                "GitHub",
+                "Technology Team Culture",
+                "RabbitMQ",
+                "C#",
+                "Express.js",
+                "Design Patterns",
+                "CSS",
+                "Node.js",
+                "Graylog",
+                "Git",
+                "Team Management",
+                "Full Stack Development",
+                "Task Prioritization",
+                "HTML 5",
+                "React.js",
+                "Architecture",
+                "Kubernetes",
+                "JavaScript",
+                "Node.js",
+                "Personal Development Plan",
+                "Usability",
               ]}
             />
           </ListContent>
@@ -375,23 +468,37 @@ const MainProfessionalBackground = () => (
               results that streamlined operations and empowered entrepreneurs
               nationwide.
             </Paragraph>
-            <Paragraph>
-              My tenure at MEI Fácil was characterized by technical leadership,
-              cross-functional collaboration, and a relentless pursuit of
-              excellence. I honed critical skills in team building, project
-              execution, and fostering innovation, driving transformative change
-              that solidified our position as a leader in empowering
-              micro-entrepreneurs in Brazil.
-            </Paragraph>
             <TagSkills
               skills={[
-                "NodeJS",
-                "JavaScript",
-                "Express.js",
-                "AWS",
-                "NestJS",
                 "Team Leadership",
+                "Strategic Planning",
+                "AWS",
+                "MongoDB",
+                "Process Improvement",
+                "Continuous Integration/Continuous Delivery (CI/CD)",
+                "Team Building",
                 "Hiring",
+                "NestJS",
+                "Career Counseling",
+                "npm",
+                "GitHub",
+                "Technology Team Culture",
+                "Express.js",
+                "Design Patterns",
+                "CSS",
+                "Node.js",
+                "Git",
+                "Team Management",
+                "Full Stack Development",
+                "Task Prioritization",
+                "HTML 5",
+                "React.js",
+                "Architecture",
+                "JavaScript",
+                "Node.js",
+                "Web Crawling",
+                "Personal Development Plan",
+                "Usability",
               ]}
             />
           </ListContent>
@@ -403,41 +510,105 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              Back as an undergraduate professor, I had the opportunity to teach
-              subjects focused on web development, as well as fundamental
-              courses for computer science and computer engineering programs.
+              At UTFPR, I taught core courses for the Technology in Systems
+              Analysis and Development and Computer Engineering programs.
             </Paragraph>
             <Paragraph>
-              Some of the courses I taught included: Web Programming, Data
-              Structure, Desktop Programming, Integrator Project, Algorithms,
-              and Introduction to Software Engineering.
+              Responsibilities: 📚 Preparing and delivering lectures 📝
+              Creating, administering, and grading exams 🎓 Conducting tutoring
+              sessions 👩‍💼 Supervising internships 🌟 Guiding final projects
             </Paragraph>
+            <Paragraph>
+              Courses Taught: 💻 Web Programming: HTML, CSS, JS, ReactJS 📊 Data
+              Structures: Arrays, Lists, Stacks, Queues, Hash Tables, Trees 🖥️
+              Desktop Programming: Visual programming concepts, interface
+              development, component libraries, property and event control, data
+              input/output handling 🔄 Integrator Project: Applying knowledge
+              from various courses to develop an integrated computing system,
+              including research methodology and final report presentation 📐
+              Algorithms: Basics, language evaluation criteria, implementation
+              methods, language evolution, syntax and semantics, data types,
+              control structures, subprograms, arrays, structures, pointers,
+              object-oriented concepts 🛠️ Introduction to Software Engineering:
+              System, software, and software engineering definitions, social and
+              business context, software product and process concepts, software
+              engineering knowledge areas, development methods, applications,
+              and tools
+            </Paragraph>
+            <TagSkills
+              skills={[
+                "Laravel",
+                "Student Assessment and Feedback",
+                "Teaching",
+                "PHP",
+                "Curriculum and Instruction Development",
+                "GitHub",
+                "Research Methodology and Communication",
+                "CSS",
+                "Git",
+                "Technical Proficiency",
+                "HTML 5",
+                "React.js",
+                "Project Supervision",
+                "Node.js",
+                "Usability",
+              ]}
+            />
           </ListContent>
           <ListSubTitle type="orange">
             2013~2013 / POSTGRADUATE TEACHER
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I had the opportunity to resume teaching for the postgraduate
-              course in Java development. During this time, I taught a course
-              focused on Servlets, JSP and basic technologies for Web
-              developing.
+              For the Postgraduate Java course, I taught Java with a focus on
+              web development, covering HTML, CSS, JavaScript, Servlets, and
+              JSP.
             </Paragraph>
+            <TagSkills
+              skills={[
+                "Student Assessment and Feedback",
+                "Teaching",
+                "GitHub",
+                "Vue.js",
+                "CSS",
+                "HTML 5",
+                "Java",
+                "JavaScript",
+                "Usability",
+              ]}
+            />
           </ListContent>
           <ListSubTitle type="orange">
             2008~2009 / GRADUATION TEACHER
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              This was my first opportunity to fall in love with the academic
-              field. Right after my graduation, I had the honor of teaching at
-              the university where I graduated.
+              Responsibilities: 📚 Preparing and delivering lectures 📝
+              Creating, administering, and grading exams 🎓 Conducting tutoring
+              sessions
             </Paragraph>
             <Paragraph>
-              During this time, I taught several courses, including Business
-              Programming with C#, Web Programming, Basic Informatics, and
-              Database Integrator Project.
+              Courses Taught: 💼 Business Programming - Microsoft .NET with C#
+              🌐 Web Programming - HTML 5, CSS, Javascript 💻 Basic Informatics
+              - Word, Excel, Powerpoint, Access 🗃️ Database Integrator Project -
+              PostgreSQL
             </Paragraph>
+            <TagSkills
+              skills={[
+                "PostgreSQL",
+                "Microsoft Access",
+                "Teaching",
+                "GitHub",
+                "Microsoft PowerPoint",
+                "C#",
+                "CSS",
+                "Microsoft Excel",
+                "HTML 5",
+                "JavaScript",
+                "Microsoft Word",
+                "Usability",
+              ]}
+            />
           </ListContent>
         </ListItem>
       </ListContainer>
