@@ -18,13 +18,14 @@ const AboutMe = () => (
       <Image alt="Diogo Cezar" />
     </LeftContent>
     <RightContent>
+      <Title type="internal" color="purple-dark">
+        My Journey in Technology and Leadership
+      </Title>
       <Paragraph>
-        I am Diogo Cezar, a technology enthusiast with 38 years of life and over
-        17 years of experience in the field. From my first steps in development,
-        I found in technology a way to turn ideas into reality and help people.
-        My journey has been guided by curiosity and a constant desire to learn
-        and share knowledge, leading me to specialize in Artificial Intelligence
-        and lead technology teams.
+        From my first steps in development, I found in technology a way to turn
+        ideas into reality and help people. My journey has been guided by
+        curiosity and a constant desire to learn and share knowledge, leading me
+        to specialize in Artificial Intelligence and lead technology teams.
       </Paragraph>
       <Paragraph>
         I believe that technology gives people superpowers, and with great power
