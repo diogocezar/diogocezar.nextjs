@@ -1,12 +1,12 @@
 import React from "react";
+import Link from "next/link";
 
 import { Section } from "@/components/Containers";
 import { LeftContent, RightContent } from "@/components/AlignContent";
 
 import Separator from "@/objects/Separator";
 import Image from "@/objects/Images";
-import { Title, SubTitle } from "@/objects/Titles";
-import { QuotedParagraph } from "@/objects/Quotes";
+import { Title } from "@/objects/Titles";
 import Paragraph from "@/objects/Paragraph";
 import Button from "@/objects/Button";
 import { ReadCvLogo } from "@phosphor-icons/react";
@@ -49,10 +49,17 @@ const AboutMe = () => (
         delivering results that make a difference, always guided by honesty,
         respect, and passion for what I do.
       </Paragraph>
-      <Button>
-        <ReadCvLogo size={23} />
-        <div style={{ marginTop: "4px" }}>Download my resume</div>
-      </Button>
+      <Link
+        href="/assets/docs/diogo-cezar-resume-en.pdf"
+        rel="noopener noreferrer"
+        target="_blank"
+        download="diogo-cezar-resume"
+      >
+        <Button>
+          <ReadCvLogo size={23} />
+          <div style={{ marginTop: "4px" }}>Download Resume</div>
+        </Button>
+      </Link>
     </RightContent>
   </Section>
 );

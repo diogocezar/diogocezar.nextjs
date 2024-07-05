@@ -20,14 +20,23 @@ const Hobbies = () => (
         <ListItem color="purple" link={false}>
           <ListTitle>GAMMING</ListTitle>
           <ListContent>
-            Ok, but I like the hard ones, like{" "}
+            Love it, but I really like the hard ones, like{" "}
+            <Link
+              type="orange"
+              href="https://pt.wikipedia.org/wiki/Demon%27s_Souls"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Demon Souls
+            </Link>
+            ,{" "}
             <Link
               type="orange"
               href="https://pt.wikipedia.org/wiki/Dark_Souls"
               rel="noopener noreferrer"
               target="_blank"
             >
-              DarkSouls
+              Darks Souls I, II, III
             </Link>
             ,{" "}
             <Link
@@ -36,14 +45,22 @@ const Hobbies = () => (
               target="_blank"
             >
               Bloodborne
-            </Link>{" "}
-            or{" "}
+            </Link>
+            ,{" "}
             <Link
               href="https://pt.wikipedia.org/wiki/Sekiro"
               rel="noopener noreferrer"
               target="_blank"
             >
               Sekiro
+            </Link>{" "}
+            and{" "}
+            <Link
+              href="https://pt.wikipedia.org/wiki/Elden_Ring"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Elden Ring
             </Link>
             .
           </ListContent>

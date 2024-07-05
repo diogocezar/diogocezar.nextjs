@@ -22,8 +22,12 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              As the CEO of Typper, one of the top 100 AI startups in Brazil, my
-              responsibilities include setting the strategic direction of the
+              As the CEO of Typper, one of the top 100 technology startups in
+              Brazil (by F6S), achieved a user base of over 50k, with more than
+              15k images, 17k texts, and 35k codes generated using AI.
+            </Paragraph>
+            <Paragraph>
+              My responsibilities include setting the strategic direction of the
               company, overseeing product development, managing the team,
               ensuring financial stability, and building partnerships. I am
               committed to fostering a culture of innovation and driving the
@@ -34,12 +38,6 @@ const MainProfessionalBackground = () => (
               tech enthusiasts who love technology, entrepreneurship, and
               artificial intelligence. As one of the founders and CEO, I am
               proud to say that Typper was an evolution of our previous venture.
-            </Paragraph>
-            <Paragraph>
-              At Typper.io, our mission is to create innovative products powered
-              by artificial intelligence. We’re currently focusing on the
-              markets of Designers and Business Intelligence, aiming to
-              revolutionize the way professionals work in these fields.
             </Paragraph>
             <Paragraph>
               In a remarkably short time, we have achieved incredible
@@ -80,40 +78,34 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I faced the challenge of creating a robust technological structure
-              for a rapidly growing company. I identified the need for an
-              integrated approach to feature delivery, and to address this, I
-              implemented cross-functional teams. My plan involved developing
-              efficient processes such as onboarding new collaborators, demand
-              lifecycle, and structuring the Upstream Board.
+              Created a robust technological structure for a rapidly growing
+              company. I defined and supervised essential rituals such as
+              dailies, technical refinements, planning, estimates,
+              retrospectives, and product/technology weeklies. I standardized
+              tools and development methods, including: conventions, commits
+              patterns, automated tests, branches organizations and
+              documentation. Furthermore, I developed a guide for roles,
+              responsibilities, and career paths, focusing on technical skills,
+              deliverables, human skills, leadership, and strategic impact.
             </Paragraph>
             <Paragraph>
-              To ensure code quality and documentation standardization, I
-              established guidelines for code review and task scoring. I
-              introduced practices such as Remote First, post-mortem analysis,
-              mob programming, and agile processes. Additionally, I created a
-              selection process for technical collaborators and adopted a
-              centralized knowledge tool, fostering a culture of continuous
-              improvement.
+              I contributed to the conception, planning, and execution of
+              projects such as: Bank Credit Certificate (CCB), ERP integrations,
+              Leverage System, Rediscount System, API integrations, Definition
+              of a new Ledger structure, Improvements in customer platform
+              experience and journey. Regarding technical enhancements, I
+              assisted in the architecture and execution of: new authentication
+              module, migration from monolithic to modular architecture, ETLs,
+              creation of a design system, monitoring systems, SOLID
+              implementation, front-end migration, AWS to GCP cloud migration;
             </Paragraph>
             <Paragraph>
-              During execution, I defined and supervised essential rituals such
-              as dailies, technical refinements, planning, retrospectives, and
-              produtech. I standardized tools and development methods, including
-              naming conventions, commits, branches, and API documentation.
-              Furthermore, I developed a guide for roles, responsibilities, and
-              career paths, focusing on technical skills, deliverables, human
-              skills, leadership, and strategic impact.
+              Successfully doubled the velocity of technology teams and fostered
+              a strong tech culture.
             </Paragraph>
             <Paragraph>
-              The results were remarkable, including a 100% increase in team
-              performance and the resolution of technical debts. Leading a data
-              team, I drove innovations, efficiency, and technical excellence,
-              significantly contributing to the company’s success. I mentored
-              various areas of Bankme in leadership, organization, and
-              processes, ensuring the delivery of consistent and scalable
-              solutions through concepts of microservices and database
-              segregation.
+              I mentored various areas of Bankme in leadership, organization,
+              processes and OKRs.
             </Paragraph>
             <TagSkills
               skills={[
@@ -174,35 +166,16 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I stepped into the role of leading the Product team during a
-              critical phase when our processes were undefined and demand
-              management was chaotic. The team faced a lack of clarity in
-              prioritizing tasks and achieving visibility on deliveries.
-              Recognizing the urgency, I took the challenge head-on to establish
-              a solid foundation.
+              I took over the leadership of the Product team during a critical
+              phase when our processes were undefined and demand management was
+              chaotic. The team faced a lack of clarity in task prioritization
+              and visibility of deliveries.
             </Paragraph>
             <Paragraph>
-              My plan was straightforward but ambitious: implement a new product
-              process to streamline demand arrival, improve prioritization, and
-              enhance visibility. I collaborated with the team to design this
-              new process, ensuring every member’s input was valued.
-              Additionally, I introduced Personal Development Plans (PDP) for
-              each team member, fostering their growth and aligning their
-              individual goals with our collective objectives.
-            </Paragraph>
-            <Paragraph>
-              We meticulously rolled out the new process, addressing challenges
-              as they arose and refining our approach based on feedback. The
-              introduction of PDPs empowered team members to take ownership of
-              their development, contributing to a more engaged and productive
-              workforce.
-            </Paragraph>
-            <Paragraph>
-              By the end of this leadership period, the transformation was
-              evident. We had a minimally organized team with a clear roadmap
-              vision, structured processes for demand collection,
-              prioritization, and execution. The foundation we laid set the
-              stage for continued growth and success.
+              I implemented new processes for the product team to improve
+              roadmap clarity, feature collection, prioritization, and
+              visibility of completed deliveries. Additionally, I introduced
+              Personal Development Plans (PDP) for each team member.
             </Paragraph>
             <TagSkills
               skills={[
@@ -234,25 +207,22 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              During my time at Provi, I embraced the role of technology manager
-              with a focus on leading a dynamic tribe. My initial challenge was
-              to overhaul existing processes and increase team productivity.
-              Through strategic planning and execution, I introduced innovative
-              frameworks that not only optimized operations but also fostered a
-              culture of continuous improvement. Conducting insightful 1:1
-              meetings, I identified team strengths and areas for development,
-              driving targeted initiatives aimed at enhancing overall
-              performance.
+              I restructured existing processes by introducing essential
+              concepts such as documentation, estimates, technical task
+              detailing, incident investigations, and monitoring improvements.
+              My focus was also on keeping the team happy and engaged, achieving
+              this through 1:1 meetings that allowed me to identify the team’s
+              strengths and weaknesses. This resulted in a more motivated and
+              confident team.
             </Paragraph>
             <Paragraph>
-              A significant aspect of my role involved balancing people
-              management with execution. With a dedicated focus on team dynamics
-              and agile delivery, I prioritized enhancing our sprint and
-              burndown processes. This approach not only optimized project
-              timelines but also ensured seamless collaboration across
-              multifunctional teams. I played a pivotal role in steering
-              critical projects, including the successful integration of the
-              billing system.
+              I contributed to the design, documentation, and migration of our
+              systems to a monorepo, and also worked on various deliveries with
+              the team using the MOB Programming technique. I was responsible
+              for the development and implementation of a microservice that
+              centralizes all external integrations, including communications
+              via SMS, email, and WhatsApp, as well as integrations with
+              partners (Billing System).
             </Paragraph>
             <TagSkills
               skills={[
@@ -295,32 +265,22 @@ const MainProfessionalBackground = () => (
           <ListSubTitle type="orange">2021~2022 / TECH LEAD</ListSubTitle>
           <ListContent>
             <Paragraph>
-              My journey at a BigTech company was transformative, offering
-              profound insights into strategic vision, process refinement, and
-              cutting-edge technology management. It was a pivotal experience
-              where I honed not only my technical prowess but also my leadership
-              acumen.
+              As a Tech Lead in the MagaluPay tribe, I led multiple squads
+              dedicated to enhancing and expanding fintech products. I led the
+              MagaluPay team during Black Friday preparations, ensuring stress
+              tests, infrastructure projection, and issue identification to
+              reduce costs. I identified points for improvement in
+              infrastructure resources that reduced costs by applying cluster
+              resizing.
             </Paragraph>
             <Paragraph>
-              As a Tech Lead in the MagalyPay tribe at Magalu, I spearheaded
-              multiple squads dedicated to enhancing and expanding the fintech
-              products. From refining features in the Upstream phases to
-              meticulous documentation and POC development in the Downstream
-              phases, I played a crucial role in the entire product lifecycle.
+              I was responsible for being a technical reference, supporting the
+              teams in designing technical solutions, building POCs,
+              deployments, and handling incidents.
             </Paragraph>
             <Paragraph>
-              A standout achievement was leading the development of the Wallet
-              within MagaluPay, a project that posed significant challenges yet
-              showcased my ability to strategize, execute, and deliver impactful
-              results. By fostering collaboration and innovation, I navigated
-              complexities to deliver a robust solution that aligned seamlessly
-              with business objectives.
-            </Paragraph>
-            <Paragraph>
-              Throughout this experience, I fortified skills in strategic
-              planning, technical leadership, and project management, leveraging
-              a blend of innovation and operational excellence to drive
-              continuous improvement and achieve tangible outcomes.
+              I led the technical design and implementation of the MagaluPay
+              Wallet.
             </Paragraph>
             <TagSkills
               skills={[
@@ -368,35 +328,26 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I embarked on a transformative journey by spearheading the
-              development of a comprehensive digital account tailored for
-              micro-entrepreneurs in Brazil, marking one of the most significant
-              case studies of my career. As the Tech Lead of a super squad, we
-              successfully delivered the product, which later split into 10 new
-              teams.
+              I technically led a team that created a digital account aimed at
+              micro-entrepreneurs in Brazil. After our initial delivery, the
+              product split into 10 new teams.
             </Paragraph>
             <Paragraph>
-              My leadership was pivotal in guiding the team responsible for
-              crafting the MEI Fácil application and integrating APIs between
-              MEI Fácil and Banco Neon. Through strategic planning and
-              meticulous execution, we navigated complexities to deliver a
-              seamless digital solution that empowered micro-entrepreneurs
-              across the country. Resulting in the acquisition of 200k customers
-              within the first year of launch.
+              I was responsible for planning and executing the integration of
+              the MEI Fácil app (React Native) with Neon’s banking structure. To
+              achieve this, we created an entire BFF structure to orchestrate
+              calls to the existing microservices. On the MEI Fácil side, I
+              structured and implemented services to facilitate an almost
+              frictionless onboarding process, utilizing already existing
+              information.
             </Paragraph>
             <Paragraph>
-              Beyond development, I played a crucial role in supporting teams
-              through the stabilization phase of this ambitious project.
-              Post-launch, I assumed leadership roles within the Activation and
-              Onboarding Squads, ensuring the continued success and optimization
-              of the digital account platform.
+              This work resulted in the acquisition of 200,000 customers in the
+              first year after launch.
             </Paragraph>
             <Paragraph>
-              Throughout this experience, I honed invaluable skills in technical
-              leadership, project management, and cross-functional
-              collaboration, driving innovation and achieving tangible results
-              that revolutionized financial services for micro-entrepreneurs in
-              Brazil.
+              After the team division, I took on the technical leadership of the
+              Activation and Onboarding teams.
             </Paragraph>
             <TagSkills
               skills={[
@@ -445,28 +396,20 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              Joining MEI Fácil at its inception, I embarked on a journey
-              defined by innovation and impact in simplifying bureaucracy for
-              micro-entrepreneurs (MEIs) across Brazil. As one of the pioneering
-              members of the technology team, I played a pivotal role in shaping
-              our approach to solving critical challenges faced by MEIs.
+              Since joining MEI Fácil from its inception, the focus has always
+              been on innovation and making bureaucracy simpler for
+              micro-entrepreneurs (MEIs) across Brazil.
             </Paragraph>
             <Paragraph>
-              At the core of MEI Fácil’s success were three pillars: Business
-              Education, Bureaucracy, and Finance, which collectively
-              transformed our platform into a pioneering super-app. My journey
-              as a technical leader began here, where I not only built and led
-              high-performing teams but also nurtured a technology-driven
-              culture focused on continuous improvement and user-centric
-              innovation.
+              The initial concept of the MEI Fácil digital account was crucial
+              in supporting our integration with Banco Neon. We began developing
+              the entire product journey and integrating with external partners
+              (Conductor).
             </Paragraph>
             <Paragraph>
-              I spearheaded various projects, with a significant focus on the
-              MEI Fácil Account, pivotal in our integration with Banco Neon.
-              Through strategic planning and hands-on execution, we evolved our
-              solutions to meet the evolving needs of MEIs, delivering tangible
-              results that streamlined operations and empowered entrepreneurs
-              nationwide.
+              I was responsible for designing and implementing the backend
+              structures using NodeJS, Express, and NestJS to provide customer
+              data for the digital account.
             </Paragraph>
             <TagSkills
               skills={[
