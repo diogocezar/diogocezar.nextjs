@@ -4,6 +4,9 @@ import { devices } from "@/styles/devices";
 const StyledPage = styled.div`
   background-color: ${({ color }) =>
     `var(--color-${color})` || "var(--color-purple)"}!important;
+  background-image: url("assets/images/bg/bg.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
   opacity: 1;
   position: relative;
   float: left;
