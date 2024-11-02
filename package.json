@@ -12,6 +12,7 @@
   "author": "Diogo Cezar Teixeira Batista <diogo@diogocezar.com>",
   "license": "MIT",
   "dependencies": {
+    "@next/third-parties": "^15.0.2",
     "@phosphor-icons/react": "2.1.6",
     "antd": "5.1.7",
     "eslint": "8.33.0",
