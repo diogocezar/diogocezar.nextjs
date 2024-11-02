@@ -1,4 +1,4 @@
-// import { Page, Wrapper } from "@/components/Containers";
+import { Page, Wrapper } from "@/components/Containers";
 
 // import ProudToBeenPart from "@/components/Pages/Portfolio/ProudToBeenPart";
 // import MainCustomers from "@/components/Pages/Portfolio/MainCustomers";
@@ -10,14 +10,14 @@ import FooterMain from "@/components/Pages/Footer";
 const Portfolio = () => {
   return (
     <>
-      {/* <Page color="purple-dark">
+      <Page color="purple-dark">
         <Wrapper>
-          <ProudToBeenPart />
+          {/* <ProudToBeenPart />
           <MainCustomers />
           <Musical />
-          <Agency />
+          <Agency /> */}
         </Wrapper>
-      </Page> */}
+      </Page>
       <FooterMain />
     </>
   );
