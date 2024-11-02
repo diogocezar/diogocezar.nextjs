@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 const Base = createGlobalStyle`
   p{
@@ -18,6 +18,15 @@ const Base = createGlobalStyle`
   a{
     text-decoration: none!important;
   }
-`
+  .fade {
+    transition: opacity 0.4s ease-in-out;
+  }
+  .visible {
+    opacity: 1;
+  }
+  .hidden {
+    opacity: 0;
+  }
+`;
 
-export default Base
+export default Base;

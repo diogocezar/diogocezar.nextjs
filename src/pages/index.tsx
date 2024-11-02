@@ -22,7 +22,17 @@ const Index = ({ index, footer }) => {
         `}
       </Script>
       <Wrapper>
-        <Introduction title={title} subtitle={subtitle} biography={biography} />
+        <Introduction
+          title={title}
+          subtitleOptions={[
+            "Technology Leader",
+            "Mentor",
+            "Teacher",
+            "Head of Technology",
+            "Developer",
+          ]}
+          biography={biography}
+        />
         <Content />
       </Wrapper>
       <FooterMain isMain={true} content={footer} />
