@@ -12,12 +12,12 @@ import TagSkills from "@/objects/TagSkills";
 
 const MainProfessionalBackground = () => (
   <Section>
-    <Separator number="03" title="Main Professional Background" type="orange" />
+    <Separator number="03" title="Main Professional Background" />
     <RightContent>
       <ListContainer>
-        <ListItem type="orange" link={false}>
-          <ListTitle type="orange">Typper</ListTitle>
-          <ListSubTitle type="orange">
+        <ListItem link={false}>
+          <ListTitle>Typper</ListTitle>
+          <ListSubTitle type="white">
             FEB 2023~NOW / CEO AND CO-FOUNDER
           </ListSubTitle>
           <ListContent>
@@ -71,9 +71,9 @@ const MainProfessionalBackground = () => (
             />
           </ListContent>
         </ListItem>
-        <ListItem type="orange" link={false}>
-          <ListTitle type="orange">BANKME</ListTitle>
-          <ListSubTitle type="orange">
+        <ListItem link={false}>
+          <ListTitle>BANKME</ListTitle>
+          <ListSubTitle type="white">
             SEP 2022~MAI 2024 / HEAD OF TECHNOLOGY
           </ListSubTitle>
           <ListContent>
@@ -159,9 +159,9 @@ const MainProfessionalBackground = () => (
             />
           </ListContent>
         </ListItem>
-        <ListItem type="orange" link={false}>
-          <ListTitle type="orange">BANKME</ListTitle>
-          <ListSubTitle type="orange">
+        <ListItem link={false}>
+          <ListTitle>BANKME</ListTitle>
+          <ListSubTitle type="white">
             MAR 2023~MAI 2023 / HEAD OF PRODUCT
           </ListSubTitle>
           <ListContent>
@@ -200,9 +200,9 @@ const MainProfessionalBackground = () => (
             />
           </ListContent>
         </ListItem>
-        <ListItem type="orange" link={false}>
-          <ListTitle type="orange">PROVI</ListTitle>
-          <ListSubTitle type="orange">
+        <ListItem link={false}>
+          <ListTitle>PROVI</ListTitle>
+          <ListSubTitle type="white">
             MAI 2022~SEP 2022 / ENGINEER MANAGER
           </ListSubTitle>
           <ListContent>
@@ -260,9 +260,9 @@ const MainProfessionalBackground = () => (
             />
           </ListContent>
         </ListItem>
-        <ListItem type="orange" link={false}>
-          <ListTitle type="orange">LUIZALABS</ListTitle>
-          <ListSubTitle type="orange">2021~2022 / TECH LEAD</ListSubTitle>
+        <ListItem link={false}>
+          <ListTitle>LUIZALABS</ListTitle>
+          <ListSubTitle type="white">2021~2022 / TECH LEAD</ListSubTitle>
           <ListContent>
             <Paragraph>
               As a Tech Lead in the MagaluPay tribe, I led multiple squads
@@ -321,9 +321,9 @@ const MainProfessionalBackground = () => (
             />
           </ListContent>
         </ListItem>
-        <ListItem type="orange" link={false}>
-          <ListTitle type="orange">NEON</ListTitle>
-          <ListSubTitle type="orange">
+        <ListItem link={false}>
+          <ListTitle>NEON</ListTitle>
+          <ListSubTitle type="white">
             2019~2021 / Back End Coordinator
           </ListSubTitle>
           <ListContent>
@@ -389,9 +389,9 @@ const MainProfessionalBackground = () => (
             />
           </ListContent>
         </ListItem>
-        <ListItem type="orange" link={false}>
-          <ListTitle type="orange">MEI FÁCIL</ListTitle>
-          <ListSubTitle type="orange">
+        <ListItem link={false}>
+          <ListTitle>MEI FÁCIL</ListTitle>
+          <ListSubTitle type="white">
             2018~2019 / Tech Lead and Back End Cordinator
           </ListSubTitle>
           <ListContent>
@@ -446,9 +446,9 @@ const MainProfessionalBackground = () => (
             />
           </ListContent>
         </ListItem>
-        <ListItem type="orange" link={false}>
-          <ListTitle type="orange">UTFPR TEACHER</ListTitle>
-          <ListSubTitle type="orange">
+        <ListItem link={false}>
+          <ListTitle>UTFPR TEACHER</ListTitle>
+          <ListSubTitle type="white">
             2017~2019 / GRADUATION TEACHER
           </ListSubTitle>
           <ListContent>
@@ -498,7 +498,7 @@ const MainProfessionalBackground = () => (
               ]}
             />
           </ListContent>
-          <ListSubTitle type="orange">
+          <ListSubTitle type="white">
             2013~2013 / POSTGRADUATE TEACHER
           </ListSubTitle>
           <ListContent>
@@ -521,7 +521,7 @@ const MainProfessionalBackground = () => (
               ]}
             />
           </ListContent>
-          <ListSubTitle type="orange">
+          <ListSubTitle type="white">
             2008~2009 / GRADUATION TEACHER
           </ListSubTitle>
           <ListContent>

@@ -36,7 +36,7 @@ const Monographies = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button type="orange">
+              <Button type="purple">
                 {" "}
                 <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
@@ -60,7 +60,7 @@ const Monographies = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button type="orange">
+              <Button type="purple">
                 {" "}
                 <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>

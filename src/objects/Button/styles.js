@@ -7,12 +7,12 @@ const BaseButton = styled.button`
   align-items: center;
   gap: 6px;
   padding: 20px 26px;
-  border-radius: 0px !important;
+  border-radius: 50px !important;
   text-transform: uppercase;
   margin-right: ${({ right }) => right || "var(--size-s1)"};
-  font-family: "AkzidenzGroteskBE";
+  font-family: "obviously", sans-serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.9rem;
   height: 60px;
   cursor: pointer;
   margin-bottom: ${({ marginBottom }) => marginBottom || "var(--size-s1)"};
@@ -102,6 +102,9 @@ const StyledButton = styled(BaseButton)`
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+  }
+  div {
+    margin-top: -3px !important;
   }
 `;
 

@@ -5,30 +5,6 @@ const StyledPage = styled.div`
   background-color: ${({ color }) =>
     `var(--color-${color})` || "var(--color-purple)"}!important;
   opacity: 1;
-  background-image: radial-gradient(
-      rgba(
-          255,
-          255,
-          255,
-          ${({ color }) => (color === "orange" ? "0.04" : "0.02")}
-        )
-        5px,
-      transparent 1.2px
-    ),
-    radial-gradient(
-      rgba(
-          255,
-          255,
-          255,
-          ${({ color }) => (color === "orange" ? "0.04" : "0.02")}
-        )
-        10px,
-      ${({ color }) => `var(--color-${color})` || "var(--color-purple)"} 1.2px
-    );
-  background-size: 100px 100px;
-  background-position:
-    0 0,
-    50px 50px;
   position: relative;
   float: left;
   padding-bottom: ${({ paddingBottom }) =>

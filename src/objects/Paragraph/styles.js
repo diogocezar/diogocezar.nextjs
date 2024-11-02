@@ -7,8 +7,7 @@ const StyledParagraph = styled.p`
   width: 100%;
   color: ${({ color }) =>
     color ? `var(--color-${color})` : "var(--color-white)"}!important;
-  font-family: ${({ font }) =>
-    font === "sans-serif" ? "AkzidenzGroteskBE" : "AGaramondPro"}!important;
+  font-family: "obviously", sans-serif;
   font-style: normal;
   font-weight: ${({ bold }) => (bold ? "bold" : "normal")}!important;
   font-size: ${({ size }) => {
@@ -16,9 +15,9 @@ const StyledParagraph = styled.p`
       case "small":
         return "1rem";
       case "medium":
-        return "1.2rem";
+        return "1rem";
       default:
-        return "1.6rem";
+        return "1rem";
     }
   }}!important;
   line-height: ${({ size }) => {
@@ -28,7 +27,7 @@ const StyledParagraph = styled.p`
       case "medium":
         return "2rem";
       default:
-        return "2.7rem";
+        return "2rem";
     }
   }}!important;
   margin-bottom: ${({ bottom }) => bottom || "var(--size-s3)"} !important;
@@ -53,7 +52,7 @@ const StyledParagraph = styled.p`
         case "medium":
           return "1rem";
         default:
-          return "1.4rem";
+          return "1rem";
       }
     }}!important;
     line-height: ${({ size }) => {

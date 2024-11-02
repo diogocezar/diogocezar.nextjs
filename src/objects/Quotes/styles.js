@@ -1,10 +1,10 @@
-import styled from 'styled-components'
-import { devices } from '@/styles/devices'
+import styled from "styled-components";
+import { devices } from "@/styles/devices";
 
 const StyledQuotedMain = styled.blockquote`
   p {
     color: var(--color-white);
-    font-family: 'AGaramondPro';
+    font-family: "obviously", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.6rem;
@@ -13,7 +13,7 @@ const StyledQuotedMain = styled.blockquote`
     padding-right: var(--size-s6);
     @media ${devices.desktop} {
       padding-right: 0;
-      font-size: 1.4rem;
+      font-size: 1rem;
       line-height: 2.3rem;
     }
     @media ${devices.laptop} {
@@ -25,9 +25,9 @@ const StyledQuotedMain = styled.blockquote`
     }
   }
   span {
-    font-family: 'AkzidenzGroteskBE';
+    font-family: "obviously", sans-serif;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--color-white);
     margin-top: var(--size-s3);
     display: inline-block;
@@ -42,20 +42,20 @@ const StyledQuotedMain = styled.blockquote`
       font-size: 1.2rem;
     }
   }
-`
+`;
 
 const StyledQuotedParagraph = styled.blockquote`
   color: var(--color-white);
-  font-family: 'AGaramondPro';
+  font-family: "obviously", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.6rem;
-  line-height: 2.7rem;
+  font-size: 1rem;
+  line-height: 2rem;
   margin-bottom: var(--size-s4);
   padding-right: var(--size-s6);
   @media ${devices.desktop} {
     padding-right: 0;
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 2.3rem;
   }
   @media ${devices.tablet} {
@@ -63,16 +63,16 @@ const StyledQuotedParagraph = styled.blockquote`
     line-height: 2rem;
   }
   span {
-    font-family: 'AkzidenzGroteskBE';
+    font-family: "AkzidenzGroteskBE";
     font-weight: bold;
     font-size: 1.5rem;
     @media ${devices.desktop} {
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
     @media ${devices.tablet} {
       font-size: 1.2rem;
     }
   }
-`
+`;
 
-export { StyledQuotedMain, StyledQuotedParagraph }
+export { StyledQuotedMain, StyledQuotedParagraph };

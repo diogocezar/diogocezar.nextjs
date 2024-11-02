@@ -13,7 +13,7 @@ import FooterMain from "@/components/Pages/Footer";
 const About = ({ footer }) => {
   return (
     <>
-      <Page color="orange">
+      <Page color="purple-dark">
         <Wrapper>
           <AboutMe />
           <EducationBackground />

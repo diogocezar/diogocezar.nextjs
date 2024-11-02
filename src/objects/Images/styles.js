@@ -2,39 +2,31 @@ import styled from "styled-components";
 import { devices } from "@/styles/devices";
 
 const StyledImage = styled.img`
-  border-radius: 50%;
-  width: 85%;
+  width: 70%;
   margin: 0 auto;
   display: block;
-  opacity: 0.9;
-  border: var(--color-white) 8px solid;
   @media ${devices.desktopLarge} {
     width: 85%;
     margin-top: 0;
-    border: var(--color-white) 8px solid;
   }
   @media ${devices.desktop} {
     width: 100%;
     margin-top: 0;
-    border: var(--color-white) 7px solid;
   }
   @media ${devices.laptopLarge} {
     width: 50%;
     margin-top: 0;
     margin-bottom: var(--size-s3);
-    border: var(--color-white) 6px solid;
   }
   @media ${devices.laptop} {
     width: 50%;
     margin-top: 0;
     margin-bottom: var(--size-s3);
-    border: var(--color-white) 5px solid;
   }
   @media ${devices.mobileLarge} {
     width: 50%;
     margin-top: 0;
     margin-bottom: var(--size-s3);
-    border: var(--color-white) 4px solid;
   }
 `;
 

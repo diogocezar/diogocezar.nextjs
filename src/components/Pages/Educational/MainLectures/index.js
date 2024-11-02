@@ -17,15 +17,13 @@ import { DownloadSimple } from "@phosphor-icons/react/dist/ssr";
 
 const MainLectures = () => (
   <Section>
-    <Separator number="04" title="Main Lectures" type="orange" />
+    <Separator number="04" title="Main Lectures" />
     <RightContent>
       <ListContainer>
-        <ListItem type="orange" link={false}>
+        <ListItem link={false}>
           <LeftContentList>
-            <ListTitle type="orange">GDG LONDRINA MEETUP #8 - 2019</ListTitle>
-            <ListSubTitle type="orange">
-              LONDRISOFT - LONDRINA - PR
-            </ListSubTitle>
+            <ListTitle>GDG LONDRINA MEETUP #8 - 2019</ListTitle>
+            <ListSubTitle type="white">LONDRISOFT - LONDRINA - PR</ListSubTitle>
             <ListContent>API Node in 30 minutes - 30~45 min.</ListContent>
           </LeftContentList>
           <RightContentList>
@@ -35,7 +33,7 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>
+              <Button type="purple">
                 {" "}
                 <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
@@ -43,10 +41,10 @@ const MainLectures = () => (
             </Link>
           </RightContentList>
         </ListItem>
-        <ListItem type="orange" link={false}>
+        <ListItem link={false}>
           <LeftContentList>
-            <ListTitle type="orange">ROCKETSEAT EXPERIENCE - 2019</ListTitle>
-            <ListSubTitle type="orange">
+            <ListTitle>ROCKETSEAT EXPERIENCE - 2019</ListTitle>
+            <ListSubTitle type="white">
               SÃO PAULO EXPO - SÃO PAULO - SP
             </ListSubTitle>
             <ListContent>Minicourse NodeJS with Tests - 60 min.</ListContent>
@@ -58,7 +56,7 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>
+              <Button type="purple">
                 {" "}
                 <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
@@ -66,12 +64,10 @@ const MainLectures = () => (
             </Link>
           </RightContentList>
         </ListItem>
-        <ListItem type="orange" link={false}>
+        <ListItem link={false}>
           <LeftContentList>
-            <ListTitle type="orange">GDG LONDRINA MEETUP #7 - 2019</ListTitle>
-            <ListSubTitle type="orange">
-              UNICESUMAR - LONDRINA - PR
-            </ListSubTitle>
+            <ListTitle>GDG LONDRINA MEETUP #7 - 2019</ListTitle>
+            <ListSubTitle type="white">UNICESUMAR - LONDRINA - PR</ListSubTitle>
             <ListContent>
               Talk About The Future of Education - 30~45 min.
             </ListContent>
@@ -83,7 +79,7 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>
+              <Button type="purple">
                 {" "}
                 <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
@@ -91,10 +87,10 @@ const MainLectures = () => (
             </Link>
           </RightContentList>
         </ListItem>
-        <ListItem type="orange" link={false}>
+        <ListItem link={false}>
           <LeftContentList>
-            <ListTitle type="orange">DACOMP - 2019</ListTitle>
-            <ListSubTitle type="orange">
+            <ListTitle>DACOMP - 2019</ListTitle>
+            <ListSubTitle type="white">
               UTFPR - CORNÉLIO PROCÓPIO - PR
             </ListSubTitle>
             <ListContent>Minicourse of ReactJS - 4 hours.</ListContent>
@@ -106,7 +102,7 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>
+              <Button type="purple">
                 {" "}
                 <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
@@ -114,10 +110,10 @@ const MainLectures = () => (
             </Link>
           </RightContentList>
         </ListItem>
-        <ListItem type="orange" link={false}>
+        <ListItem link={false}>
           <LeftContentList>
-            <ListTitle type="orange">SECOMP - 2018</ListTitle>
-            <ListSubTitle type="orange">
+            <ListTitle>SECOMP - 2018</ListTitle>
+            <ListSubTitle type="white">
               UTFPR - CORNÉLIO PROCÓPIO - PR
             </ListSubTitle>
             <ListContent>Minicourse of ReactJS - 4 hours.</ListContent>
@@ -129,7 +125,7 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>
+              <Button type="purple">
                 {" "}
                 <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
@@ -137,10 +133,10 @@ const MainLectures = () => (
             </Link>
           </RightContentList>
         </ListItem>
-        <ListItem type="orange" link={false}>
+        <ListItem link={false}>
           <LeftContentList>
-            <ListTitle type="orange">UTFWARE - 2017</ListTitle>
-            <ListSubTitle type="orange">
+            <ListTitle>UTFWARE - 2017</ListTitle>
+            <ListSubTitle type="white">
               UTFPR - CORNÉLIO PROCÓPIO - PR
             </ListSubTitle>
             <ListContent>Git and GitHub - 4 hours.</ListContent>
@@ -152,7 +148,7 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>
+              <Button type="purple">
                 {" "}
                 <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
@@ -160,10 +156,10 @@ const MainLectures = () => (
             </Link>
           </RightContentList>
         </ListItem>
-        <ListItem type="orange" link={false}>
+        <ListItem link={false}>
           <LeftContentList>
-            <ListTitle type="orange">UTFWARE - 2017</ListTitle>
-            <ListSubTitle type="orange">
+            <ListTitle>UTFWARE - 2017</ListTitle>
+            <ListSubTitle type="white">
               UTFPR - CORNÉLIO PROCÓPIO - PR
             </ListSubTitle>
             <ListContent>Sass - 4 hours.</ListContent>
@@ -175,7 +171,7 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>
+              <Button type="purple">
                 {" "}
                 <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
@@ -183,10 +179,10 @@ const MainLectures = () => (
             </Link>
           </RightContentList>
         </ListItem>
-        <ListItem type="orange" link={false}>
+        <ListItem link={false}>
           <LeftContentList>
-            <ListTitle type="orange">UTFWARE - 2017</ListTitle>
-            <ListSubTitle type="orange">
+            <ListTitle>UTFWARE - 2017</ListTitle>
+            <ListSubTitle type="white">
               UTFPR - CORNÉLIO PROCÓPIO - PR
             </ListSubTitle>
             <ListContent>Why JavaScript - 40 min.</ListContent>
@@ -198,7 +194,7 @@ const MainLectures = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button>
+              <Button type="purple">
                 {" "}
                 <DownloadSimple size={23} />
                 <div style={{ marginTop: "4px" }}>Download</div>
@@ -206,10 +202,10 @@ const MainLectures = () => (
             </Link>
           </RightContentList>
         </ListItem>
-        <ListItem type="orange" link={false}>
+        <ListItem link={false}>
           <LeftContentList>
-            <ListTitle type="orange">CHARNEIRA - 2011</ListTitle>
-            <ListSubTitle type="orange">PUCPR - CURITIBA - PR</ListSubTitle>
+            <ListTitle>CHARNEIRA - 2011</ListTitle>
+            <ListSubTitle type="white">PUCPR - CURITIBA - PR</ListSubTitle>
             <ListContent>
               Multidisciplinary integration between design and web programming.
               10 hours.

@@ -13,14 +13,12 @@ import { ReadCvLogo } from "@phosphor-icons/react";
 
 const AboutMe = () => (
   <Section>
-    <Separator number="01" title="About Me" type="orange" />
+    <Separator number="01" title="About Me" />
     <LeftContent>
       <Image alt="Diogo Cezar" />
     </LeftContent>
     <RightContent>
-      <Title type="internal" color="purple-dark">
-        My Journey in Technology and Leadership
-      </Title>
+      <Title type="internal">My Journey in Technology and Leadership</Title>
       <Paragraph>
         From my first steps in development, I found in technology a way to turn
         ideas into reality and help people. My journey has been guided by
@@ -55,7 +53,7 @@ const AboutMe = () => (
         target="_blank"
         download="diogo-cezar-resume"
       >
-        <Button>
+        <Button type="purple">
           <ReadCvLogo size={23} />
           <div style={{ marginTop: "4px" }}>Download Resume</div>
         </Button>

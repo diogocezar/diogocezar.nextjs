@@ -1,8 +1,8 @@
 {
   "name": "Diogo Cezar - Portfolio",
   "short_name": "Diogo Cezar",
-  "theme_color": "#493382",
-  "background_color": "#241b3a",
+  "theme_color": "#EA00A4",
+  "background_color": "#160830",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",

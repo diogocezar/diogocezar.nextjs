@@ -11,7 +11,7 @@ import { GraduationCap } from "@phosphor-icons/react/dist/ssr";
 
 const GitHub = () => (
   <Section>
-    <Separator number="03" title="Teacher" type="orange" />
+    <Separator number="03" title="Teacher" />
     <RightContent>
       <Paragraph>
         As a teacher, I’ve gathered a wealth of materials that could be
@@ -24,7 +24,7 @@ const GitHub = () => (
         rel="noopener noreferrer"
         target="_blank"
       >
-        <Button bottom="4rem">
+        <Button bottom="4rem" type="purple">
           <GraduationCap size={23} />
           <div style={{ marginTop: "4px" }}>Check Contents</div>
         </Button>

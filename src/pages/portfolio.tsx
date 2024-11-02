@@ -20,11 +20,6 @@ const Portfolio = ({ footer }) => {
           <Agency />
         </Wrapper>
       </Page>
-      {/* <Page color="orange" decoration={true} decorationColor="orange">
-        <Wrapper>
-          <Demos />
-        </Wrapper>
-      </Page> */}
       <FooterMain content={footer} />
     </>
   );

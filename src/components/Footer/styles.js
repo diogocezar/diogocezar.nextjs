@@ -9,7 +9,6 @@ const StyledFooter = styled.footer`
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: var(--size-s4);
   display: flex;
   padding-left: var(--size-s6);
   padding-right: var(--size-s6);
@@ -75,7 +74,7 @@ const StyledColumnFooter = styled.div`
 `;
 
 const StyledTitleFooter = styled.h3`
-  font-family: "AkzidenzGroteskBE";
+  font-family: "obviously", sans-serif;
   font-weight: bold;
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -91,11 +90,11 @@ const StyledTitleFooter = styled.h3`
 
 const StyledContentFooter = styled.div`
   color: var(--color-white);
-  font-family: "AGaramondPro";
+  font-family: "obviously", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
   margin-bottom: var(--size-s3);
   text-align: ${({ align }) => align || "center"};
   padding: ${({ align }) => {

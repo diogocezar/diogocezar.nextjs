@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { devices } from "@/styles/devices";
 
 const StyledListTitle = styled.h3`
-  font-family: "AkzidenzGroteskBE";
+  font-family: "obviously", sans-serif;
   font-weight: bold;
   font-size: 2.6rem;
   text-transform: uppercase;
@@ -32,7 +32,7 @@ const StyledListTitle = styled.h3`
 `;
 
 const StyledListSubTitle = styled.p`
-  font-family: "AkzidenzGroteskBE";
+  font-family: "obviously", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -69,8 +69,9 @@ const StyledListSubTitle = styled.p`
 `;
 
 const StyledListContent = styled.p`
+  font-family: "obviously", sans-serif;
   color: var(--color-white);
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding-bottom: var(--size-s1);
   margin-bottom: 0px !important;
   line-height: 2.3rem;
@@ -98,7 +99,7 @@ const StyledListContentMain = styled(StyledListContent)`
 `;
 
 const StyledListMenu = styled.div`
-  font-family: "AkzidenzGroteskBE";
+  font-family: "obviously", sans-serif;
   font-weight: bold;
   font-size: 2rem;
   text-transform: uppercase;

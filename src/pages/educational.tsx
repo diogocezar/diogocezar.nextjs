@@ -14,7 +14,7 @@ import FooterMain from "@/components/Pages/Footer";
 const Educational = ({ footer }) => {
   return (
     <>
-      <Page color="orange">
+      <Page color="purple-dark">
         <Wrapper>
           <SpreadTheWorld />
           <GitHub />

@@ -8,7 +8,7 @@ const Generic = createGlobalStyle`
     box-sizing: border-box;
 	}
   ::selection {
-    background-color: var(--color-purple-dark)!important;
+    background-color: var(--color-orange)!important;
     color: var(--color-white)!important;
   }
 	body {
@@ -18,6 +18,30 @@ const Generic = createGlobalStyle`
     -webkit-font-smoothing: antialiased!important;
     background-color: var(--color-purple-dark-alternative)!important;
 	}
+
+  body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: #23232e;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: #0e0e13;
+  }
 `;
 
 export default Generic;

@@ -11,14 +11,12 @@ import Paragraph from "@/objects/Paragraph";
 
 const SpreadTheWorld = () => (
   <Section>
-    <Separator number="01" title="Educational" type="orange" />
+    <Separator number="01" title="Educational" />
     <LeftContent>
       <Image alt="Diogo Cezar" />
     </LeftContent>
     <RightContent>
-      <Title type="internal" color="purple-dark">
-        Where i Spread the Word of Development
-      </Title>
+      <Title type="internal">Where i Spread the Word of Development</Title>
       <QuotedParagraph first="Journey of Share" hasQuotedMarks={false}>
         The best way to learn is by teaching others. Throughout my journey, I’ve
         embraced this philosophy in many forms: as a teacher, speaker, and

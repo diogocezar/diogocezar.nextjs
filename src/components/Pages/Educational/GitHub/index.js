@@ -12,7 +12,7 @@ import { GithubLogo } from "@phosphor-icons/react";
 
 const GitHub = () => (
   <Section>
-    <Separator number="02" title="GitHub" type="orange" />
+    <Separator number="02" title="GitHub" />
     <RightContent>
       <QuotedParagraph first="GitHub" hasQuotedMarks={false}>
         Every developer needs to master project management, and Git is an
@@ -28,7 +28,7 @@ const GitHub = () => (
         rel="noopener noreferrer"
         target="_blank"
       >
-        <Button>
+        <Button type="purple">
           <GithubLogo size={23} />
           <div style={{ marginTop: "4px" }}>Go to My GitHub</div>
         </Button>

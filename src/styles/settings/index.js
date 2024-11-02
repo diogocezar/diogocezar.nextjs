@@ -6,13 +6,13 @@ const Settings = createGlobalStyle`
     --color-white: #f2f2f2;
     --color-white-pure: #fff;
     --color-gray: #999999;
-    --color-purple-dark: #312450;
-    --color-purple-dark-alternative: #291e40;
     --color-purple-darker: #241b3a;
-    --color-purple-light: #5E42A6;
-    --color-purple: #493382;
-    --color-orange: #D8473A;
-    --color-orange-dark: #7f1c13;
+    --color-purple-dark: #160830;
+    --color-purple-dark-alternative: #220d49;
+    --color-purple-light: #220d49;
+    --color-purple: #160830;
+    --color-orange: #e901a4;
+    --color-orange-dark: #c00e8b;
 
     --size-s1: 15px;
     --size-s2: 20px;
