@@ -24,11 +24,11 @@ const Generic = createGlobalStyle`
   }
 
   body::-webkit-scrollbar-track {
-    background: #1e1e24;
+    background: #160830;
   }
 
   body::-webkit-scrollbar-thumb {
-    background: #23232e;
+    background: #f75cc8;
   }
 
   body::-webkit-scrollbar {
@@ -40,7 +40,7 @@ const Generic = createGlobalStyle`
   }
 
   body::-webkit-scrollbar-thumb {
-    background: #0e0e13;
+    background: #f75cc8;
   }
 `;
 

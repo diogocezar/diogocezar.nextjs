@@ -16,7 +16,7 @@ const SpreadTheWorld = () => (
       <Image alt="Diogo Cezar" />
     </LeftContent>
     <RightContent>
-      <Title type="internal">Where i Spread the Word of Development</Title>
+      <Title type="internal">Sharing Knowledge & Code</Title>
       <QuotedParagraph first="Journey of Share" hasQuotedMarks={false}>
         The best way to learn is by teaching others. Throughout my journey, I’ve
         embraced this philosophy in many forms: as a teacher, speaker, and

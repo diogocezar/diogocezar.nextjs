@@ -10,6 +10,7 @@ const StyledSeparator = styled.header`
         : "rgba(153, 153, 153, 0.36)"};
   padding-bottom: 5px;
   margin-bottom: var(--size-s5);
+  text-transform: uppercase;
   @media ${devices.laptop} {
     padding-bottom: 5px;
     margin-bottom: var(--size-s3);

@@ -30,7 +30,8 @@ main {
 }
 
 .nav-item {
-  font-family: "AkzidenzGroteskBE";
+  font-family: "obviously", sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   width: 100%;
 }
@@ -58,7 +59,6 @@ main {
 .link-text {
   opacity: 0%;
   margin-left: 0rem;
-  margin-top: 8px;
 }
 
 .logo-text {
@@ -85,7 +85,7 @@ main {
 }
 
 .logo {
-  font-family: "AkzidenzGroteskBE";
+  font-family: "obviously", sans-serif;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
@@ -106,7 +106,6 @@ main {
   display: inline;
   position: absolute;
   left: -999px;
-  margin-top: 10px;
   transition: var(--transition-speed);
 }
 
@@ -119,7 +118,15 @@ main {
   .navbar {
     bottom: 0;
     width: 100vw;
-    height: 5rem;
+    height: 3.5rem;
+  }
+
+  .nav-item {
+    height: 3.5rem;
+  }
+
+  .nav-item:fist-child:hover {
+    color: blue;
   }
 
   .logo {
@@ -135,7 +142,13 @@ main {
   }
 
   .nav-link {
+    height: 3.5rem;
     justify-content: center !important;
+  }
+
+  .nav-link svg {
+    height: 25px;
+    margin: 0px;
   }
 
   main {

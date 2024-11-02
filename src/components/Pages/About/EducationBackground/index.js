@@ -6,10 +6,11 @@ import { ListContainer, ListItem } from "@/components/ListContainer";
 
 import Separator from "@/objects/Separator";
 import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
+import Paragraph from "@/objects/Paragraph";
 
 const EducationBackground = () => (
   <Section>
-    <Separator number="02" title="Education Background" />
+    <Separator number="02" title="Education" />
     <RightContent>
       <ListContainer>
         <ListItem link={false}>

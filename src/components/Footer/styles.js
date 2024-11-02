@@ -1,6 +1,12 @@
 import styled from "styled-components";
 import { devices } from "@/styles/devices";
 
+const StyledImageCenterFooter = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 const StyledFooter = styled.footer`
   position: relative;
   float: left;
@@ -71,6 +77,10 @@ const StyledColumnFooter = styled.div`
       margin-bottom: 0px;
     }
   }
+  @media ${devices.mobileLarge} {
+    display: ${({ hideMobile }) => (hideMobile ? "none" : "block")}};
+    margin-bottom: 0px!important;
+  }
 `;
 
 const StyledTitleFooter = styled.h3`
@@ -86,6 +96,9 @@ const StyledTitleFooter = styled.h3`
   @media ${devices.laptopLarge} {
     text-align: center;
   }
+  @media ${devices.mobileLarge} {
+    display: ${({ hideMobile }) => (hideMobile ? "none" : "block")}};
+  }
 `;
 
 const StyledContentFooter = styled.div`
@@ -93,7 +106,7 @@ const StyledContentFooter = styled.div`
   font-family: "obviously", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   margin-bottom: var(--size-s3);
   text-align: ${({ align }) => align || "center"};
@@ -124,8 +137,6 @@ const StyledContentFooter = styled.div`
     }};
   }
   @media ${devices.desktop} {
-    font-size: 1.3rem;
-    line-height: 1.8rem;
     padding: ${({ align }) => {
       switch (align) {
         case "center":
@@ -170,4 +181,5 @@ export {
   StyledColumnFooter,
   StyledTitleFooter,
   StyledContentFooter,
+  StyledImageCenterFooter,
 };

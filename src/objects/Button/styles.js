@@ -11,8 +11,9 @@ const BaseButton = styled.button`
   text-transform: uppercase;
   margin-right: ${({ right }) => right || "var(--size-s1)"};
   font-family: "obviously", sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 0.9rem;
+  letter-spacing: 1px;
   height: 60px;
   cursor: pointer;
   margin-bottom: ${({ marginBottom }) => marginBottom || "var(--size-s1)"};

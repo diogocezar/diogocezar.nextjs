@@ -11,13 +11,13 @@ import Link from "@/objects/Link";
 
 const Main = () => (
   <Section>
-    <Separator number="01" title="Keep In Touch" />
+    <Separator number="01" title="Chat with Me" />
     <LeftContent>
       <Image alt="Diogo Cezar" />
     </LeftContent>
     <RightContent>
-      <Title type="internal">Will Be a Pleasure To Chat With You</Title>
-      <QuotedParagraph first="Let's keep in contact" hasQuotedMarks={false}>
+      <Title type="internal">Let’s Connect</Title>
+      <QuotedParagraph first="Get in Touch" hasQuotedMarks={false}>
         I’d love to exchange experiences with you! Whether you have questions,
         want to chat about technology, or are interested in hiring my services,
         feel free to reach out. You can find me at{" "}

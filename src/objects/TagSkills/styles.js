@@ -12,17 +12,20 @@ const StyledTagSkills = styled.ul`
     justify-content: center;
     align-items: center;
   }
+  @media ${devices.tablet} {
+    display: none;
+  }
 `;
 
 const StyledTagSkill = styled.li`
   text-transform: uppercase !important;
   font-family: "obviously", sans-serif;
   font-weight: bold;
-  border-radius: 15px;
+  border-radius: 20px;
   background-color: var(--color-purple-dark-alternative);
-  padding: 10px;
+  padding: 10px 17px;
   line-height: normal;
-  font-size: 0.6rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   margin: 5px;
   color: var(--color-white);
@@ -37,11 +40,11 @@ const StyledTagSkill = styled.li`
     color: var(--color-purple) !important;
     background-color: var(--color-white) !important;
   }
-  @media ${devices.desktop} {
-    font-size: 0.4rem;
+  @media ${devices.laptopLarge} {
+    font-size: 0.8rem;
   }
-  @media ${devices.tablet} {
-    font-size: 0.3rem;
+  @media ${devices.laptop} {
+    font-size: 0.7rem;
   }
 `;
 

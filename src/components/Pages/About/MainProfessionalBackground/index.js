@@ -6,13 +6,13 @@ import { RightContent } from "@/components/AlignContent";
 import { ListContainer, ListItem } from "@/components/ListContainer";
 import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
 
-import Separator, { LineSeparator } from "@/objects/Separator";
+import Separator from "@/objects/Separator";
 import Paragraph from "@/objects/Paragraph";
 import TagSkills from "@/objects/TagSkills";
 
 const MainProfessionalBackground = () => (
   <Section>
-    <Separator number="03" title="Main Professional Background" />
+    <Separator number="03" title="Professional" />
     <RightContent>
       <ListContainer>
         <ListItem link={false}>
@@ -22,9 +22,10 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              As the CEO of Typper, one of the top 100 technology startups in
-              Brazil (by F6S), achieved a user base of over 50k, with more than
-              15k images, 17k texts, and 35k codes generated using AI.
+              As Co-founder and Advisor of Typper, one of the top 100 technology
+              startups in Brazil (by F6S), achieved a user base of over 50k,
+              with more than 15k images, 17k texts, and 35k codes generated
+              using AI.
             </Paragraph>
             <Paragraph>
               My responsibilities include setting the strategic direction of the

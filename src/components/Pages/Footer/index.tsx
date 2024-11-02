@@ -3,6 +3,7 @@ import Footer, {
   ColumnFooter,
   TitleFooter,
   ContentFooter,
+  ContentImageCenter,
 } from "@/components/Footer";
 import {
   ListContainerFooter,
@@ -15,6 +16,7 @@ import {
   iconFooterInstagram,
   iconFooterLinkedIn,
 } from "@/content/data";
+import Image from "next/image";
 
 const FooterMain = ({ isMain = true, content = null }) => {
   const {
@@ -26,8 +28,8 @@ const FooterMain = ({ isMain = true, content = null }) => {
   } = content;
   return (
     <Footer isMain={isMain}>
-      <ColumnFooter>
-        <TitleFooter align="left">SOURCE CODE</TitleFooter>
+      <ColumnFooter hideMobile={true}>
+        <TitleFooter align="left">Open Source</TitleFooter>
         <ContentFooter align="left">
           This website is open source and you can download{" "}
           <Link
@@ -39,15 +41,20 @@ const FooterMain = ({ isMain = true, content = null }) => {
           </Link>
         </ContentFooter>
       </ColumnFooter>
-      <ColumnFooter>
-        <TitleFooter>CONTACT</TitleFooter>
-        <ContentFooter>
-          You can contact me through{" "}
-          <Link href={`mailto:${email}`}>{email}</Link>
-        </ContentFooter>
+      <ColumnFooter hideMobile={false}>
+        <ContentImageCenter>
+          <Image
+            width={320}
+            height={132}
+            alt="Logotipo DioGO!"
+            src="assets/images/logo/logo.svg"
+          />
+        </ContentImageCenter>
       </ColumnFooter>
-      <ColumnFooter>
-        <TitleFooter align="right">SOCIAL NETWORKS</TitleFooter>
+      <ColumnFooter hideMobile={false}>
+        <TitleFooter align="right" hideMobile={true}>
+          Contact
+        </TitleFooter>
         <ContentFooter align="right">
           <ListContainerFooter>
             <ListItemFooter>

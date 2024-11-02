@@ -9,7 +9,7 @@ import Image from "@/objects/Images";
 import { Title, SubTitle } from "@/objects/Titles";
 import { QuotedParagraph } from "@/objects/Quotes";
 import Button from "@/objects/Button";
-import { Calendar, AddressBook } from "@phosphor-icons/react";
+import { Calendar } from "@phosphor-icons/react";
 
 const Introductions = ({ title, subtitle, biography }) => (
   <Section>
@@ -21,12 +21,6 @@ const Introductions = ({ title, subtitle, biography }) => (
       <Title type="main">{title}</Title>
       <SubTitle color="white">{subtitle}</SubTitle>
       <QuotedParagraph first="How i am?">{biography}</QuotedParagraph>
-      <Link href="/about">
-        <Button type="purple">
-          <AddressBook size={23} />
-          <div style={{ marginTop: "3px" }}>More About Me</div>
-        </Button>
-      </Link>
       <Link
         href="https://diocodes.dev"
         rel="noopener noreferrer"

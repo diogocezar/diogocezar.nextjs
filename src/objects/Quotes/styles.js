@@ -49,21 +49,22 @@ const StyledQuotedParagraph = styled.blockquote`
   font-family: "obviously", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1rem;
-  line-height: 2rem;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
   margin-bottom: var(--size-s4);
   padding-right: var(--size-s6);
   @media ${devices.desktop} {
     padding-right: 0;
-    font-size: 1rem;
-    line-height: 2.3rem;
-  }
-  @media ${devices.tablet} {
     font-size: 1.2rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
+  }
+  @media ${devices.laptop} {
+    padding-right: 0;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
   }
   span {
-    font-family: "AkzidenzGroteskBE";
+    font-family: "obviously", sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
     @media ${devices.desktop} {

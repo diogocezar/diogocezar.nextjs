@@ -18,7 +18,7 @@ const AboutMe = () => (
       <Image alt="Diogo Cezar" />
     </LeftContent>
     <RightContent>
-      <Title type="internal">My Journey in Technology and Leadership</Title>
+      <Title type="internal">Technology and Leadership</Title>
       <Paragraph>
         From my first steps in development, I found in technology a way to turn
         ideas into reality and help people. My journey has been guided by

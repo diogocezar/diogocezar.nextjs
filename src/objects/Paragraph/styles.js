@@ -15,9 +15,9 @@ const StyledParagraph = styled.p`
       case "small":
         return "1rem";
       case "medium":
-        return "1rem";
+        return "1.2rem";
       default:
-        return "1rem";
+        return "1.5rem";
     }
   }}!important;
   line-height: ${({ size }) => {
@@ -25,12 +25,12 @@ const StyledParagraph = styled.p`
       case "small":
         return "2rem";
       case "medium":
-        return "2rem";
+        return "2.2rem";
       default:
-        return "2rem";
+        return "2.5rem";
     }
   }}!important;
-  margin-bottom: ${({ bottom }) => bottom || "var(--size-s3)"} !important;
+  margin-bottom: ${({ bottom }) => bottom || "var(--size-s2)"} !important;
   padding: ${({ padding }) => padding || "0"} !important;
   ${({ padding }) => {
     if (!padding) {
@@ -52,7 +52,7 @@ const StyledParagraph = styled.p`
         case "medium":
           return "1rem";
         default:
-          return "1rem";
+          return "1.2rem";
       }
     }}!important;
     line-height: ${({ size }) => {
@@ -67,8 +67,8 @@ const StyledParagraph = styled.p`
     }}!important;
   }
   @media ${devices.tablet} {
-    font-size: 1.2rem !important;
-    line-height: 2rem !important;
+    font-size: 0.9rem !important;
+    line-height: 1.6rem !important;
     &:last-child {
       margin-bottom: 0 !important;
     }

@@ -71,7 +71,7 @@ const StyledListSubTitle = styled.p`
 const StyledListContent = styled.p`
   font-family: "obviously", sans-serif;
   color: var(--color-white);
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding-bottom: var(--size-s1);
   margin-bottom: 0px !important;
   line-height: 2.3rem;
@@ -81,12 +81,12 @@ const StyledListContent = styled.p`
     line-height: 2.2rem;
   }
   @media ${devices.laptopLarge} {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 2.1rem;
   }
   @media ${devices.laptop} {
     font-size: 0.9rem;
-    line-height: 1.4rem;
+    line-height: 1.6rem;
     text-align: center;
     display: ${({ menuMain }) => (menuMain ? "none" : "block")};
   }
