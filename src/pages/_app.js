@@ -3,8 +3,8 @@ import Generic from "@/styles/generic";
 import Base from "@/styles/base";
 import Fonts from "@/styles/fonts";
 
-import "antd/dist/reset.css";
 import "@/styles/menu/menu.css";
+import "@/styles/globals.css";
 
 import Menu from "@/components/Menu";
 
