@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 
 import { Section } from "@/components/Containers";
@@ -12,13 +12,17 @@ import Button from "@/objects/Button";
 import { Calendar } from "@phosphor-icons/react";
 
 const Introductions = () => {
-  const subtitleOptions = [
-    "Technology Leader",
-    "Mentor",
-    "Teacher",
-    "Head of Technology",
-    "Developer",
-  ];
+  const subtitleOptions = useMemo(
+    () => [
+      "Technology Leader",
+      "Mentor",
+      "Teacher",
+      "Head of Technology",
+      "Developer",
+    ],
+    [],
+  );
+
   const [currentSubtitleIndex, setCurrentSubtitleIndex] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
 

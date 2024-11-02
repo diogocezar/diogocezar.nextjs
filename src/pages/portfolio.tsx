@@ -1,4 +1,3 @@
-import { getFileContent } from "@/helpers/markdown";
 import { Page, Wrapper } from "@/components/Containers";
 
 import ProudToBeenPart from "@/components/Pages/Portfolio/ProudToBeenPart";

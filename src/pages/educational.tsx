@@ -1,4 +1,3 @@
-import { getFileContent } from "@/helpers/markdown";
 import { Page, Wrapper } from "@/components/Containers";
 import SpreadTheWorld from "@/components/Pages/Educational/SpreadTheWorld";
 import GitHub from "@/components/Pages/Educational/GitHub";
