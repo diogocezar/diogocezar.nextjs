@@ -9,7 +9,7 @@ import Skills from "@/components/Pages/About/Skills";
 import Awards from "@/components/Pages/About/Awards";
 import FooterMain from "@/components/Pages/Footer";
 
-const About = ({ footer }) => {
+const About = () => {
   return (
     <>
       <Page color="purple-dark">

@@ -4,11 +4,10 @@ import ProudToBeenPart from "@/components/Pages/Portfolio/ProudToBeenPart";
 import MainCustomers from "@/components/Pages/Portfolio/MainCustomers";
 import Musical from "@/components/Pages/Portfolio/Musical";
 import Agency from "@/components/Pages/Portfolio/Agency";
-import Demos from "@/components/Pages/Portfolio/Demos";
 
 import FooterMain from "@/components/Pages/Footer";
 
-const Portfolio = ({ footer }) => {
+const Portfolio = () => {
   return (
     <>
       <Page color="purple-dark">

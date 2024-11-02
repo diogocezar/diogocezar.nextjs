@@ -6,7 +6,7 @@ import FooterMain from "@/components/Pages/Footer";
 
 import Script from "next/script";
 
-const Index = ({ index }) => {
+const Index = () => {
   return (
     <Page color="purple" paddingBottom="0">
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-DQS0HM726E" />
