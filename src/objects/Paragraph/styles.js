@@ -13,7 +13,7 @@ const StyledParagraph = styled.p`
   font-size: ${({ size }) => {
     switch (size) {
       case "small":
-        return "1rem";
+        return "0.8rem";
       case "medium":
         return "1.2rem";
       default:
@@ -23,7 +23,7 @@ const StyledParagraph = styled.p`
   line-height: ${({ size }) => {
     switch (size) {
       case "small":
-        return "2rem";
+        return "1.8rem";
       case "medium":
         return "2.2rem";
       default:
@@ -67,8 +67,26 @@ const StyledParagraph = styled.p`
     }}!important;
   }
   @media ${devices.tablet} {
-    font-size: 0.9rem !important;
-    line-height: 1.6rem !important;
+    font-size: ${({ size }) => {
+      switch (size) {
+        case "small":
+          return "0.8rem";
+        case "medium":
+          return "1rem";
+        default:
+          return "1rem";
+      }
+    }}!important;
+    line-height: ${({ size }) => {
+      switch (size) {
+        case "small":
+          return "1.4rem";
+        case "medium":
+          return "1.4rem";
+        default:
+          return "2.4rem";
+      }
+    }}!important;
     &:last-child {
       margin-bottom: 0 !important;
     }

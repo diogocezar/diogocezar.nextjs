@@ -34,8 +34,8 @@ const Introductions = () => {
           (prevIndex) => (prevIndex + 1) % subtitleOptions.length,
         );
         setIsVisible(true);
-      }, 500);
-    }, 3000);
+      }, 400);
+    }, 2000);
     return () => clearInterval(interval);
   }, [subtitleOptions]);
 
@@ -49,7 +49,7 @@ const Introductions = () => {
         <Title type="main">Diogo Cezar</Title>
         <SubTitle
           color="white"
-          className={`fade ${isVisible ? "visible" : "hidden"}`}
+          className={`fade-custom ${isVisible ? "visible-custom" : "hidden-custom"}`}
         >
           {subtitleOptions[currentSubtitleIndex]}
         </SubTitle>

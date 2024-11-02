@@ -11,7 +11,7 @@ import { ListContainer, ListItem } from "@/components/ListContainer";
 import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
 
 import Separator from "@/objects/Separator";
-import Button from "@/objects/Button";
+import { ButtonIcon } from "@/objects/Button";
 import Link from "@/objects/Link";
 import { DownloadSimple } from "@phosphor-icons/react/dist/ssr";
 
@@ -36,11 +36,9 @@ const MainPappers = () => (
               target="_blank"
               buttonCenter={true}
             >
-              <Button type="purple">
-                {" "}
+              <ButtonIcon type="purple">
                 <DownloadSimple size={23} />
-                <div style={{ marginTop: "4px" }}>Download</div>
-              </Button>
+              </ButtonIcon>
             </Link>
           </RightContentList>
         </ListItem>
