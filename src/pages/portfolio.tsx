@@ -1,6 +1,6 @@
 import { Page, Wrapper } from "@/components/Containers";
 
-// import ProudToBeenPart from "@/components/Pages/Portfolio/ProudToBeenPart";
+import ProudToBeenPart from "@/components/Pages/Portfolio/ProudToBeenPart";
 // import MainCustomers from "@/components/Pages/Portfolio/MainCustomers";
 // import Musical from "@/components/Pages/Portfolio/Musical";
 // import Agency from "@/components/Pages/Portfolio/Agency";
@@ -12,6 +12,7 @@ const Portfolio = () => {
     <>
       <Page color="purple-dark">
         <Wrapper>
+          <ProudToBeenPart />
           {/* <ProudToBeenPart />
           <MainCustomers />
           <Musical />
