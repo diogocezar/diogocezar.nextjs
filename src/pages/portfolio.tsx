@@ -5,7 +5,7 @@
 // import Musical from "@/components/Pages/Portfolio/Musical";
 // import Agency from "@/components/Pages/Portfolio/Agency";
 
-// import FooterMain from "@/components/Pages/Footer";
+import FooterMain from "@/components/Pages/Footer";
 
 const Portfolio = () => {
   return (
@@ -17,8 +17,8 @@ const Portfolio = () => {
           <Musical />
           <Agency />
         </Wrapper>
-      </Page>
-      <FooterMain /> */}
+      </Page> */}
+      <FooterMain />
     </>
   );
 };
