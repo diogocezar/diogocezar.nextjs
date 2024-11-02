@@ -18,6 +18,22 @@ const Base = createGlobalStyle`
     opacity: 0;
   }
 
+  @keyframes float-custom {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  .floating-image-custom {
+    animation: float-custom 3s ease-in-out infinite;
+  }
+
 `;
 
 export default Base;

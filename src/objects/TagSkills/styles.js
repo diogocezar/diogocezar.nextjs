@@ -6,7 +6,8 @@ const StyledTagSkills = styled.ul`
   width: 100%;
   position: relative;
   float: left;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
   flex-wrap: wrap;
   @media ${devices.tablet} {
     justify-content: center;
