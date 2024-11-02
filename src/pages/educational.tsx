@@ -11,7 +11,7 @@ import Monographies from "@/components/Pages/Educational/Monographies";
 
 import FooterMain from "@/components/Pages/Footer";
 
-const Educational = ({ footer }) => {
+const Educational = () => {
   return (
     <>
       <Page color="purple-dark">
@@ -29,18 +29,9 @@ const Educational = ({ footer }) => {
           <Monographies />
         </Wrapper>
       </Page>
-      <FooterMain content={footer} />
+      <FooterMain />
     </>
   );
 };
-
-export async function getStaticProps() {
-  const footerContent = getFileContent("src/content/pages/footer.md");
-  return {
-    props: {
-      footer: footerContent.data,
-    },
-  };
-}
 
 export default Educational;

@@ -7,8 +7,7 @@ import FooterMain from "@/components/Pages/Footer";
 
 import Script from "next/script";
 
-const Index = ({ index, footer }) => {
-  const { title, subtitle, biography } = index.data;
+const Index = ({ index }) => {
   return (
     <Page color="purple" paddingBottom="0">
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-DQS0HM726E" />
@@ -22,33 +21,12 @@ const Index = ({ index, footer }) => {
         `}
       </Script>
       <Wrapper>
-        <Introduction
-          title={title}
-          subtitleOptions={[
-            "Technology Leader",
-            "Mentor",
-            "Teacher",
-            "Head of Technology",
-            "Developer",
-          ]}
-          biography={biography}
-        />
+        <Introduction />
         <Content />
       </Wrapper>
-      <FooterMain isMain={true} content={footer} />
+      <FooterMain isMain={true} />
     </Page>
   );
 };
-
-export async function getStaticProps() {
-  const indexContent = getFileContent("src/content/pages/index.md");
-  const footerContent = getFileContent("src/content/pages/footer.md");
-  return {
-    props: {
-      index: indexContent,
-      footer: footerContent.data,
-    },
-  };
-}
 
 export default Index;

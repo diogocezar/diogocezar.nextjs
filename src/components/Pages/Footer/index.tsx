@@ -18,14 +18,7 @@ import {
 } from "@/content/data";
 import Image from "next/image";
 
-const FooterMain = ({ isMain = true, content = null }) => {
-  const {
-    email,
-    socialGithub,
-    socialTwitter,
-    socialInstagram,
-    socialLinkedin,
-  } = content;
+const FooterMain = ({ isMain = true }) => {
   return (
     <Footer isMain={isMain}>
       <ColumnFooter hideMobile={true}>
@@ -59,7 +52,7 @@ const FooterMain = ({ isMain = true, content = null }) => {
           <ListContainerFooter>
             <ListItemFooter>
               <Link
-                href={`${socialGithub}`}
+                href="https://github.com/diogocezar"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -68,7 +61,7 @@ const FooterMain = ({ isMain = true, content = null }) => {
             </ListItemFooter>
             <ListItemFooter>
               <Link
-                href={`${socialTwitter}`}
+                href="https://x.com/diogocezar"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -77,7 +70,7 @@ const FooterMain = ({ isMain = true, content = null }) => {
             </ListItemFooter>
             <ListItemFooter>
               <Link
-                href={`${socialInstagram}`}
+                href="https://www.instagram.com/diogocodes/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -86,7 +79,7 @@ const FooterMain = ({ isMain = true, content = null }) => {
             </ListItemFooter>
             <ListItemFooter>
               <Link
-                href={`${socialLinkedin}`}
+                href="https://www.linkedin.com/in/diogocezar/"
                 rel="noopener noreferrer"
                 target="_blank"
               >

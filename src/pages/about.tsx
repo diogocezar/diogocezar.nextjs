@@ -26,18 +26,9 @@ const About = ({ footer }) => {
           <Awards />
         </Wrapper>
       </Page>
-      <FooterMain content={footer} />
+      <FooterMain />
     </>
   );
 };
-
-export async function getStaticProps() {
-  const footerContent = getFileContent("src/content/pages/footer.md");
-  return {
-    props: {
-      footer: footerContent.data,
-    },
-  };
-}
 
 export default About;

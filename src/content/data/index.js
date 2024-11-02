@@ -1,54 +1,3 @@
-const skills = [
-  "JAVASCRIPT",
-  "REACT JS",
-  "VUE.JS",
-  "ANGULAR",
-  "TYPESCRIPT",
-  "NODEJS",
-  "EXPRESSJS",
-  "DOCKER",
-  "KUBERNETES",
-  "AWS (S3, LAMBDA, EC2, RDS, ETC.)",
-  "SERVERLESS FRAMEWORK",
-  "GRAPHQL",
-  "RESTFUL APIS",
-  "MICROSERVICES",
-  "MONGODB",
-  "REDIS",
-  "POSTGRESQL",
-  "MYSQL",
-  "NOSQL",
-  "GIT",
-  "CI/CD",
-  "JEST",
-  "CYPRESS",
-  "WEBPACK",
-  "BABEL",
-  "ESLINT",
-  "PRETTIER",
-  "RESPONSIVE DESIGN",
-  "CSS-IN-JS",
-  "SASS/SCSS",
-  "WEBPACK",
-  "NEXT.JS",
-  "NEST.JS",
-  "STORYBOOK",
-  "REDUX",
-  "GRAPHQL",
-  "MACHINE LEARNING (ML)",
-  "ARTIFICIAL INTELLIGENCE (AI)",
-  "ETL PROCESSES",
-  "DATA WAREHOUSING",
-  "AGILE METHODOLOGIES (SCRUM, KANBAN)",
-  "DESIGN PATTERNS",
-  "CLEAN CODE PRACTICES",
-  "TEST-DRIVEN DEVELOPMENT (TDD)",
-  "BEHAVIOR-DRIVEN DEVELOPMENT (BDD)",
-  "DOMAIN-DRIVEN DESIGN (DDD)",
-  "CONTINUOUS INTEGRATION (CI)",
-  "CONTINUOUS DEPLOYMENT (CD)",
-];
-
 const iconFooterGithub =
   '<svg xmlns="http://www.w3.org/2000/svg" width="71.5" height="71.5" viewBox="0 0 71.5 71.5"> <g id="Group_19" data-name="Group 19" transform="translate(-1422 -2861)"> <circle id="bg" data-name="Ellipse 5" cx="35.75" cy="35.75" r="35.75" transform="translate(1422 2861)" fill="#fff"/> <path id="icon" d="M18.683,34.453c-8.122,2.4-8.122-4.061-11.383-4.919m22.766,9.781V33.023a5.584,5.584,0,0,0-1.544-4.233c5.091-.572,10.468-2.517,10.468-11.383a8.751,8.751,0,0,0-2.46-6.12,8.1,8.1,0,0,0-.172-6.12s-1.945-.572-6.349,2.4a21.36,21.36,0,0,0-11.383,0c-4.462-2.974-6.349-2.4-6.349-2.4a8.1,8.1,0,0,0-.172,6.12,8.751,8.751,0,0,0-2.46,6.12c0,8.809,5.377,10.754,10.468,11.383a5.458,5.458,0,0,0-1.544,4.176v6.292" transform="translate(1434.148 2874.753)" fill="none" stroke="#EA00A4" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/></g></svg>';
 const iconFooterTwitter =
@@ -60,15 +9,10 @@ const iconFooterFacebook =
 const iconFooterLinkedIn =
   '<svg xmlns="http://www.w3.org/2000/svg" width="71.5" height="71.5" viewBox="0 0 71.5 71.5"> <g id="Group_23" data-name="Group 23" transform="translate(-1747.468 -2861)"> <path id="bg" data-name="Path 12" d="M35.75,0A35.75,35.75,0,1,1,0,35.75,35.75,35.75,0,0,1,35.75,0Z" transform="translate(1747.468 2861)" fill="#fff"/> <g id="icon" transform="translate(1767.488 2881.592)"> <path id="Path_6" class="icon" data-name="Path 6" d="M38.938,25.4a9.447,9.447,0,0,1,9.438,9.438V45.82H42.084V34.838a3.146,3.146,0,0,0-6.292,0V45.82H29.5V34.838A9.447,9.447,0,0,1,38.938,25.4Z" transform="translate(-16.916 -15.962)" fill="none" stroke="#EA00A4" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5"/> <path id="Path_11" class="icon" data-name="Path 11" d="M0,0H6.292V18.876H0Z" transform="translate(0 10.982)" fill="none" stroke="#EA00A4" stroke-linecap="round" stroke-width="3.5"/> <circle id="Ellipse_3" class="icon" data-name="Ellipse 3" cx="3.146" cy="3.146" r="3.146" transform="translate(0 0)" stroke-width="3.5" stroke="#EA00A4" stroke-linecap="round" stroke-linejoin="round" fill="none"/> </g> </g></svg>';
 
-const arrow =
-  '<?xml version="1.0" encoding="UTF-8"?><svg enable-background="new 0 0 19 14" version="1.1" viewBox="0 0 19 14" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><style type="text/css">.st0{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}</style><polyline class="st0" points="7.5 12.1 2.5 7.1 7.5 2.1"/><line class="st0" x1="2.5" x2="22" y1="7.1" y2="7.1"/></svg>';
-
 export {
-  skills,
   iconFooterGithub,
   iconFooterTwitter,
   iconFooterInstagram,
   iconFooterFacebook,
   iconFooterLinkedIn,
-  arrow,
 };

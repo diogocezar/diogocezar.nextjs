@@ -48,23 +48,13 @@ const Content = () => (
         Sorocaba.
       </Paragraph>
       <Paragraph>
-        My professional journey includes tenures at companies like Neon and
-        Luizalabs, where I had the opportunity to lead strategic projects and
-        help build efficient and engaged teams. At Neon, I spearheaded the
-        integration of the Neon account into the MEI Fácil app following our
-        company’s first M&A, resulting in the acquisition of 200k customers
-        within the first year of launch. At Luizalabs, I was the technical
-        reference for the Wallet Magalu project, focusing on scalability and
-        efficiency. At Provi, as Tech Manager, I improved processes and
-        engagement across three distinct teams.
-      </Paragraph>
-      <Paragraph>
-        As Co-founder and Advisor of Typper, one of the top 100 technology
-        startups in Brazil (by F6S), and as the former Head of Technology at
-        Bankme, my mission has always been to create a tech culture that
-        promotes team happiness and collaboration. I believe that technology has
-        the power to transform lives, and I constantly seek ways to apply this
-        power responsibly and innovatively.
+        I’ve led strategic projects and fostered team engagement at companies
+        like Neon, Luizalabs, and Provi, driving impactful outcomes such as
+        integrating the Neon account into MEI Fácil—gaining 200k new customers
+        in a year—and scaling Luizalabs’ Wallet Magalu project. As a Co-founder
+        of Typper, named a top 100 Brazilian tech startup, and former Head of
+        Technology at Bankme, I focus on building a tech culture that values
+        team happiness, collaboration, and impactful, responsible innovation.
       </Paragraph>
       <Paragraph>
         I am always open to opportunities where I can apply my experience and
