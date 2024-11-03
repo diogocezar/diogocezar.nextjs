@@ -15,7 +15,7 @@ import {
   iconFooterTwitter,
   iconFooterInstagram,
   iconFooterLinkedIn,
-} from "@/content/data";
+} from "@/public/assets/images/social-networks/index";
 import Image from "next/image";
 
 const FooterMain = ({ isMain = true }) => {
