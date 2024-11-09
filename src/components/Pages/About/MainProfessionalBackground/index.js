@@ -18,7 +18,7 @@ const MainProfessionalBackground = () => (
         <ListItem link={false}>
           <ListTitle>Typper</ListTitle>
           <ListSubTitle type="white">
-            FEB 2023~NOW / CEO AND CO-FOUNDER
+            FEB 2023~NOW / CO-FOUNDER AND ADVISOR
           </ListSubTitle>
           <ListContent>
             <Paragraph>
@@ -45,13 +45,6 @@ const MainProfessionalBackground = () => (
               milestones, continuously growing and gaining visibility. Our team
               is dedicated to developing products that simplify the most tedious
               tasks, making daily routines more efficient and productive.
-            </Paragraph>
-            <Paragraph>
-              Typper.io offers a suite of products designed to be your personal
-              assistant. These include Typper BI for business intelligence,
-              Typper Texts for document creation, Typper Images for visual
-              content, and Typper Codes for coding assistance. Together, these
-              tools help you work smarter and more effectively every day.
             </Paragraph>
             <TagSkills
               skills={[
