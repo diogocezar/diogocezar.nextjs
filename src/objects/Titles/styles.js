@@ -7,7 +7,7 @@ const StyledTitle = styled.h2`
   width: 100%;
   font-family: "obviously", sans-serif;
   font-weight: bold;
-  font-size: ${({ type }) => (type === "internal" ? "6rem" : "4rem")};
+  font-size: ${({ type }) => (type === "internal" ? "6rem" : "5.5rem")};
   text-transform: ${({ type }) =>
     type === "internal" ? "normal" : "uppercase"};
   color: ${({ color }) =>
@@ -15,19 +15,23 @@ const StyledTitle = styled.h2`
   line-height: ${({ type }) => (type === "internal" ? "6.5rem" : "4.3rem")};
   margin-bottom: ${({ type }) => (type === "internal" ? "5rem" : "1rem")};
   @media ${devices.desktopLarge} {
-    font-size: ${({ type }) => (type === "internal" ? "5.5rem" : "3rem")};
-    line-height: ${({ type }) => (type === "internal" ? "6rem" : "4rem")};
+    font-size: ${({ type }) => (type === "internal" ? "6rem" : "5rem")};
+    line-height: ${({ type }) => (type === "internal" ? "6.5rem" : "4rem")};
   }
   @media ${devices.laptopLarge} {
-    font-size: ${({ type }) => (type === "internal" ? "4rem" : "2.5rem")};
+    font-size: ${({ type }) => (type === "internal" ? "4rem" : "3.5rem")};
     line-height: ${({ type }) => (type === "internal" ? "4.5rem" : "3rem")};
     text-align: center;
   }
   @media ${devices.tablet} {
-    font-size: ${({ type }) => (type === "internal" ? "3rem" : "2.7rem")};
+    font-size: ${({ type }) => (type === "internal" ? "3rem" : "3.5rem")};
     line-height: ${({ type }) => (type === "internal" ? "3.4rem" : "2.5rem")};
     margin-bottom: ${({ type }) =>
       type === "internal" ? "var(--size-s3)" : "var(--size-s2)"};
+  }
+  @media ${devices.mobileSmall} {
+    font-size: ${({ type }) => (type === "internal" ? "2rem" : "3rem")};
+    line-height: ${({ type }) => (type === "internal" ? "3rem" : "2rem")};
   }
 `;
 

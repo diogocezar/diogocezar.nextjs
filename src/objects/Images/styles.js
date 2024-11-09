@@ -3,6 +3,7 @@ import { devices } from "@/styles/devices";
 
 const StyledImage = styled.img`
   width: 70%;
+  max-width: 400px;
   margin: 0 auto;
   display: block;
   @media ${devices.desktopLarge} {

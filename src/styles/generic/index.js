@@ -7,10 +7,7 @@ const Generic = createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
 	}
-  ::selection {
-    background-color: var(--color-orange)!important;
-    color: var(--color-white)!important;
-  }
+
 	body {
     font-size: 14px!important;
     text-rendering: optimizeLegibility!important;
@@ -18,30 +15,35 @@ const Generic = createGlobalStyle`
     background-color: var(--color-purple-dark-alternative)!important;
 	}
 
-  body::-webkit-scrollbar {
-    width: 0.25rem;
-    border-radius: 0.25rem;
+	*::-webkit-scrollbar {
+      width: 0.25rem;
   }
 
-  body::-webkit-scrollbar-track {
-    background: #160830;
-    border-radius: 0.25rem;
+  *::-webkit-scrollbar-track {
+      background: #0e0f12;
+      border-radius: 0.25rem;
   }
 
-  body::-webkit-scrollbar-thumb {
-    background: #f75cc8;
+  *::-webkit-scrollbar-thumb {
+      background: #ea00a4;
+      border-radius: 0.25rem;
   }
 
-  body::-webkit-scrollbar {
-    width: 0.7rem;
+  *::-webkit-scrollbar {
+      width: 0.7rem;
   }
 
-  body::-webkit-scrollbar-track {
-    background: #1e1e24;
+  *::-webkit-scrollbar-track {
+      background: #0e0f12;
   }
 
-  body::-webkit-scrollbar-thumb {
-    background: #f75cc8;
+  *::-webkit-scrollbar-thumb {
+      background: #ea00a4;
+  }
+
+  ::selection {
+      background-color: #ea00a4 !important;
+      color: #f8f8f2 !important;
   }
 `;
 
