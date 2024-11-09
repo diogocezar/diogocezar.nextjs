@@ -54,10 +54,8 @@ const AboutMe = () => (
         download="diogo-cezar-resume"
       >
         <Button type="purple">
-          <Download size={26} />
-          <div style={{ marginTop: "3px", marginRight: "2px" }}>
-            Download Resume
-          </div>
+          <Download size={22} />
+          <div style={{ marginLeft: "3px" }}>Download Resume</div>
         </Button>
       </Link>
     </RightContent>

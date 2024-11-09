@@ -26,9 +26,7 @@ const GitHub = () => (
       >
         <Button bottom="4rem" type="purple">
           <BoxMinimalistic size={26} />
-          <div style={{ marginTop: "4px", marginRight: "2px" }}>
-            Check Contents
-          </div>
+          <div style={{ marginLeft: "2px" }}>Check Contents</div>
         </Button>
       </Link>
     </RightContent>

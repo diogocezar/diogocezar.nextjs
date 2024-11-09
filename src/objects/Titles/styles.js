@@ -29,9 +29,13 @@ const StyledTitle = styled.h2`
     margin-bottom: ${({ type }) =>
       type === "internal" ? "var(--size-s3)" : "var(--size-s2)"};
   }
-  @media ${devices.mobileSmall} {
-    font-size: ${({ type }) => (type === "internal" ? "2rem" : "3rem")};
-    line-height: ${({ type }) => (type === "internal" ? "3rem" : "2rem")};
+  @media ${devices.mobileLarge} {
+    font-size: ${({ type }) => (type === "internal" ? "1.5rem" : "2.5rem")};
+    line-height: ${({ type }) => (type === "internal" ? "2rem" : "1.5rem")};
+  }
+  @media ${devices.mobileMedium} {
+    font-size: ${({ type }) => (type === "internal" ? "1.5rem" : "2rem")};
+    line-height: ${({ type }) => (type === "internal" ? "2rem" : "1.5rem")};
   }
 `;
 
@@ -41,20 +45,21 @@ const StyledSubTitle = styled.h3`
   width: 100%;
   font-family: "obviously", sans-serif;
   font-weight: 600;
-  font-size: 1.6rem !important;
+  font-size: 2rem !important;
   text-transform: uppercase;
   line-height: 3rem;
   color: ${({ color }) =>
     color ? `var(--color-${color})` : "var(--color-orange)"};
   margin-bottom: ${({ type }) =>
-    type === "internal" ? "var(--size-s3)" : "var(--size-s5)"};
+    type === "internal" ? "var(--size-s3)" : "2rem"};
+  margin-top: 0.5rem;
   @media ${devices.desktopLarge} {
     font-size: 2rem;
-    line-height: 2.8rem;
+    line-height: 4rem;
   }
   @media ${devices.laptopLarge} {
     font-size: 1.3rem;
-    line-height: 1.8rem;
+    line-height: 2rem;
     text-align: center;
     margin-bottom: var(--size-s3);
   }

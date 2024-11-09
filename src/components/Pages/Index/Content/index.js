@@ -34,7 +34,7 @@ const Content = () => (
   <Section>
     <Separator number="02" title="About me" />
     <RightContent>
-      <Title type="main">Hello!</Title>
+      <Title type="internal">Hello!</Title>
       <Paragraph>
         My name is Diogo Cezar, and I am {getAge()} years old. With over{" "}
         {getXp()} years of experience in technology and a Master’s degree in AI,
