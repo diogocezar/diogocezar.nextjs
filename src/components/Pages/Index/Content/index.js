@@ -8,7 +8,7 @@ import Separator from "@/objects/Separator";
 import Paragraph from "@/objects/Paragraph";
 import Button from "@/objects/Button";
 import Link from "next/link";
-import { AddressBook } from "@phosphor-icons/react";
+import { UserCircle } from "solar-icon-set";
 
 const getAge = () => {
   const birthDate = new Date(1986, 1, 19); // Ano, mês (0-indexed), dia
@@ -64,8 +64,10 @@ const Content = () => (
       </Paragraph>
       <Link href="/about">
         <Button type="purple">
-          <AddressBook size={23} />
-          <div style={{ marginTop: "3px" }}>More About Me</div>
+          <UserCircle size={26} />
+          <div style={{ marginTop: "3px", marginLeft: "2px" }}>
+            More About Me
+          </div>
         </Button>
       </Link>
     </RightContent>

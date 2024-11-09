@@ -9,7 +9,7 @@ import Image from "@/objects/Images";
 import { Title } from "@/objects/Titles";
 import Paragraph from "@/objects/Paragraph";
 import Button from "@/objects/Button";
-import { ReadCvLogo } from "@phosphor-icons/react";
+import { Download } from "solar-icon-set";
 
 const AboutMe = () => (
   <Section>
@@ -54,8 +54,10 @@ const AboutMe = () => (
         download="diogo-cezar-resume"
       >
         <Button type="purple">
-          <ReadCvLogo size={23} />
-          <div style={{ marginTop: "4px" }}>Download Resume</div>
+          <Download size={26} />
+          <div style={{ marginTop: "3px", marginRight: "2px" }}>
+            Download Resume
+          </div>
         </Button>
       </Link>
     </RightContent>

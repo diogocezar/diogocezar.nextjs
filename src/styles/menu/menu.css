@@ -50,6 +50,10 @@ main {
   transition: var(--transition-speed);
 }
 
+.nav-link > span {
+  width: 67px !important;
+}
+
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
   background: var(--bg-secondary);
@@ -123,6 +127,10 @@ main {
 
   .nav-item {
     height: 3.5rem;
+  }
+
+  .nav-link > span {
+    width: auto !important;
   }
 
   .nav-item:fist-child:hover {

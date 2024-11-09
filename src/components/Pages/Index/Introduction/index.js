@@ -9,7 +9,7 @@ import Image from "@/objects/Images";
 import { Title, SubTitle } from "@/objects/Titles";
 import { QuotedParagraph } from "@/objects/Quotes";
 import Button from "@/objects/Button";
-import { Calendar } from "@phosphor-icons/react";
+import { Calendar } from "solar-icon-set";
 
 const Introductions = () => {
   const subtitleOptions = useMemo(
@@ -64,8 +64,10 @@ const Introductions = () => {
           target="_blank"
         >
           <Button type="purple">
-            <Calendar size={23} />
-            <div style={{ marginTop: "3px" }}>Free Mentoring</div>
+            <Calendar size={26} />
+            <div style={{ marginTop: "3px", marginLeft: "2px" }}>
+              Free Mentoring
+            </div>
           </Button>
         </Link>
       </RightContent>

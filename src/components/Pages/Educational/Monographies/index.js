@@ -13,7 +13,7 @@ import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
 import Separator from "@/objects/Separator";
 import { ButtonIcon } from "@/objects/Button";
 import Link from "@/objects/Link";
-import { DownloadSimple } from "@phosphor-icons/react/dist/ssr";
+import { Download } from "solar-icon-set";
 
 const Monographies = () => (
   <Section isLast="true">
@@ -37,7 +37,7 @@ const Monographies = () => (
               buttonCenter={true}
             >
               <ButtonIcon type="purple">
-                <DownloadSimple size={23} />
+                <Download size={26} />
               </ButtonIcon>
             </Link>
           </RightContentList>
@@ -59,7 +59,7 @@ const Monographies = () => (
               buttonCenter={true}
             >
               <ButtonIcon type="purple">
-                <DownloadSimple size={23} />
+                <Download size={26} />
               </ButtonIcon>
             </Link>
           </RightContentList>

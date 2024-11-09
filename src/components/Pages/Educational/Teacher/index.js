@@ -7,7 +7,7 @@ import Separator from "@/objects/Separator";
 import Paragraph from "@/objects/Paragraph";
 import Button from "@/objects/Button";
 import Link from "@/objects/Link";
-import { GraduationCap } from "@phosphor-icons/react/dist/ssr";
+import { BoxMinimalistic } from "solar-icon-set";
 
 const GitHub = () => (
   <Section>
@@ -25,8 +25,10 @@ const GitHub = () => (
         target="_blank"
       >
         <Button bottom="4rem" type="purple">
-          <GraduationCap size={23} />
-          <div style={{ marginTop: "4px" }}>Check Contents</div>
+          <BoxMinimalistic size={26} />
+          <div style={{ marginTop: "4px", marginRight: "2px" }}>
+            Check Contents
+          </div>
         </Button>
       </Link>
     </RightContent>

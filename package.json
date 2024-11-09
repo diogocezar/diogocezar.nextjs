@@ -21,6 +21,7 @@
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-icons": "4.7.1",
+    "solar-icon-set": "^1.0.0",
     "styled-components": "5.3.6",
     "svg-inline-react": "3.2.1"
   },

@@ -9,6 +9,8 @@ import {
   FiMail,
 } from "react-icons/fi";
 
+import { Home, UserCircle, List2, Box, Mailbox } from "solar-icon-set";
+
 const Menu = () => {
   return (
     <nav className="navbar">
@@ -21,31 +23,31 @@ const Menu = () => {
         </li>
         <li className="nav-item">
           <Link href="/" className="nav-link">
-            <FiHome size={30} />
+            <Home size={30} />
             <span className="link-text">Home</span>
           </Link>
         </li>
         <li className="nav-item">
           <Link href="/about" className="nav-link">
-            <FiFileText size={30} />
+            <UserCircle size={30} />
             <span className="link-text">About</span>
           </Link>
         </li>
         <li className="nav-item">
           <Link href="/portfolio" className="nav-link">
-            <FiGrid size={30} />
+            <List2 size={30} />
             <span className="link-text">Portfólio</span>
           </Link>
         </li>
         <li className="nav-item">
           <Link href="/educational" className="nav-link">
-            <FiBookOpen size={30} />
+            <Box size={30} className="w-10" />
             <span className="link-text">Educational</span>
           </Link>
         </li>
         <li className="nav-item">
           <Link href="/contact" className="nav-link">
-            <FiMail size={30} />
+            <Mailbox size={30} />
             <span className="link-text">Contact</span>
           </Link>
         </li>
