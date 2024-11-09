@@ -34,8 +34,21 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="canonical" href="https://diogocezar.dev" />
           <link
-            rel="shortcut icon"
-            href="https://diogocezar.dev/assets/images/icons/icon-72x72.png"
+            rel="icon"
+            type="image/png"
+            href="assets/images/favicon/favicon-96x96.png"
+            sizes="96x96"
+          />
+          <link
+            rel="icon"
+            type="image/svg+xml"
+            href="assets/images/favicon/favicon.svg"
+          />
+          <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/images/favicon/apple-touch-icon.png"
           />
           <link rel="manifest" href="/manifest.json" />
           <link rel="stylesheet" href="https://use.typekit.net/zbi8mzg.css" />
@@ -54,11 +67,11 @@ export default class MyDocument extends Document {
           <meta property="og:site_name" content="Diogo Cezar" />
           <meta
             property="og:image"
-            content="https://diogocezar.dev/assets/images/og/og.jpg"
+            content="https://diogocezar.dev/assets/images/og/og.png"
           />
           <meta
             property="og:image:secure_url"
-            content="https://diogocezar.dev/assets/images/og/og.jpg"
+            content="https://diogocezar.dev/assets/images/og/og.png"
           />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
@@ -69,7 +82,7 @@ export default class MyDocument extends Document {
           />
           <meta name="twitter:title" content="Diogo Cezar - Portfolio" />
           <meta name="twitter:site" content="@diogocezar" />
-          <meta name="twitter:image" content="/assets/images/og/og.jpg" />
+          <meta name="twitter:image" content="/assets/images/og/og.png" />
           <meta name="twitter:creator" content="@diogocezar" />
         </Head>
         <body>

@@ -12,7 +12,6 @@ const Generic = createGlobalStyle`
     color: var(--color-white)!important;
   }
 	body {
-    font-family: 'AGaramondPro'!important;
     font-size: 14px!important;
     text-rendering: optimizeLegibility!important;
     -webkit-font-smoothing: antialiased!important;
@@ -21,10 +20,12 @@ const Generic = createGlobalStyle`
 
   body::-webkit-scrollbar {
     width: 0.25rem;
+    border-radius: 0.25rem;
   }
 
   body::-webkit-scrollbar-track {
     background: #160830;
+    border-radius: 0.25rem;
   }
 
   body::-webkit-scrollbar-thumb {
