@@ -30,12 +30,12 @@ const StyledTitle = styled.h2`
       type === "internal" ? "var(--size-s3)" : "var(--size-s2)"};
   }
   @media ${devices.mobileLarge} {
-    font-size: ${({ type }) => (type === "internal" ? "1.5rem" : "2.5rem")};
-    line-height: ${({ type }) => (type === "internal" ? "2rem" : "1.5rem")};
+    font-size: ${({ type }) => (type === "internal" ? "3rem" : "2.5rem")};
+    line-height: ${({ type }) => (type === "internal" ? "3.4rem" : "1.5rem")};
   }
   @media ${devices.mobileMedium} {
-    font-size: ${({ type }) => (type === "internal" ? "1.5rem" : "2rem")};
-    line-height: ${({ type }) => (type === "internal" ? "2rem" : "1.5rem")};
+    font-size: ${({ type }) => (type === "internal" ? "3rem" : "2rem")};
+    line-height: ${({ type }) => (type === "internal" ? "3.4rem" : "1.5rem")};
   }
 `;
 
