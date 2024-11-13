@@ -1,6 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
 const Base = createGlobalStyle`
+  *{
+    font-family: "obviously", sans-serif;
+  }
+
+
   p{
     margin-bottom: 0px!important;
   }

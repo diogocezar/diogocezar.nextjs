@@ -32,6 +32,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
+          <link rel="stylesheet" href="https://use.typekit.net/slx4mdu.css" />
           <link rel="canonical" href="https://diogocezar.dev" />
           <link
             rel="icon"
@@ -51,7 +52,6 @@ export default class MyDocument extends Document {
             href="assets/images/favicon/apple-touch-icon.png"
           />
           <link rel="manifest" href="/manifest.json" />
-          <link rel="stylesheet" href="https://use.typekit.net/zbi8mzg.css" />
           <meta
             name="description"
             content="I’m just a guy that knows that knows nothing. And it’s exactly what makes me moving on. As teacher, talker, developer and technology enthusiastic, I am always searching for new challenges."
