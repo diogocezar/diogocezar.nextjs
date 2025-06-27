@@ -1,0 +1,45 @@
+﻿DIOGO CEZAR TEIXEIRA BATISTA
+Head of Technology: Leading high-performance teams and delivering scalable solutions | 200k new clients at Neon | Top 100 AI Startup with Typper | 2x faster tech deliveries at Bankme | 3k+ connected devices at V3
+                
+Londrina, Paraná 86050-070 • Phone number: +55 (43) 933 000 663 • diogo@diogocezar.com • linkedin.com/in/diogocezar
+Technology leader with 18+ years of experience, Master’s in AI, and former university professor at UTFPR. Passionate about technology, teaching, and technical leadership. I build efficient and happy teams, foster collaborative cultures, and deliver high-impact solutions. Seeking challenges to apply my experience, keep learning, and generate real value.
+* V3 Tecnologia — Built and led a high-performance team delivering a robust video-telemetry solution with over 3,000 active devices in the field.
+* Typper (CEO/Advisor) — Positioned the startup among Brazil’s Top 100 AI companies, reaching 50k users and generating 15k+ images, 17k+ texts, and 35k+ code snippets through AI.
+* Bankme — As Head of Technology, doubled delivery speed and promoted a strong, collaborative culture across teams.
+* Luizalabs (Magalu) — Technical reference for the MagaluPay Tribe, working on products like Magalu Wallet and Digital Account. Supported Black Friday preparations focusing on scalability and performance.
+* MEI Fácil (Neon) — Led the integration of Neon digital account with MEI Fácil app, driving 200k+ new customers in the first year.
+* Previous projects — Extensive experience leading deliveries for brands such as Twitter, Visa, Volkswagen, plus projects with Michel Teló and Fernando & Sorocaba.
+
+
+PROFESSIONAL EXPERIENCE
+V3, Londrina, Paraná, Brazil • Head of Technology         08/2024 – Present
+Drove the evolution of the tech team, creating a collaborative environment with talented professionals. Established new processes and documentation, building a multidisciplinary, engaged team. Led V3’s strategic organization, defining goals, priorities, and roadmaps. Promoted a new development process with clear objectives. Worked hands-on polishing the product, building new architecture, and implementing a robust infrastructure with significant improvements in security, scalability, maintainability, and operational visibility.
+Skills – AWS • MariaDB • GoLang • Docker • Kubernetes • ReactJS • Sentry • NATS • CI/CD • GitOps • ArgoCD
+Typper, Delaware, United States • CEO/Advisor         02/2023 - 06/2025
+Led this bootstrap AI startup focused on designers. Defined company strategy, supervised product development, managed the team, ensured financial stability, and built partnerships.
+Bankme, Londrina, Paraná, Brazil • Head of Technology         09/2022 - 05/2024
+Built a solid and scalable tech structure, defining and supervising key rituals such as dailies, technical refinements, planning, estimates, retrospectives, and weekly product/tech meetings. Standardized development tools and methods focusing on quality and predictability, establishing conventions, commit standards, automated tests, branch organization, and technical documentation. Developed a guide for roles, responsibilities, and career paths emphasizing technical skills, deliveries, soft skills, leadership, and strategic impact. Directly contributed to conception, planning, and execution of projects like Bank Credit Certificates (CCB), ERP integrations, Leverage System, Rediscount System, Ledger structure, platform experience improvements, and API integrations. Also contributed to technical improvements such as a new authentication module architecture, migrating monolithic to modular architecture, ETL implementations, design system, monitoring, SOLID principles, front-end migration, and infrastructure migration from AWS to GCP.
+Skills – AWS • GCP • MongoDB • PostgreSQL • JavaScript • TypeScript • NodeJS • NestJS • NextJS • ReactJS • Angular • Docker • HTML • CSS • Metabase • DataDog • RabbitMQ • CI/CD
+
+
+Provi, São Paulo, São Paulo, Brazil • Engineering Manager         05/2022 - 09/2022
+Restructured existing processes introducing documentation, estimates, detailed technical tasks, incident investigations, and improved monitoring. Contributed to the conception, documentation, and migration to a monorepo. Participated actively in deliveries with the team using MOB Programming.
+Skills – AWS • MongoDB • PostgreSQL • Javascript • Typescript • NodeJS • NestJS • NextJS • ReactJS • Docker • CI/CD
+Luizalabs, São Paulo, São Paulo, Brazil • Tech Lead         09/2021 - 05/2022
+Led multiple squads in MagaluPay tribe, improving and expanding fintech products. Managed Black Friday readiness with stress tests, infrastructure projection, and cost reduction. Identified infrastructure improvements applying cluster resizing. Served as technical reference, supporting solution design, POCs, deployments, and incident resolution. Led technical conception and implementation of MagaluPay Wallet.
+Skills – GCP • MongoDB • PostgreSQL • Javascript • Typescript • NodeJS • NestJS • NextJS • ReactJS • Angular • Docker • HTML • CSS • Metabase • K8s • DataDog • RabbitMQ • CI/CD
+Neon, São Paulo, São Paulo, Brazil • Back End Coordinator         12/2019 - 09/2021
+Technically led a team that created a digital account for microentrepreneurs. After initial delivery, the product split into 10 teams. Led planning and execution of MEI Fácil app integration with Neon’s banking infrastructure using BFF architecture to orchestrate microservice calls. Later, assumed technical leadership of Activation and Onboarding squads.
+Skills – AWS • BFF • SQL Server • React Native • Javascript • Typescript • NodeJS • NestJS • Docker • HTML • CSS • Kafka
+MEI Fácil, São Paulo, São Paulo, Brazil • Back End Coordinator         11/2018 - 09/2021
+Focused on innovation and real impact simplifying life for Brazilian microentrepreneurs. Co-created MEI Fácil digital account, a market-leading product culminating in integration with Banco Neon. Structured and implemented services enabling smooth onboarding, resulting in 200k new customers in the first year.
+Skills – AWS • SQL Server • C# • Javascript • Typescript • NodeJS • NestJS • Express • ReactJS • React Native • Docker • HTML • CSS • K8s • Graylog • RabbitMQ • Rancher
+UTFPR, Cornélio Procópio, Paraná, Brazil • Teacher         2019 - 2013 - 2008
+At UTFPR, I taught core courses for the Technology in Systems Analysis and Development and Computer Engineering programs. Courses – Web Programming • Data Structures • Desktop Programming • Integrator Project • Algorithms • Introduction to Software Engineering • Business Programming • Basic Informatics • Database Integrator Project
+EDUCATION
+PhD in Software Engineering – Coursework Completed, UFPR, Curitiba, Brazil          2020
+Master Degree in Computer Science – Artificial Intelligence, UFPR - Curitiba, Paraná, Brazil         2012
+Degree in Technology and Information Systems – UTFPR - Cornélio Procópio, Paraná, Brazil         2007
+LANGUAGE
+English Advanced, Portuguese Native.
+Mentorships: https://diocodes.dev • Complete Portfólio: https://diogocezar.dev • GitHub: https://www.github.com/diogocezar

@@ -16,16 +16,57 @@ const MainProfessionalBackground = () => (
     <RightContent>
       <ListContainer>
         <ListItem link={false}>
+          <ListTitle>V3 Technology</ListTitle>
+          <ListSubTitle type="white">
+            AUG 2024~PRESENT / HEAD OF TECHNOLOGY
+          </ListSubTitle>
+          <ListContent>
+            <Paragraph>
+              Drove the evolution of the tech team, creating a collaborative
+              environment with talented professionals. Established new processes
+              and documentation, building a multidisciplinary, engaged team. Led
+              V3's strategic organization, defining goals, priorities, and
+              roadmaps. Promoted a new development process with clear
+              objectives.
+            </Paragraph>
+            <Paragraph>
+              Worked hands-on polishing the product, building new architecture,
+              and implementing a robust infrastructure with significant
+              improvements in security, scalability, maintainability, and
+              operational visibility. Built and led a high-performance team
+              delivering a robust video-telemetry solution with over 3,000
+              active devices in the field.
+            </Paragraph>
+            <TagSkills
+              skills={[
+                "AWS",
+                "MariaDB",
+                "GoLang",
+                "Docker",
+                "Kubernetes",
+                "ReactJS",
+                "Sentry",
+                "NATS",
+                "CI/CD",
+                "GitOps",
+                "ArgoCD",
+              ]}
+            />
+          </ListContent>
+        </ListItem>
+        <ListItem link={false}>
           <ListTitle>Typper</ListTitle>
           <ListSubTitle type="white">
-            FEB 2023~NOW / CO-FOUNDER AND ADVISOR
+            FEB 2023~JUN 2025 / CO-FOUNDER AND ADVISOR
           </ListSubTitle>
           <ListContent>
             <Paragraph>
               As Co-founder and Advisor of Typper, one of the top 100 technology
               startups in Brazil (by F6S), achieved a user base of over 50k,
               with more than 15k images, 17k texts, and 35k codes generated
-              using AI.
+              using AI. Positioned the startup among Brazil's Top 100 AI
+              companies, reaching 50k users and generating 15k+ images, 17k+
+              texts, and 35k+ code snippets through AI.
             </Paragraph>
             <Paragraph>
               My responsibilities include setting the strategic direction of the
@@ -72,30 +113,30 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              Created a robust technological structure for a rapidly growing
-              company. I defined and supervised essential rituals such as
-              dailies, technical refinements, planning, estimates,
-              retrospectives, and product/technology weeklies. I standardized
-              tools and development methods, including: conventions, commits
-              patterns, automated tests, branches organizations and
-              documentation. Furthermore, I developed a guide for roles,
-              responsibilities, and career paths, focusing on technical skills,
-              deliverables, human skills, leadership, and strategic impact.
+              Built a solid and scalable tech structure, defining and
+              supervising key rituals such as dailies, technical refinements,
+              planning, estimates, retrospectives, and weekly product/tech
+              meetings. Standardized development tools and methods focusing on
+              quality and predictability, establishing conventions, commit
+              standards, automated tests, branch organization, and technical
+              documentation.
             </Paragraph>
             <Paragraph>
-              I contributed to the conception, planning, and execution of
-              projects such as: Bank Credit Certificate (CCB), ERP integrations,
-              Leverage System, Rediscount System, API integrations, Definition
-              of a new Ledger structure, Improvements in customer platform
-              experience and journey. Regarding technical enhancements, I
-              assisted in the architecture and execution of: new authentication
-              module, migration from monolithic to modular architecture, ETLs,
-              creation of a design system, monitoring systems, SOLID
-              implementation, front-end migration, AWS to GCP cloud migration;
+              Developed a guide for roles, responsibilities, and career paths
+              emphasizing technical skills, deliveries, soft skills, leadership,
+              and strategic impact. Directly contributed to conception,
+              planning, and execution of projects like Bank Credit Certificates
+              (CCB), ERP integrations, Leverage System, Rediscount System,
+              Ledger structure, platform experience improvements, and API
+              integrations.
             </Paragraph>
             <Paragraph>
-              Successfully doubled the velocity of technology teams and fostered
-              a strong tech culture.
+              Also contributed to technical improvements such as a new
+              authentication module architecture, migrating monolithic to
+              modular architecture, ETL implementations, design system,
+              monitoring, SOLID principles, front-end migration, and
+              infrastructure migration from AWS to GCP. Successfully doubled the
+              velocity of technology teams and fostered a strong tech culture.
             </Paragraph>
             <Paragraph>
               I mentored various areas of Bankme in leadership, organization,
@@ -160,16 +201,16 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I took over the leadership of the Product team during a critical
+              Took over the leadership of the Product team during a critical
               phase when our processes were undefined and demand management was
               chaotic. The team faced a lack of clarity in task prioritization
               and visibility of deliveries.
             </Paragraph>
             <Paragraph>
-              I implemented new processes for the product team to improve
-              roadmap clarity, feature collection, prioritization, and
-              visibility of completed deliveries. Additionally, I introduced
-              Personal Development Plans (PDP) for each team member.
+              Implemented new processes for the product team to improve roadmap
+              clarity, feature collection, prioritization, and visibility of
+              completed deliveries. Additionally, introduced Personal
+              Development Plans (PDP) for each team member.
             </Paragraph>
             <TagSkills
               skills={[
@@ -201,22 +242,20 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I restructured existing processes by introducing essential
-              concepts such as documentation, estimates, technical task
-              detailing, incident investigations, and monitoring improvements.
-              My focus was also on keeping the team happy and engaged, achieving
-              this through 1:1 meetings that allowed me to identify the team’s
-              strengths and weaknesses. This resulted in a more motivated and
-              confident team.
+              Restructured existing processes introducing documentation,
+              estimates, detailed technical tasks, incident investigations, and
+              improved monitoring. Focused on keeping the team happy and
+              engaged, achieving this through 1:1 meetings that allowed
+              identification of the team's strengths and weaknesses, resulting
+              in a more motivated and confident team.
             </Paragraph>
             <Paragraph>
-              I contributed to the design, documentation, and migration of our
-              systems to a monorepo, and also worked on various deliveries with
-              the team using the MOB Programming technique. I was responsible
-              for the development and implementation of a microservice that
-              centralizes all external integrations, including communications
-              via SMS, email, and WhatsApp, as well as integrations with
-              partners (Billing System).
+              Contributed to the conception, documentation, and migration to a
+              monorepo. Participated actively in deliveries with the team using
+              MOB Programming technique. Was responsible for the development and
+              implementation of a microservice that centralizes all external
+              integrations, including communications via SMS, email, and
+              WhatsApp, as well as integrations with partners (Billing System).
             </Paragraph>
             <TagSkills
               skills={[
@@ -259,22 +298,15 @@ const MainProfessionalBackground = () => (
           <ListSubTitle type="white">2021~2022 / TECH LEAD</ListSubTitle>
           <ListContent>
             <Paragraph>
-              As a Tech Lead in the MagaluPay tribe, I led multiple squads
-              dedicated to enhancing and expanding fintech products. I led the
-              MagaluPay team during Black Friday preparations, ensuring stress
-              tests, infrastructure projection, and issue identification to
-              reduce costs. I identified points for improvement in
-              infrastructure resources that reduced costs by applying cluster
-              resizing.
+              Led multiple squads in MagaluPay tribe, improving and expanding
+              fintech products. Managed Black Friday readiness with stress
+              tests, infrastructure projection, and cost reduction. Identified
+              infrastructure improvements applying cluster resizing.
             </Paragraph>
             <Paragraph>
-              I was responsible for being a technical reference, supporting the
-              teams in designing technical solutions, building POCs,
-              deployments, and handling incidents.
-            </Paragraph>
-            <Paragraph>
-              I led the technical design and implementation of the MagaluPay
-              Wallet.
+              Served as technical reference, supporting solution design, POCs,
+              deployments, and incident resolution. Led technical conception and
+              implementation of MagaluPay Wallet.
             </Paragraph>
             <TagSkills
               skills={[
@@ -322,26 +354,20 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              I technically led a team that created a digital account aimed at
-              micro-entrepreneurs in Brazil. After our initial delivery, the
-              product split into 10 new teams.
+              Technically led a team that created a digital account for
+              microentrepreneurs. After initial delivery, the product split into
+              10 teams.
             </Paragraph>
             <Paragraph>
-              I was responsible for planning and executing the integration of
-              the MEI Fácil app (React Native) with Neon’s banking structure. To
-              achieve this, we created an entire BFF structure to orchestrate
-              calls to the existing microservices. On the MEI Fácil side, I
-              structured and implemented services to facilitate an almost
-              frictionless onboarding process, utilizing already existing
-              information.
+              Led planning and execution of MEI Fácil app integration with
+              Neon's banking infrastructure using BFF architecture to
+              orchestrate microservice calls. Structured and implemented
+              services enabling smooth onboarding, resulting in 200k new
+              customers in the first year.
             </Paragraph>
             <Paragraph>
-              This work resulted in the acquisition of 200,000 customers in the
-              first year after launch.
-            </Paragraph>
-            <Paragraph>
-              After the team division, I took on the technical leadership of the
-              Activation and Onboarding teams.
+              Later, assumed technical leadership of Activation and Onboarding
+              squads.
             </Paragraph>
             <TagSkills
               skills={[
@@ -390,9 +416,10 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              Since joining MEI Fácil from its inception, the focus has always
-              been on innovation and making bureaucracy simpler for
-              micro-entrepreneurs (MEIs) across Brazil.
+              Focused on innovation and real impact simplifying life for
+              Brazilian microentrepreneurs. Co-created MEI Fácil digital
+              account, a market-leading product culminating in integration with
+              Banco Neon.
             </Paragraph>
             <Paragraph>
               The initial concept of the MEI Fácil digital account was crucial
@@ -401,9 +428,11 @@ const MainProfessionalBackground = () => (
               (Conductor).
             </Paragraph>
             <Paragraph>
-              I was responsible for designing and implementing the backend
+              Was responsible for designing and implementing the backend
               structures using NodeJS, Express, and NestJS to provide customer
-              data for the digital account.
+              data for the digital account. Structured and implemented services
+              enabling smooth onboarding, resulting in 200k new customers in the
+              first year.
             </Paragraph>
             <TagSkills
               skills={[
@@ -447,26 +476,26 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              At UTFPR, I taught core courses for the Technology in Systems
+              At UTFPR, taught core courses for the Technology in Systems
               Analysis and Development and Computer Engineering programs.
             </Paragraph>
             <Paragraph>
-              Responsibilities: 📚 Preparing and delivering lectures 📝
-              Creating, administering, and grading exams 🎓 Conducting tutoring
-              sessions 👩‍💼 Supervising internships 🌟 Guiding final projects
+              Responsibilities: Preparing and delivering lectures, Creating,
+              administering, and grading exams, Conducting tutoring sessions,
+              Supervising internships, Guiding final projects
             </Paragraph>
             <Paragraph>
-              Courses Taught: 💻 Web Programming: HTML, CSS, JS, ReactJS 📊 Data
-              Structures: Arrays, Lists, Stacks, Queues, Hash Tables, Trees 🖥️
+              Courses Taught: Web Programming: HTML, CSS, JS, ReactJS, Data
+              Structures: Arrays, Lists, Stacks, Queues, Hash Tables, Trees,
               Desktop Programming: Visual programming concepts, interface
               development, component libraries, property and event control, data
-              input/output handling 🔄 Integrator Project: Applying knowledge
-              from various courses to develop an integrated computing system,
-              including research methodology and final report presentation 📐
+              input/output handling, Integrator Project: Applying knowledge from
+              various courses to develop an integrated computing system,
+              including research methodology and final report presentation,
               Algorithms: Basics, language evaluation criteria, implementation
               methods, language evolution, syntax and semantics, data types,
               control structures, subprograms, arrays, structures, pointers,
-              object-oriented concepts 🛠️ Introduction to Software Engineering:
+              object-oriented concepts, Introduction to Software Engineering:
               System, software, and software engineering definitions, social and
               business context, software product and process concepts, software
               engineering knowledge areas, development methods, applications,
@@ -497,9 +526,8 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              For the Postgraduate Java course, I taught Java with a focus on
-              web development, covering HTML, CSS, JavaScript, Servlets, and
-              JSP.
+              For the Postgraduate Java course, taught Java with a focus on web
+              development, covering HTML, CSS, JavaScript, Servlets, and JSP.
             </Paragraph>
             <TagSkills
               skills={[
@@ -520,14 +548,13 @@ const MainProfessionalBackground = () => (
           </ListSubTitle>
           <ListContent>
             <Paragraph>
-              Responsibilities: 📚 Preparing and delivering lectures 📝
-              Creating, administering, and grading exams 🎓 Conducting tutoring
-              sessions
+              Responsibilities: Preparing and delivering lectures, Creating,
+              administering, and grading exams, Conducting tutoring sessions
             </Paragraph>
             <Paragraph>
-              Courses Taught: 💼 Business Programming - Microsoft .NET with C#
-              🌐 Web Programming - HTML 5, CSS, Javascript 💻 Basic Informatics
-              - Word, Excel, Powerpoint, Access 🗃️ Database Integrator Project -
+              Courses Taught: Business Programming - Microsoft .NET with C#, Web
+              Programming - HTML 5, CSS, Javascript, Basic Informatics - Word,
+              Excel, Powerpoint, Access, Database Integrator Project -
               PostgreSQL
             </Paragraph>
             <TagSkills
