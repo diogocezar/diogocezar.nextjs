@@ -13,7 +13,7 @@ import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
 import Separator from "@/objects/Separator";
 import { ButtonIcon } from "@/objects/Button";
 import Link from "@/objects/Link";
-import { Download } from "solar-icon-set";
+import { ArrowDown } from "solar-icon-set";
 
 const MainLectures = () => (
   <Section>
@@ -22,19 +22,40 @@ const MainLectures = () => (
       <ListContainer>
         <ListItem link={false}>
           <LeftContentList>
+            <ListTitle>GDG LONDRINA MEETUP - FEV 2025</ListTitle>
+            <ListSubTitle type="white">PUC - LONDRINA - PR</ListSubTitle>
+            <ListContent>
+              GoodSkynet: Calma, Dev, vAI ficar tudo bem! (Eu acho...) - 60 min.
+            </ListContent>
+          </LeftContentList>
+          <RightContentList>
+            <Link
+              href="https://bit.ly/4lA3JBM"
+              rel="noopener noreferrer"
+              target="_blank"
+              buttonCenter={true}
+            >
+              <ButtonIcon type="purple">
+                <ArrowDown size={26} />
+              </ButtonIcon>
+            </Link>
+          </RightContentList>
+        </ListItem>
+        <ListItem link={false}>
+          <LeftContentList>
             <ListTitle>GDG LONDRINA MEETUP #8 - 2019</ListTitle>
             <ListSubTitle type="white">LONDRISOFT - LONDRINA - PR</ListSubTitle>
             <ListContent>API Node in 30 minutes - 30~45 min.</ListContent>
           </LeftContentList>
           <RightContentList>
             <Link
-              href="http://bit.ly/32l12N0``"
+              href="http://bit.ly/32l12N0"
               rel="noopener noreferrer"
               target="_blank"
               buttonCenter={true}
             >
               <ButtonIcon type="purple">
-                <Download size={26} />
+                <ArrowDown size={26} />
               </ButtonIcon>
             </Link>
           </RightContentList>
@@ -55,7 +76,7 @@ const MainLectures = () => (
               buttonCenter={true}
             >
               <ButtonIcon type="purple">
-                <Download size={26} />
+                <ArrowDown size={26} />
               </ButtonIcon>
             </Link>
           </RightContentList>
@@ -76,7 +97,7 @@ const MainLectures = () => (
               buttonCenter={true}
             >
               <ButtonIcon type="purple">
-                <Download size={26} />
+                <ArrowDown size={26} />
               </ButtonIcon>
             </Link>
           </RightContentList>
@@ -97,7 +118,7 @@ const MainLectures = () => (
               buttonCenter={true}
             >
               <ButtonIcon type="purple">
-                <Download size={26} />
+                <ArrowDown size={26} />
               </ButtonIcon>
             </Link>
           </RightContentList>
@@ -118,7 +139,7 @@ const MainLectures = () => (
               buttonCenter={true}
             >
               <ButtonIcon type="purple">
-                <Download size={26} />
+                <ArrowDown size={26} />
               </ButtonIcon>
             </Link>
           </RightContentList>
@@ -139,7 +160,7 @@ const MainLectures = () => (
               buttonCenter={true}
             >
               <ButtonIcon type="purple">
-                <Download size={26} />
+                <ArrowDown size={26} />
               </ButtonIcon>
             </Link>
           </RightContentList>
@@ -160,7 +181,7 @@ const MainLectures = () => (
               buttonCenter={true}
             >
               <ButtonIcon type="purple">
-                <Download size={26} />
+                <ArrowDown size={26} />
               </ButtonIcon>
             </Link>
           </RightContentList>
@@ -181,7 +202,7 @@ const MainLectures = () => (
               buttonCenter={true}
             >
               <ButtonIcon type="purple">
-                <Download size={26} />
+                <ArrowDown size={26} />
               </ButtonIcon>
             </Link>
           </RightContentList>
