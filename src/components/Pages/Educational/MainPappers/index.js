@@ -13,7 +13,7 @@ import { ListTitle, ListSubTitle, ListContent } from "@/objects/ListContent";
 import Separator from "@/objects/Separator";
 import { ButtonIcon } from "@/objects/Button";
 import Link from "@/objects/Link";
-import { Download } from "solar-icon-set";
+import { ArrowDown } from "solar-icon-set";
 
 const MainPappers = () => (
   <Section>
@@ -37,7 +37,7 @@ const MainPappers = () => (
               buttonCenter={true}
             >
               <ButtonIcon type="purple">
-                <Download size={26} />
+                <ArrowDown size={26} />
               </ButtonIcon>
             </Link>
           </RightContentList>
