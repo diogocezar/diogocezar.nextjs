@@ -18,7 +18,7 @@ const MainProfessionalBackground = () => (
         <ListItem link={false}>
           <ListTitle>V3 Technology</ListTitle>
           <ListSubTitle type="white">
-            AUG 2024~PRESENT / HEAD OF TECHNOLOGY
+            AUG 2024~AUG 2025 / HEAD OF TECHNOLOGY
           </ListSubTitle>
           <ListContent>
             <Paragraph>
