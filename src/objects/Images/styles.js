@@ -6,6 +6,7 @@ const StyledImage = styled.img`
   max-width: 400px;
   margin: 0 auto;
   display: block;
+  border-radius: 50%;
   @media ${devices.desktopLarge} {
     width: 85%;
     margin-top: 0;

@@ -3,7 +3,7 @@ import { StyledImage, StyledImageItemColumn } from "./styles";
 
 const Image = (props) => (
   <div className="floating-image-custom">
-    <StyledImage {...props} src="/assets/images/perfil/avatar.svg" />
+    <StyledImage {...props} src="/assets/images/perfil/avatar.png" />
   </div>
 );
 const ImageItemColumn = (props) => <StyledImageItemColumn {...props} />;
